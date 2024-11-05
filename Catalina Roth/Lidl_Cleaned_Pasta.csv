@@ -1,0 +1,28 @@
+ID,Competitor,Category,Product_Description,Brand,Regular_Price (CH),Grammage,Unit,Link,Scraping_Date,Discount,Actual_Price (CH),Private_Label_Product
+1,Lidl,Pasta,Pasta Tricolore,Unknown,1.99,500,g,https://sortiment.lidl.ch/de/pasta-tricolore-6011527,21/10/2024,0%,1.99,No
+2,Lidl,Pasta,Pasta trafilata al bronzo,Combino,1.19,500,g,https://sortiment.lidl.ch/de/pasta-trafilata-al-bronzo-0138846,21/10/2024,0%,1.19,Yes
+3,Lidl,Pasta,Pasta trafilata al bronzo,Combino,1.19,500,g,https://sortiment.lidl.ch/de/pasta-trafilata-al-bronzo-0137930,21/10/2024,0%,1.19,Yes
+4,Lidl,Pasta,Bio Kinderpasta,Combino,1.49,500,g,https://sortiment.lidl.ch/de/bio-kinderpasta-0120259,21/10/2024,0%,1.49,Yes
+5,Lidl,Pasta,Glasnudeln,Combino,0.99,100,g,https://sortiment.lidl.ch/de/glasnudeln-0089804,21/10/2024,0%,0.99,Yes
+6,Lidl,Pasta,Reisnudeln,Combino,1.59,200,g,https://sortiment.lidl.ch/de/reisnudeln-0149146,21/10/2024,0%,1.59,Yes
+7,Lidl,Pasta,Hörnli,Combino,1.39,1,k,https://sortiment.lidl.ch/de/hoernli-0142042,21/10/2024,0%,1.39,Yes
+8,Lidl,Pasta,Spaghetti,Combino,1.39,1,k,https://sortiment.lidl.ch/de/spaghetti-0027325,21/10/2024,0%,1.39,Yes
+9,Lidl,Pasta,Orecchiette / Trofie,Italiamo,1.79,500,g,https://sortiment.lidl.ch/de/orecchiette-trofie-6001877,21/10/2024,0%,1.79,Yes
+10,Lidl,Pasta,Bio Spaghetti,Combino,1.19,500,g,https://sortiment.lidl.ch/de/bio-spaghetti-0127393,21/10/2024,0%,1.19,Yes
+11,Lidl,Pasta,Penne Rigate,Combino,1.39,1,k,https://sortiment.lidl.ch/de/penne-rigate-0027328,21/10/2024,0%,1.39,Yes
+12,Lidl,Pasta,Maccheroni al ferretto,Italiamo,1.79,500,g,https://sortiment.lidl.ch/de/maccheroni-al-ferretto-6000313,21/10/2024,0%,1.79,Yes
+13,Lidl,Pasta,Fusilli,Combino,1.39,1,k,https://sortiment.lidl.ch/de/fusilli-0027326,21/10/2024,0%,1.39,Yes
+14,Lidl,Pasta,Farfalle,Combino,1.25,500,g,https://sortiment.lidl.ch/de/farfalle-0019104,21/10/2024,0%,1.25,Yes
+15,Lidl,Pasta,Bio Dinkel Fusilli / Penne,Combino,1.79,500,g,https://sortiment.lidl.ch/de/bio-dinkel-fusilli-penne-0162401,21/10/2024,0%,1.79,Yes
+16,Lidl,Pasta,Barilla Spaghettoni No. 7,Barilla,3.39,1,k,https://sortiment.lidl.ch/de/barilla-spaghettoni-no-7-0003356,21/10/2024,0%,3.39,No
+17,Lidl,Pasta,Barilla Fusilli No. 98,Barilla,3.39,1,k,https://sortiment.lidl.ch/de/barilla-fusilli-no-98-0001067,21/10/2024,0%,3.39,No
+18,Lidl,Pasta,Chow Mein Nudeln,Combino,1.25,250,g,https://sortiment.lidl.ch/de/chow-mein-nudeln-0012038,21/10/2024,0%,1.25,Yes
+19,Lidl,Pasta,Lasagneblätter,Combino,1.49,500,g,https://sortiment.lidl.ch/de/lasagneblaetter-6014771,21/10/2024,0%,1.49,Yes
+20,Lidl,Pasta,Barilla Penne Rigate No. 73,Barilla,3.39,1,k,https://sortiment.lidl.ch/de/barilla-penne-rigate-no-73-0001066,21/10/2024,0%,3.39,No
+21,Lidl,Pasta,Bio Couscous / Bio Bulgur,Golden Sun,1.89,500,g,https://sortiment.lidl.ch/de/bio-couscous-bio-bulgur-0126325,21/10/2024,0%,1.89,No
+22,Lidl,Pasta,Udon Nudeln,Combino,1.79,300,g,https://sortiment.lidl.ch/de/udon-nudeln-0149145,21/10/2024,0%,1.79,Yes
+23,Lidl,Pasta,Tagliatelle,Combino,1.39,500,g,https://sortiment.lidl.ch/de/tagliatelle-0037270,21/10/2024,0%,1.39,Yes
+24,Lidl,Pasta,Bschüssig Teigwaren,Bschüssig,3.45,500,g,https://sortiment.lidl.ch/de/bschuessig-teigwaren-5104312,21/10/2024,0%,3.45,No
+25,Lidl,Pasta,Bio Nudeln,Combino,1.19,500,g,https://sortiment.lidl.ch/de/bio-nudeln-0063265,21/10/2024,0%,1.19,Yes
+26,Lidl,Pasta,Teigwaren glutenfrei,Combino,1.89,500,g,https://sortiment.lidl.ch/de/teigwaren-glutenfrei-7701123,21/10/2024,0%,1.89,Yes
+27,Lidl,Pasta,Barilla Spaghetti No. 5,Barilla,3.39,1,k,https://sortiment.lidl.ch/de/barilla-spaghetti-no-5-0001064,21/10/2024,0%,3.39,No
