@@ -1,0 +1,82 @@
+ID,Competitor,Category,Product_Description,Brand,Actual Price (CH),Regular Price (CH),Grammage,Unit,Link,Scraping_Date
+1,Migros,Pasta,Agnesi  lasagne  with eggs,Agnesi,3.95,3.95,500,g,https://www.migros.ch/en/product/104066400000,19/10/2024
+2,Migros,Pasta,M-Classic  tortellini  with raw ham,M-Classic,2.2,2.5,250,g,https://www.migros.ch/en/product/104075000000,19/10/2024
+3,Migros,Pasta,M-Classic  älplermagronen  with eggs,M-Classic,1.6,1.9,500,g,https://www.migros.ch/en/product/104074500000,19/10/2024
+4,Migros,Pasta,Garofalo  orecchiette,Garofalo,2.95,2.95,500,g,https://www.migros.ch/en/product/104126400000,19/10/2024
+5,Migros,Pasta,Garofalo  rigatoni,Garofalo,2.95,2.95,500,g,https://www.migros.ch/en/product/104125200000,19/10/2024
+6,Migros,Pasta,Garofalo  spaghetti,Garofalo,2.95,2.95,500,g,https://www.migros.ch/en/product/104125000000,19/10/2024
+7,Migros,Pasta,Agnesi  lasagne  spinach from eggs,Agnesi,3.95,3.95,500,g,https://www.migros.ch/en/product/104066600000,19/10/2024
+8,Migros,Pasta,Garofalo  farfalle,Garofalo,2.95,2.95,500,g,https://www.migros.ch/en/product/104125500000,19/10/2024
+9,Migros,Pasta,Garofalo  linguine,Garofalo,2.95,2.95,500,g,https://www.migros.ch/en/product/104126800000,19/10/2024
+10,Migros,Pasta,M-Classic  trivelli  with eggs,M-Classic,2.65,2.95,500,g,https://www.migros.ch/en/product/104047500000,19/10/2024
+11,Migros,Pasta,Garofalo  penne rigate,Garofalo,2.95,2.95,500,g,https://www.migros.ch/en/product/104125100000,19/10/2024
+12,Migros,Pasta,M-Classic  spiraloni,M-Classic,2.65,2.95,500,g,https://www.migros.ch/en/product/104047400000,19/10/2024
+13,Migros,Pasta,Alnatura Bio  spaghettini  spelt,Alnatura Bio,3.3,3.3,500,g,https://www.migros.ch/en/product/104161300000,19/10/2024
+14,Migros,Pasta,Agnesi  linguine N°10,Agnesi,2.4,2.4,500,g,https://www.migros.ch/en/product/104135500000,19/10/2024
+15,Migros,Pasta,M-Classic  macaroni  large with eggs,M-Classic,1.45,1.75,500,g,https://www.migros.ch/en/product/104055200000,19/10/2024
+16,Migros,Pasta,Demeter  spaghetti,Demeter,3.5,3.5,500,g,https://www.migros.ch/en/product/104164400000,19/10/2024
+17,Migros,Pasta,You  fusilli  whole grain rice,You,3.6,3.6,340,g,https://www.migros.ch/en/product/104163500000,19/10/2024
+18,Migros,Pasta,Agnesi  spaghetti N°3,Agnesi,2.5,2.5,500,g,https://www.migros.ch/en/product/104135100000,19/10/2024
+19,Migros,Pasta,Agnesi  spaghettini N°2,Agnesi,2.5,2.5,500,g,https://www.migros.ch/en/product/104137000000,19/10/2024
+20,Migros,Pasta,Alnatura Bio  curls  spelt,Alnatura Bio,2.95,2.95,500,g,https://www.migros.ch/en/product/104161000000,19/10/2024
+21,Migros,Pasta,Garofalo  radiatori,Garofalo,2.95,2.95,500,g,https://www.migros.ch/en/product/104126000000,19/10/2024
+22,Migros,Pasta,M-Classic  penne  with eggs,M-Classic,1.6,1.9,500,g,https://www.migros.ch/en/product/104063100000,19/10/2024
+23,Migros,Pasta,Garofalo  lumaca rigata,Garofalo,2.95,2.95,500,g,https://www.migros.ch/en/product/104126200000,19/10/2024
+24,Migros,Pasta,Garofalo  bucatini,Garofalo,2.95,2.95,500,g,https://www.migros.ch/en/product/104128600000,19/10/2024
+25,Migros,Pasta,Agnesi  spaghettoni N°4,Agnesi,2.5,2.5,500,g,https://www.migros.ch/en/product/104135300000,19/10/2024
+26,Migros,Pasta,You  penne  oats,You,3.6,3.6,340,g,https://www.migros.ch/en/product/104164000000,19/10/2024
+27,Migros,Pasta,You  spaghetti  whole grain rice,You,3.6,3.6,400,g,https://www.migros.ch/en/product/104163900000,19/10/2024
+28,Migros,Pasta,Tradition IP-SUISSE  tagliatelle  spelt,Tradition IP-SUISSE,5.6,5.6,500,g,https://www.migros.ch/en/product/104147500000,19/10/2024
+29,Migros,Pasta,M-Classic  macaroni  with eggs,M-Classic,1.45,1.75,500,g,https://www.migros.ch/en/product/104055100000,19/10/2024
+30,Migros,Pasta,Tradition IP-SUISSE  macaroni  spelt,Tradition IP-SUISSE,3.3,3.3,500,g,https://www.migros.ch/en/product/104147400000,19/10/2024
+31,Migros,Pasta,Alnatura Bio  tortelloni  spelt with ricotta/spinach,Alnatura Bio,3.95,3.95,250,g,https://www.migros.ch/en/product/104162200000,19/10/2024
+32,Migros,Pasta,M-Classic  spaghetti 1.8mm  with eggs,M-Classic,2.15,2.45,750,g,https://www.migros.ch/en/product/104041100000,19/10/2024
+33,Migros,Pasta,Agnesi  pennette rigatte N°87,Agnesi,2.5,2.5,500,g,https://www.migros.ch/en/product/104138700000,19/10/2024
+34,Migros,Pasta,Garofalo  fusilli bucati corti,Garofalo,2.95,2.95,500,g,https://www.migros.ch/en/product/104126100000,19/10/2024
+35,Migros,Pasta,Garofalo  linguine  quinoa gluten free,Garofalo,3.5,3.5,400,g,https://www.migros.ch/en/product/104129600000,19/10/2024
+36,Migros,Pasta,Agnesi  tortiglioni N°46,Agnesi,2.5,2.5,500,g,https://www.migros.ch/en/product/104137500000,19/10/2024
+37,Migros,Pasta,Agnesi  linguine N°10,Agnesi,3.4,3.4,1k,g,https://www.migros.ch/en/product/104146800000,19/10/2024
+38,Migros,Pasta,Demeter  fusilli,Demeter,3.5,3.5,500,g,https://www.migros.ch/en/product/104164500000,19/10/2024
+39,Migros,Pasta,Garofalo  sigarette,Garofalo,2.95,2.95,500,g,https://www.migros.ch/en/product/104129000000,19/10/2024
+40,Migros,Pasta,Agnesi  penne rigate N°19,Agnesi,2.5,2.5,500,g,https://www.migros.ch/en/product/104146100000,19/10/2024
+41,Migros,Pasta,Garofalo  gnoccho sardo  quinoa gluten free,Garofalo,3.5,3.5,400,g,https://www.migros.ch/en/product/104129400000,19/10/2024
+42,Migros,Pasta,Agnesi  fusilli N°78,Agnesi,2.5,2.5,500,g,https://www.migros.ch/en/product/104137800000,19/10/2024
+43,Migros,Pasta,Migros Bio  spaghetti  with eggs,Migros Bio,3.2,3.2,500,g,https://www.migros.ch/en/product/104044500000,19/10/2024
+44,Migros,Pasta,Alnatura Bio  spaghetti No.3,Alnatura Bio,1.5,1.5,500,g,https://www.migros.ch/en/product/104161700000,19/10/2024
+45,Migros,Pasta,M-Classic  spiral-nudeln  with eggs,M-Classic,1.6,1.9,500,g,https://www.migros.ch/en/product/104048100000,19/10/2024
+46,Migros,Pasta,M-Classic  swabian spätzle  with eggs,M-Classic,2.4,2.7,500,g,https://www.migros.ch/en/product/104065600000,19/10/2024
+47,Migros,Pasta,Aha!  lasagne  gluten free,Aha!,2.45,2.45,250,g,https://www.migros.ch/en/product/104168000000,19/10/2024
+48,Migros,Pasta,Alnatura Bio  tortellini  with vegetables,Alnatura Bio,2.95,2.95,250,g,https://www.migros.ch/en/product/104161800000,19/10/2024
+49,Migros,Pasta,Migros Bio  spaghettini  wholemeal semolina,Migros Bio,2.25,2.25,500,g,https://www.migros.ch/en/product/104131400000,19/10/2024
+50,Migros,Pasta,Tradition IP-SUISSE  5-grain quadri  spelt,Tradition IP-SUISSE,3.95,3.95,500,g,https://www.migros.ch/en/product/104115100000,19/10/2024
+51,Migros,Pasta,Da Emilio  fregola sarda,Da Emilio,3.95,3.95,500,g,https://www.migros.ch/en/product/104131200000,19/10/2024
+52,Migros,Pasta,M-Classic  pasta letters  with eggs,M-Classic,1.9,2.2,500,g,https://www.migros.ch/en/product/104075600000,19/10/2024
+53,Migros,Pasta,Agnesi  tagliolini,Agnesi,3.–,3.–,500,g,https://www.migros.ch/en/product/104138200000,19/10/2024
+54,Migros,Pasta,You  spaghetti  yellow lentils,You,2.6,2.6,250,g,https://www.migros.ch/en/product/104105400000,19/10/2024
+55,Migros,Pasta,Migros Bio  penne  wholemeal semolina,Migros Bio,2.25,2.25,500,g,https://www.migros.ch/en/product/104131000000,19/10/2024
+56,Migros,Pasta,M-Classic  schnäggli  with eggs,M-Classic,1.6,1.9,500,g,https://www.migros.ch/en/product/104057100000,19/10/2024
+57,Migros,Pasta,Garofalo  fusillone,Garofalo,3.1,3.1,500,g,https://www.migros.ch/en/product/104126600000,19/10/2024
+58,Migros,Pasta,Migros Bio  macaroni  wholemeal semolina,Migros Bio,2.5,2.5,500,g,https://www.migros.ch/en/product/104155800000,19/10/2024
+59,Migros,Pasta,Garofalo Bio  radiatori  wholemeal,Garofalo Bio,3.1,3.1,500,g,https://www.migros.ch/en/product/104127800000,19/10/2024
+60,Migros,Pasta,Da Emilio  cannelloni,Da Emilio,3.95,3.95,500,g,https://www.migros.ch/en/product/104134000000,19/10/2024
+61,Migros,Pasta,Agnesi  spaghetti N°3,Agnesi,3.4,3.4,1k,g,https://www.migros.ch/en/product/104146700000,19/10/2024
+62,Migros,Pasta,You  sedanini  red lentils,You,2.5,2.5,250,g,https://www.migros.ch/en/product/104105100000,19/10/2024
+63,Migros,Pasta,"Aha!  Spaghetti  Gluten free, No wilting, No egg",Aha!,2.35,2.35,500,g,https://www.migros.ch/en/product/104168100000,19/10/2024
+64,Migros,Pasta,Tradition IP-SUISSE  tagliatelle  garlic bear,Tradition IP-SUISSE,5.5,5.5,500,g,https://www.migros.ch/en/product/104165800000,19/10/2024
+65,Migros,Pasta,Tortelloni Ricotta mit Spinat o. Gluten,Le Veneziane,6.4,6.4,250,g,https://www.migros.ch/en/product/104067600000,19/10/2024
+66,Migros,Pasta,Di Farro Bio Spaghetti,Poggio del Farro,3.95,3.95,500,g,https://www.migros.ch/en/product/104155000000,19/10/2024
+67,Migros,Pasta,Bio AdR Stanserhörnli,Migros Bio,4.7,4.7,500,g,https://www.migros.ch/en/product/104192200000,19/10/2024
+68,Migros,Pasta,Demeter Urdinkel Penne,Demeter,5.2,5.2,400,g,https://www.migros.ch/en/product/104164600000,19/10/2024
+69,Migros,Pasta,Le Veneziane Spaghetti,Le Veneziane,2.6,2.6,250,g,https://www.migros.ch/en/product/104166900000,19/10/2024
+70,Migros,Pasta,Le Veneziane Penne,Le Veneziane,2.6,2.6,250,g,https://www.migros.ch/en/product/104167000000,19/10/2024
+71,Migros,Pasta,Gnocchi di patate ohne Gluten,Le Veneziane,4.3,4.3,500,g,https://www.migros.ch/en/product/104179100000,19/10/2024
+72,Migros,Pasta,PIZZOCCHERI VALTELLINESI,Bosco,3.5,3.5,500,g,https://www.migros.ch/en/product/104182300000,19/10/2024
+73,Migros,Pasta,Aus der Region Bio Älplermagronen,Migros Bio,4.7,4.7,500,g,https://www.migros.ch/en/product/104192100000,19/10/2024
+74,Migros,Pasta,Tradition IP-Suisse Ur-Dinkel Gnocchi,Tradition - Pasta,3.25,3.25,500,g,https://www.migros.ch/en/product/104145900000,19/10/2024
+75,Migros,Pasta,Di Farro Bio Penne,Poggio del Farro,3.95,3.95,500,g,https://www.migros.ch/en/product/104155100000,19/10/2024
+76,Migros,Pasta,Alnatura Dinkel Penne,Alnatura,2.2,2.2,500,g,https://www.migros.ch/en/product/104165000000,19/10/2024
+77,Migros,Pasta,Le Veneziane Eliche,Le Veneziane,2.6,2.6,250,g,https://www.migros.ch/en/product/104167100000,19/10/2024
+78,Migros,Pasta,Bio Penne Quinoa lose,Migros Bio,6.–,6.–,1k,g,https://www.migros.ch/en/product/104168600000,19/10/2024
+79,Migros,Pasta,Tagliolini Pasta all'uvo con Tartufo,Ori di Langa,10.9,10.9,250,g,https://www.migros.ch/en/product/104012500000,19/10/2024
+80,Migros,Pasta,Garofalo Spaghetti ohne Gluten,Garofalo,3.5,3.5,400,g,https://www.migros.ch/en/product/104129800000,19/10/2024
+81,Migros,Pasta,Alnatura Dinkel Spaghetti,Alnatura,3.1,3.1,500,g,https://www.migros.ch/en/product/104167700000,19/10/2024
