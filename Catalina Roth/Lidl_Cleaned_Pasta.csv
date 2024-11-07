@@ -1,4 +1,4 @@
-ID,Competitor,Category,Product_Description,Brand,Regular_Price (CH),Grammage,Unit,Link,Scraping_Date,Discount,Actual_Price (CH),Regular_Price/Unit,Actual_Price/Unit,Private_Label_Product
+ID,Competitor,Category,Product_Description,Brand,Regular_Price (CHF),Grammage,Unit,Link,Scraping_Date,Discount,Actual_Price (CHF),Regular_Price/Unit,Actual_Price/Unit,Private_Label_Product
 1,Lidl,Pasta,Pasta Tricolore,Unknown,1.99,0.5,kg,https://sortiment.lidl.ch/de/pasta-tricolore-6011527,2024-10-21,no discount,1.99,3.98,3.98,No
 2,Lidl,Pasta,Pasta trafilata al bronzo,Combino,1.19,0.5,kg,https://sortiment.lidl.ch/de/pasta-trafilata-al-bronzo-0138846,2024-10-21,no discount,1.19,2.38,2.38,Yes
 3,Lidl,Pasta,Pasta trafilata al bronzo,Combino,1.19,0.5,kg,https://sortiment.lidl.ch/de/pasta-trafilata-al-bronzo-0137930,2024-10-21,no discount,1.19,2.38,2.38,Yes

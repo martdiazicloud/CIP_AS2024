@@ -92,8 +92,8 @@ df_migros_cleaned = df_migros_cleaned[['ID', 'Competitor', 'Category', 'Product_
                                        'Regular_Price/Unit', 'Actual_Price/Unit']]
 
 # Rename columns
-df_migros_cleaned = df_migros_cleaned.rename(columns={'Regular Price (CH)': 'Regular_Price (CH)',
-                                                      'Actual Price (CH)': 'Actual_Price (CH)'})
+df_migros_cleaned = df_migros_cleaned.rename(columns={'Regular Price (CH)': 'Regular_Price (CHF)',
+                                                      'Actual Price (CH)': 'Actual_Price (CHF)'})
 
 
 #######################################################################
@@ -161,8 +161,8 @@ df_lidl_cleaned = df_lidl_cleaned[['ID', 'Competitor', 'Category', 'Product_Desc
 
 # Rename columns in df_lidl_cleaned
 df_lidl_cleaned = df_lidl_cleaned.rename(columns={'Product_Brand': 'Brand',
-                                                  'Regular_Price': 'Regular_Price (CH)',
-                                                  'Actual_Price': 'Actual_Price (CH)'})
+                                                  'Regular_Price': 'Regular_Price (CHF)',
+                                                  'Actual_Price': 'Actual_Price (CHF)'})
 
 
 ###################################################################################
@@ -183,7 +183,7 @@ df_lidl_cleaned.info()   # Lidl
 # Function to create Boxplot
 def boxplot(df, name):
     # Numerical variables
-    vars = ['Regular_Price (CH)', 'Actual_Price (CH)']
+    vars = ['Regular_Price (CHF)', 'Actual_Price (CHF)']
 
     # Set up subplots
     fig, axes = plt.subplots(1, 2, figsize=(8, 5))
