@@ -79,6 +79,9 @@ df_migros_cleaned['Discount'] = (
      / df_migros_cleaned['Regular Price (CH)']) * 100
 ).round(0).astype(int).astype(str) + '%'
 
+# Replace '0%' with 'no discount'
+df_migros_cleaned['Discount'] = df_migros_cleaned['Discount'].replace('0%', 'no discount')
+
 # Calling Function Price per Unit to calculate Regular_Price/ KG and Actual_Price/KG
 df_migros_cleaned['Regular_Price/Unit'] = price_per_unit(df_migros_cleaned, 'Regular Price (CH)')
 df_migros_cleaned['Actual_Price/Unit'] = price_per_unit(df_migros_cleaned, 'Actual Price (CH)')
@@ -138,6 +141,9 @@ df_lidl_cleaned['Discount'] = (
     ((df_lidl_cleaned['Regular_Price'] - df_lidl_cleaned['Actual_Price'])
      / df_lidl_cleaned['Regular_Price']) * 100
 ).round(0).astype(int).astype(str) + '%'
+
+# Replace '0%' with 'no discount'
+df_lidl_cleaned['Discount'] = df_lidl_cleaned['Discount'].replace('0%', 'no discount')
 
 # Call conversion_grammage_tp_kg function to convert gr to kg
 convert_grammage_to_kg(df_lidl_cleaned)

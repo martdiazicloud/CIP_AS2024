@@ -1,109 +1,109 @@
 ID,Competitor,Category,Product_Description,Brand,Regular_Price (CH),Grammage,Unit,Link,Scraping_Date,Discount,Actual_Price (CH),Regular_Price/Unit,Actual_Price/Unit,Private_Label_Product
-1,Migros,Pasta,Agnesi  lasagne  with eggs,Agnesi,3.95,0.5,kg,https://www.migros.ch/en/product/104066400000,19/10/2024,0%,3.95,7.9,7.9,No
+1,Migros,Pasta,Agnesi  lasagne  with eggs,Agnesi,3.95,0.5,kg,https://www.migros.ch/en/product/104066400000,19/10/2024,no discount,3.95,7.9,7.9,No
 2,Migros,Pasta,M-Classic  tortellini  with raw ham,M-Classic,2.5,0.25,kg,https://www.migros.ch/en/product/104075000000,19/10/2024,12%,2.2,10,8.8,Yes
 3,Migros,Pasta,M-Classic  älplermagronen  with eggs,M-Classic,1.9,0.5,kg,https://www.migros.ch/en/product/104074500000,19/10/2024,16%,1.6,3.8,3.2,Yes
-4,Migros,Pasta,Garofalo  orecchiette,Garofalo,2.95,0.5,kg,https://www.migros.ch/en/product/104126400000,19/10/2024,0%,2.95,5.9,5.9,No
-5,Migros,Pasta,Garofalo  rigatoni,Garofalo,2.95,0.5,kg,https://www.migros.ch/en/product/104125200000,19/10/2024,0%,2.95,5.9,5.9,No
-6,Migros,Pasta,Garofalo  spaghetti,Garofalo,2.95,0.5,kg,https://www.migros.ch/en/product/104125000000,19/10/2024,0%,2.95,5.9,5.9,No
-7,Migros,Pasta,Agnesi  lasagne  spinach from eggs,Agnesi,3.95,0.5,kg,https://www.migros.ch/en/product/104066600000,19/10/2024,0%,3.95,7.9,7.9,No
-8,Migros,Pasta,Garofalo  farfalle,Garofalo,2.95,0.5,kg,https://www.migros.ch/en/product/104125500000,19/10/2024,0%,2.95,5.9,5.9,No
-9,Migros,Pasta,Garofalo  linguine,Garofalo,2.95,0.5,kg,https://www.migros.ch/en/product/104126800000,19/10/2024,0%,2.95,5.9,5.9,No
+4,Migros,Pasta,Garofalo  orecchiette,Garofalo,2.95,0.5,kg,https://www.migros.ch/en/product/104126400000,19/10/2024,no discount,2.95,5.9,5.9,No
+5,Migros,Pasta,Garofalo  rigatoni,Garofalo,2.95,0.5,kg,https://www.migros.ch/en/product/104125200000,19/10/2024,no discount,2.95,5.9,5.9,No
+6,Migros,Pasta,Garofalo  spaghetti,Garofalo,2.95,0.5,kg,https://www.migros.ch/en/product/104125000000,19/10/2024,no discount,2.95,5.9,5.9,No
+7,Migros,Pasta,Agnesi  lasagne  spinach from eggs,Agnesi,3.95,0.5,kg,https://www.migros.ch/en/product/104066600000,19/10/2024,no discount,3.95,7.9,7.9,No
+8,Migros,Pasta,Garofalo  farfalle,Garofalo,2.95,0.5,kg,https://www.migros.ch/en/product/104125500000,19/10/2024,no discount,2.95,5.9,5.9,No
+9,Migros,Pasta,Garofalo  linguine,Garofalo,2.95,0.5,kg,https://www.migros.ch/en/product/104126800000,19/10/2024,no discount,2.95,5.9,5.9,No
 10,Migros,Pasta,M-Classic  trivelli  with eggs,M-Classic,2.95,0.5,kg,https://www.migros.ch/en/product/104047500000,19/10/2024,10%,2.65,5.9,5.3,Yes
-11,Migros,Pasta,Garofalo  penne rigate,Garofalo,2.95,0.5,kg,https://www.migros.ch/en/product/104125100000,19/10/2024,0%,2.95,5.9,5.9,No
+11,Migros,Pasta,Garofalo  penne rigate,Garofalo,2.95,0.5,kg,https://www.migros.ch/en/product/104125100000,19/10/2024,no discount,2.95,5.9,5.9,No
 12,Migros,Pasta,M-Classic  spiraloni,M-Classic,2.95,0.5,kg,https://www.migros.ch/en/product/104047400000,19/10/2024,10%,2.65,5.9,5.3,Yes
-13,Migros,Pasta,Alnatura Bio  spaghettini  spelt,Alnatura Bio,3.3,0.5,kg,https://www.migros.ch/en/product/104161300000,19/10/2024,0%,3.3,6.6,6.6,No
-14,Migros,Pasta,Agnesi  linguine N°10,Agnesi,2.4,0.5,kg,https://www.migros.ch/en/product/104135500000,19/10/2024,0%,2.4,4.8,4.8,No
+13,Migros,Pasta,Alnatura Bio  spaghettini  spelt,Alnatura Bio,3.3,0.5,kg,https://www.migros.ch/en/product/104161300000,19/10/2024,no discount,3.3,6.6,6.6,No
+14,Migros,Pasta,Agnesi  linguine N°10,Agnesi,2.4,0.5,kg,https://www.migros.ch/en/product/104135500000,19/10/2024,no discount,2.4,4.8,4.8,No
 15,Migros,Pasta,M-Classic  macaroni  large with eggs,M-Classic,1.75,0.5,kg,https://www.migros.ch/en/product/104055200000,19/10/2024,17%,1.45,3.5,2.9,Yes
-16,Migros,Pasta,Demeter  spaghetti,Demeter,3.5,0.5,kg,https://www.migros.ch/en/product/104164400000,19/10/2024,0%,3.5,7,7,No
-17,Migros,Pasta,You  fusilli  whole grain rice,You,3.6,0.34,kg,https://www.migros.ch/en/product/104163500000,19/10/2024,0%,3.6,10.59,10.59,No
-18,Migros,Pasta,Agnesi  spaghetti N°3,Agnesi,2.5,0.5,kg,https://www.migros.ch/en/product/104135100000,19/10/2024,0%,2.5,5,5,No
-19,Migros,Pasta,Agnesi  spaghettini N°2,Agnesi,2.5,0.5,kg,https://www.migros.ch/en/product/104137000000,19/10/2024,0%,2.5,5,5,No
-20,Migros,Pasta,Alnatura Bio  curls  spelt,Alnatura Bio,2.95,0.5,kg,https://www.migros.ch/en/product/104161000000,19/10/2024,0%,2.95,5.9,5.9,No
-21,Migros,Pasta,Garofalo  radiatori,Garofalo,2.95,0.5,kg,https://www.migros.ch/en/product/104126000000,19/10/2024,0%,2.95,5.9,5.9,No
+16,Migros,Pasta,Demeter  spaghetti,Demeter,3.5,0.5,kg,https://www.migros.ch/en/product/104164400000,19/10/2024,no discount,3.5,7,7,No
+17,Migros,Pasta,You  fusilli  whole grain rice,You,3.6,0.34,kg,https://www.migros.ch/en/product/104163500000,19/10/2024,no discount,3.6,10.59,10.59,No
+18,Migros,Pasta,Agnesi  spaghetti N°3,Agnesi,2.5,0.5,kg,https://www.migros.ch/en/product/104135100000,19/10/2024,no discount,2.5,5,5,No
+19,Migros,Pasta,Agnesi  spaghettini N°2,Agnesi,2.5,0.5,kg,https://www.migros.ch/en/product/104137000000,19/10/2024,no discount,2.5,5,5,No
+20,Migros,Pasta,Alnatura Bio  curls  spelt,Alnatura Bio,2.95,0.5,kg,https://www.migros.ch/en/product/104161000000,19/10/2024,no discount,2.95,5.9,5.9,No
+21,Migros,Pasta,Garofalo  radiatori,Garofalo,2.95,0.5,kg,https://www.migros.ch/en/product/104126000000,19/10/2024,no discount,2.95,5.9,5.9,No
 22,Migros,Pasta,M-Classic  penne  with eggs,M-Classic,1.9,0.5,kg,https://www.migros.ch/en/product/104063100000,19/10/2024,16%,1.6,3.8,3.2,Yes
-23,Migros,Pasta,Garofalo  lumaca rigata,Garofalo,2.95,0.5,kg,https://www.migros.ch/en/product/104126200000,19/10/2024,0%,2.95,5.9,5.9,No
-24,Migros,Pasta,Garofalo  bucatini,Garofalo,2.95,0.5,kg,https://www.migros.ch/en/product/104128600000,19/10/2024,0%,2.95,5.9,5.9,No
-25,Migros,Pasta,Agnesi  spaghettoni N°4,Agnesi,2.5,0.5,kg,https://www.migros.ch/en/product/104135300000,19/10/2024,0%,2.5,5,5,No
-26,Migros,Pasta,You  penne  oats,You,3.6,0.34,kg,https://www.migros.ch/en/product/104164000000,19/10/2024,0%,3.6,10.59,10.59,No
-27,Migros,Pasta,You  spaghetti  whole grain rice,You,3.6,0.4,kg,https://www.migros.ch/en/product/104163900000,19/10/2024,0%,3.6,9,9,No
-28,Migros,Pasta,Tradition IP-SUISSE  tagliatelle  spelt,Tradition IP-SUISSE,5.6,0.5,kg,https://www.migros.ch/en/product/104147500000,19/10/2024,0%,5.6,11.2,11.2,No
+23,Migros,Pasta,Garofalo  lumaca rigata,Garofalo,2.95,0.5,kg,https://www.migros.ch/en/product/104126200000,19/10/2024,no discount,2.95,5.9,5.9,No
+24,Migros,Pasta,Garofalo  bucatini,Garofalo,2.95,0.5,kg,https://www.migros.ch/en/product/104128600000,19/10/2024,no discount,2.95,5.9,5.9,No
+25,Migros,Pasta,Agnesi  spaghettoni N°4,Agnesi,2.5,0.5,kg,https://www.migros.ch/en/product/104135300000,19/10/2024,no discount,2.5,5,5,No
+26,Migros,Pasta,You  penne  oats,You,3.6,0.34,kg,https://www.migros.ch/en/product/104164000000,19/10/2024,no discount,3.6,10.59,10.59,No
+27,Migros,Pasta,You  spaghetti  whole grain rice,You,3.6,0.4,kg,https://www.migros.ch/en/product/104163900000,19/10/2024,no discount,3.6,9,9,No
+28,Migros,Pasta,Tradition IP-SUISSE  tagliatelle  spelt,Tradition IP-SUISSE,5.6,0.5,kg,https://www.migros.ch/en/product/104147500000,19/10/2024,no discount,5.6,11.2,11.2,No
 29,Migros,Pasta,M-Classic  macaroni  with eggs,M-Classic,1.75,0.5,kg,https://www.migros.ch/en/product/104055100000,19/10/2024,17%,1.45,3.5,2.9,Yes
-30,Migros,Pasta,Tradition IP-SUISSE  macaroni  spelt,Tradition IP-SUISSE,3.3,0.5,kg,https://www.migros.ch/en/product/104147400000,19/10/2024,0%,3.3,6.6,6.6,No
-31,Migros,Pasta,Alnatura Bio  tortelloni  spelt with ricotta/spinach,Alnatura Bio,3.95,0.25,kg,https://www.migros.ch/en/product/104162200000,19/10/2024,0%,3.95,15.8,15.8,No
+30,Migros,Pasta,Tradition IP-SUISSE  macaroni  spelt,Tradition IP-SUISSE,3.3,0.5,kg,https://www.migros.ch/en/product/104147400000,19/10/2024,no discount,3.3,6.6,6.6,No
+31,Migros,Pasta,Alnatura Bio  tortelloni  spelt with ricotta/spinach,Alnatura Bio,3.95,0.25,kg,https://www.migros.ch/en/product/104162200000,19/10/2024,no discount,3.95,15.8,15.8,No
 32,Migros,Pasta,M-Classic  spaghetti 1.8mm  with eggs,M-Classic,2.45,0.75,kg,https://www.migros.ch/en/product/104041100000,19/10/2024,12%,2.15,3.27,2.87,Yes
-33,Migros,Pasta,Agnesi  pennette rigatte N°87,Agnesi,2.5,0.5,kg,https://www.migros.ch/en/product/104138700000,19/10/2024,0%,2.5,5,5,No
-34,Migros,Pasta,Garofalo  fusilli bucati corti,Garofalo,2.95,0.5,kg,https://www.migros.ch/en/product/104126100000,19/10/2024,0%,2.95,5.9,5.9,No
-35,Migros,Pasta,Garofalo  linguine  quinoa gluten free,Garofalo,3.5,0.4,kg,https://www.migros.ch/en/product/104129600000,19/10/2024,0%,3.5,8.75,8.75,No
-36,Migros,Pasta,Agnesi  tortiglioni N°46,Agnesi,2.5,0.5,kg,https://www.migros.ch/en/product/104137500000,19/10/2024,0%,2.5,5,5,No
-37,Migros,Pasta,Agnesi  linguine N°10,Agnesi,3.4,1,kg,https://www.migros.ch/en/product/104146800000,19/10/2024,0%,3.4,3.4,3.4,No
-38,Migros,Pasta,Demeter  fusilli,Demeter,3.5,0.5,kg,https://www.migros.ch/en/product/104164500000,19/10/2024,0%,3.5,7,7,No
-39,Migros,Pasta,Garofalo  sigarette,Garofalo,2.95,0.5,kg,https://www.migros.ch/en/product/104129000000,19/10/2024,0%,2.95,5.9,5.9,No
-40,Migros,Pasta,Agnesi  penne rigate N°19,Agnesi,2.5,0.5,kg,https://www.migros.ch/en/product/104146100000,19/10/2024,0%,2.5,5,5,No
-41,Migros,Pasta,Garofalo  gnoccho sardo  quinoa gluten free,Garofalo,3.5,0.4,kg,https://www.migros.ch/en/product/104129400000,19/10/2024,0%,3.5,8.75,8.75,No
-42,Migros,Pasta,Agnesi  fusilli N°78,Agnesi,2.5,0.5,kg,https://www.migros.ch/en/product/104137800000,19/10/2024,0%,2.5,5,5,No
-43,Migros,Pasta,Migros Bio  spaghetti  with eggs,Migros Bio,3.2,0.5,kg,https://www.migros.ch/en/product/104044500000,19/10/2024,0%,3.2,6.4,6.4,Yes
-44,Migros,Pasta,Alnatura Bio  spaghetti No.3,Alnatura Bio,1.5,0.5,kg,https://www.migros.ch/en/product/104161700000,19/10/2024,0%,1.5,3,3,No
+33,Migros,Pasta,Agnesi  pennette rigatte N°87,Agnesi,2.5,0.5,kg,https://www.migros.ch/en/product/104138700000,19/10/2024,no discount,2.5,5,5,No
+34,Migros,Pasta,Garofalo  fusilli bucati corti,Garofalo,2.95,0.5,kg,https://www.migros.ch/en/product/104126100000,19/10/2024,no discount,2.95,5.9,5.9,No
+35,Migros,Pasta,Garofalo  linguine  quinoa gluten free,Garofalo,3.5,0.4,kg,https://www.migros.ch/en/product/104129600000,19/10/2024,no discount,3.5,8.75,8.75,No
+36,Migros,Pasta,Agnesi  tortiglioni N°46,Agnesi,2.5,0.5,kg,https://www.migros.ch/en/product/104137500000,19/10/2024,no discount,2.5,5,5,No
+37,Migros,Pasta,Agnesi  linguine N°10,Agnesi,3.4,1,kg,https://www.migros.ch/en/product/104146800000,19/10/2024,no discount,3.4,3.4,3.4,No
+38,Migros,Pasta,Demeter  fusilli,Demeter,3.5,0.5,kg,https://www.migros.ch/en/product/104164500000,19/10/2024,no discount,3.5,7,7,No
+39,Migros,Pasta,Garofalo  sigarette,Garofalo,2.95,0.5,kg,https://www.migros.ch/en/product/104129000000,19/10/2024,no discount,2.95,5.9,5.9,No
+40,Migros,Pasta,Agnesi  penne rigate N°19,Agnesi,2.5,0.5,kg,https://www.migros.ch/en/product/104146100000,19/10/2024,no discount,2.5,5,5,No
+41,Migros,Pasta,Garofalo  gnoccho sardo  quinoa gluten free,Garofalo,3.5,0.4,kg,https://www.migros.ch/en/product/104129400000,19/10/2024,no discount,3.5,8.75,8.75,No
+42,Migros,Pasta,Agnesi  fusilli N°78,Agnesi,2.5,0.5,kg,https://www.migros.ch/en/product/104137800000,19/10/2024,no discount,2.5,5,5,No
+43,Migros,Pasta,Migros Bio  spaghetti  with eggs,Migros Bio,3.2,0.5,kg,https://www.migros.ch/en/product/104044500000,19/10/2024,no discount,3.2,6.4,6.4,Yes
+44,Migros,Pasta,Alnatura Bio  spaghetti No.3,Alnatura Bio,1.5,0.5,kg,https://www.migros.ch/en/product/104161700000,19/10/2024,no discount,1.5,3,3,No
 45,Migros,Pasta,M-Classic  spiral-nudeln  with eggs,M-Classic,1.9,0.5,kg,https://www.migros.ch/en/product/104048100000,19/10/2024,16%,1.6,3.8,3.2,Yes
 46,Migros,Pasta,M-Classic  swabian spätzle  with eggs,M-Classic,2.7,0.5,kg,https://www.migros.ch/en/product/104065600000,19/10/2024,11%,2.4,5.4,4.8,Yes
-47,Migros,Pasta,Aha!  lasagne  gluten free,Aha!,2.45,0.25,kg,https://www.migros.ch/en/product/104168000000,19/10/2024,0%,2.45,9.8,9.8,No
-48,Migros,Pasta,Alnatura Bio  tortellini  with vegetables,Alnatura Bio,2.95,0.25,kg,https://www.migros.ch/en/product/104161800000,19/10/2024,0%,2.95,11.8,11.8,No
-49,Migros,Pasta,Migros Bio  spaghettini  wholemeal semolina,Migros Bio,2.25,0.5,kg,https://www.migros.ch/en/product/104131400000,19/10/2024,0%,2.25,4.5,4.5,Yes
-50,Migros,Pasta,Tradition IP-SUISSE  5-grain quadri  spelt,Tradition IP-SUISSE,3.95,0.5,kg,https://www.migros.ch/en/product/104115100000,19/10/2024,0%,3.95,7.9,7.9,No
-51,Migros,Pasta,Da Emilio  fregola sarda,Da Emilio,3.95,0.5,kg,https://www.migros.ch/en/product/104131200000,19/10/2024,0%,3.95,7.9,7.9,No
+47,Migros,Pasta,Aha!  lasagne  gluten free,Aha!,2.45,0.25,kg,https://www.migros.ch/en/product/104168000000,19/10/2024,no discount,2.45,9.8,9.8,No
+48,Migros,Pasta,Alnatura Bio  tortellini  with vegetables,Alnatura Bio,2.95,0.25,kg,https://www.migros.ch/en/product/104161800000,19/10/2024,no discount,2.95,11.8,11.8,No
+49,Migros,Pasta,Migros Bio  spaghettini  wholemeal semolina,Migros Bio,2.25,0.5,kg,https://www.migros.ch/en/product/104131400000,19/10/2024,no discount,2.25,4.5,4.5,Yes
+50,Migros,Pasta,Tradition IP-SUISSE  5-grain quadri  spelt,Tradition IP-SUISSE,3.95,0.5,kg,https://www.migros.ch/en/product/104115100000,19/10/2024,no discount,3.95,7.9,7.9,No
+51,Migros,Pasta,Da Emilio  fregola sarda,Da Emilio,3.95,0.5,kg,https://www.migros.ch/en/product/104131200000,19/10/2024,no discount,3.95,7.9,7.9,No
 52,Migros,Pasta,M-Classic  pasta letters  with eggs,M-Classic,2.2,0.5,kg,https://www.migros.ch/en/product/104075600000,19/10/2024,14%,1.9,4.4,3.8,Yes
-53,Migros,Pasta,Agnesi  tagliolini,Agnesi,3,0.5,kg,https://www.migros.ch/en/product/104138200000,19/10/2024,0%,3,6,6,No
-54,Migros,Pasta,You  spaghetti  yellow lentils,You,2.6,0.25,kg,https://www.migros.ch/en/product/104105400000,19/10/2024,0%,2.6,10.4,10.4,No
-55,Migros,Pasta,Migros Bio  penne  wholemeal semolina,Migros Bio,2.25,0.5,kg,https://www.migros.ch/en/product/104131000000,19/10/2024,0%,2.25,4.5,4.5,Yes
+53,Migros,Pasta,Agnesi  tagliolini,Agnesi,3,0.5,kg,https://www.migros.ch/en/product/104138200000,19/10/2024,no discount,3,6,6,No
+54,Migros,Pasta,You  spaghetti  yellow lentils,You,2.6,0.25,kg,https://www.migros.ch/en/product/104105400000,19/10/2024,no discount,2.6,10.4,10.4,No
+55,Migros,Pasta,Migros Bio  penne  wholemeal semolina,Migros Bio,2.25,0.5,kg,https://www.migros.ch/en/product/104131000000,19/10/2024,no discount,2.25,4.5,4.5,Yes
 56,Migros,Pasta,M-Classic  schnäggli  with eggs,M-Classic,1.9,0.5,kg,https://www.migros.ch/en/product/104057100000,19/10/2024,16%,1.6,3.8,3.2,Yes
-57,Migros,Pasta,Garofalo  fusillone,Garofalo,3.1,0.5,kg,https://www.migros.ch/en/product/104126600000,19/10/2024,0%,3.1,6.2,6.2,No
-58,Migros,Pasta,Migros Bio  macaroni  wholemeal semolina,Migros Bio,2.5,0.5,kg,https://www.migros.ch/en/product/104155800000,19/10/2024,0%,2.5,5,5,Yes
-59,Migros,Pasta,Garofalo Bio  radiatori  wholemeal,Garofalo Bio,3.1,0.5,kg,https://www.migros.ch/en/product/104127800000,19/10/2024,0%,3.1,6.2,6.2,No
-60,Migros,Pasta,Da Emilio  cannelloni,Da Emilio,3.95,0.5,kg,https://www.migros.ch/en/product/104134000000,19/10/2024,0%,3.95,7.9,7.9,No
-61,Migros,Pasta,Agnesi  spaghetti N°3,Agnesi,3.4,1,kg,https://www.migros.ch/en/product/104146700000,19/10/2024,0%,3.4,3.4,3.4,No
-62,Migros,Pasta,You  sedanini  red lentils,You,2.5,0.25,kg,https://www.migros.ch/en/product/104105100000,19/10/2024,0%,2.5,10,10,No
-63,Migros,Pasta,"Aha!  Spaghetti  Gluten free, No wilting, No egg",Aha!,2.35,0.5,kg,https://www.migros.ch/en/product/104168100000,19/10/2024,0%,2.35,4.7,4.7,No
-64,Migros,Pasta,Tradition IP-SUISSE  tagliatelle  garlic bear,Tradition IP-SUISSE,5.5,0.5,kg,https://www.migros.ch/en/product/104165800000,19/10/2024,0%,5.5,11,11,No
-65,Migros,Pasta,Tortelloni Ricotta mit Spinat o. Gluten,Le Veneziane,6.4,0.25,kg,https://www.migros.ch/en/product/104067600000,19/10/2024,0%,6.4,25.6,25.6,No
-66,Migros,Pasta,Di Farro Bio Spaghetti,Poggio del Farro,3.95,0.5,kg,https://www.migros.ch/en/product/104155000000,19/10/2024,0%,3.95,7.9,7.9,No
-67,Migros,Pasta,Bio AdR Stanserhörnli,Migros Bio,4.7,0.5,kg,https://www.migros.ch/en/product/104192200000,19/10/2024,0%,4.7,9.4,9.4,Yes
-68,Migros,Pasta,Demeter Urdinkel Penne,Demeter,5.2,0.4,kg,https://www.migros.ch/en/product/104164600000,19/10/2024,0%,5.2,13,13,No
-69,Migros,Pasta,Le Veneziane Spaghetti,Le Veneziane,2.6,0.25,kg,https://www.migros.ch/en/product/104166900000,19/10/2024,0%,2.6,10.4,10.4,No
-70,Migros,Pasta,Le Veneziane Penne,Le Veneziane,2.6,0.25,kg,https://www.migros.ch/en/product/104167000000,19/10/2024,0%,2.6,10.4,10.4,No
-71,Migros,Pasta,Gnocchi di patate ohne Gluten,Le Veneziane,4.3,0.5,kg,https://www.migros.ch/en/product/104179100000,19/10/2024,0%,4.3,8.6,8.6,No
-72,Migros,Pasta,PIZZOCCHERI VALTELLINESI,Bosco,3.5,0.5,kg,https://www.migros.ch/en/product/104182300000,19/10/2024,0%,3.5,7,7,No
-73,Migros,Pasta,Aus der Region Bio Älplermagronen,Migros Bio,4.7,0.5,kg,https://www.migros.ch/en/product/104192100000,19/10/2024,0%,4.7,9.4,9.4,Yes
-74,Migros,Pasta,Tradition IP-Suisse Ur-Dinkel Gnocchi,Tradition - Pasta,3.25,0.5,kg,https://www.migros.ch/en/product/104145900000,19/10/2024,0%,3.25,6.5,6.5,No
-75,Migros,Pasta,Di Farro Bio Penne,Poggio del Farro,3.95,0.5,kg,https://www.migros.ch/en/product/104155100000,19/10/2024,0%,3.95,7.9,7.9,No
-76,Migros,Pasta,Alnatura Dinkel Penne,Alnatura,2.2,0.5,kg,https://www.migros.ch/en/product/104165000000,19/10/2024,0%,2.2,4.4,4.4,No
-77,Migros,Pasta,Le Veneziane Eliche,Le Veneziane,2.6,0.25,kg,https://www.migros.ch/en/product/104167100000,19/10/2024,0%,2.6,10.4,10.4,No
-78,Migros,Pasta,Bio Penne Quinoa lose,Migros Bio,6,1,kg,https://www.migros.ch/en/product/104168600000,19/10/2024,0%,6,6,6,Yes
-79,Migros,Pasta,Tagliolini Pasta all'uvo con Tartufo,Ori di Langa,10.9,0.25,kg,https://www.migros.ch/en/product/104012500000,19/10/2024,0%,10.9,43.6,43.6,No
-80,Migros,Pasta,Garofalo Spaghetti ohne Gluten,Garofalo,3.5,0.4,kg,https://www.migros.ch/en/product/104129800000,19/10/2024,0%,3.5,8.75,8.75,No
-81,Migros,Pasta,Alnatura Dinkel Spaghetti,Alnatura,3.1,0.5,kg,https://www.migros.ch/en/product/104167700000,19/10/2024,0%,3.1,6.2,6.2,No
-1,Lidl,Pasta,Pasta Tricolore,Unknown,1.99,0.5,kg,https://sortiment.lidl.ch/de/pasta-tricolore-6011527,21/10/2024,0%,1.99,3.98,3.98,No
-2,Lidl,Pasta,Pasta trafilata al bronzo,Combino,1.19,0.5,kg,https://sortiment.lidl.ch/de/pasta-trafilata-al-bronzo-0138846,21/10/2024,0%,1.19,2.38,2.38,Yes
-3,Lidl,Pasta,Pasta trafilata al bronzo,Combino,1.19,0.5,kg,https://sortiment.lidl.ch/de/pasta-trafilata-al-bronzo-0137930,21/10/2024,0%,1.19,2.38,2.38,Yes
-4,Lidl,Pasta,Bio Kinderpasta,Combino,1.49,0.5,kg,https://sortiment.lidl.ch/de/bio-kinderpasta-0120259,21/10/2024,0%,1.49,2.98,2.98,Yes
-5,Lidl,Pasta,Glasnudeln,Combino,0.99,0.1,kg,https://sortiment.lidl.ch/de/glasnudeln-0089804,21/10/2024,0%,0.99,9.9,9.9,Yes
-6,Lidl,Pasta,Reisnudeln,Combino,1.59,0.2,kg,https://sortiment.lidl.ch/de/reisnudeln-0149146,21/10/2024,0%,1.59,7.95,7.95,Yes
-7,Lidl,Pasta,Hörnli,Combino,1.39,1,kg,https://sortiment.lidl.ch/de/hoernli-0142042,21/10/2024,0%,1.39,1.39,1.39,Yes
-8,Lidl,Pasta,Spaghetti,Combino,1.39,1,kg,https://sortiment.lidl.ch/de/spaghetti-0027325,21/10/2024,0%,1.39,1.39,1.39,Yes
-9,Lidl,Pasta,Orecchiette / Trofie,Italiamo,1.79,0.5,kg,https://sortiment.lidl.ch/de/orecchiette-trofie-6001877,21/10/2024,0%,1.79,3.58,3.58,Yes
-10,Lidl,Pasta,Bio Spaghetti,Combino,1.19,0.5,kg,https://sortiment.lidl.ch/de/bio-spaghetti-0127393,21/10/2024,0%,1.19,2.38,2.38,Yes
-11,Lidl,Pasta,Penne Rigate,Combino,1.39,1,kg,https://sortiment.lidl.ch/de/penne-rigate-0027328,21/10/2024,0%,1.39,1.39,1.39,Yes
-12,Lidl,Pasta,Maccheroni al ferretto,Italiamo,1.79,0.5,kg,https://sortiment.lidl.ch/de/maccheroni-al-ferretto-6000313,21/10/2024,0%,1.79,3.58,3.58,Yes
-13,Lidl,Pasta,Fusilli,Combino,1.39,1,kg,https://sortiment.lidl.ch/de/fusilli-0027326,21/10/2024,0%,1.39,1.39,1.39,Yes
-14,Lidl,Pasta,Farfalle,Combino,1.25,0.5,kg,https://sortiment.lidl.ch/de/farfalle-0019104,21/10/2024,0%,1.25,2.5,2.5,Yes
-15,Lidl,Pasta,Bio Dinkel Fusilli / Penne,Combino,1.79,0.5,kg,https://sortiment.lidl.ch/de/bio-dinkel-fusilli-penne-0162401,21/10/2024,0%,1.79,3.58,3.58,Yes
-16,Lidl,Pasta,Barilla Spaghettoni No. 7,Barilla,3.39,1,kg,https://sortiment.lidl.ch/de/barilla-spaghettoni-no-7-0003356,21/10/2024,0%,3.39,3.39,3.39,No
-17,Lidl,Pasta,Barilla Fusilli No. 98,Barilla,3.39,1,kg,https://sortiment.lidl.ch/de/barilla-fusilli-no-98-0001067,21/10/2024,0%,3.39,3.39,3.39,No
-18,Lidl,Pasta,Chow Mein Nudeln,Combino,1.25,0.25,kg,https://sortiment.lidl.ch/de/chow-mein-nudeln-0012038,21/10/2024,0%,1.25,5,5,Yes
-19,Lidl,Pasta,Lasagneblätter,Combino,1.49,0.5,kg,https://sortiment.lidl.ch/de/lasagneblaetter-6014771,21/10/2024,0%,1.49,2.98,2.98,Yes
-20,Lidl,Pasta,Barilla Penne Rigate No. 73,Barilla,3.39,1,kg,https://sortiment.lidl.ch/de/barilla-penne-rigate-no-73-0001066,21/10/2024,0%,3.39,3.39,3.39,No
-21,Lidl,Pasta,Bio Couscous / Bio Bulgur,Golden Sun,1.89,0.5,kg,https://sortiment.lidl.ch/de/bio-couscous-bio-bulgur-0126325,21/10/2024,0%,1.89,3.78,3.78,No
-22,Lidl,Pasta,Udon Nudeln,Combino,1.79,0.3,kg,https://sortiment.lidl.ch/de/udon-nudeln-0149145,21/10/2024,0%,1.79,5.97,5.97,Yes
-23,Lidl,Pasta,Tagliatelle,Combino,1.39,0.5,kg,https://sortiment.lidl.ch/de/tagliatelle-0037270,21/10/2024,0%,1.39,2.78,2.78,Yes
-24,Lidl,Pasta,Bschüssig Teigwaren,Bschüssig,3.45,0.5,kg,https://sortiment.lidl.ch/de/bschuessig-teigwaren-5104312,21/10/2024,0%,3.45,6.9,6.9,No
-25,Lidl,Pasta,Bio Nudeln,Combino,1.19,0.5,kg,https://sortiment.lidl.ch/de/bio-nudeln-0063265,21/10/2024,0%,1.19,2.38,2.38,Yes
-26,Lidl,Pasta,Teigwaren glutenfrei,Combino,1.89,0.5,kg,https://sortiment.lidl.ch/de/teigwaren-glutenfrei-7701123,21/10/2024,0%,1.89,3.78,3.78,Yes
-27,Lidl,Pasta,Barilla Spaghetti No. 5,Barilla,3.39,1,kg,https://sortiment.lidl.ch/de/barilla-spaghetti-no-5-0001064,21/10/2024,0%,3.39,3.39,3.39,No
+57,Migros,Pasta,Garofalo  fusillone,Garofalo,3.1,0.5,kg,https://www.migros.ch/en/product/104126600000,19/10/2024,no discount,3.1,6.2,6.2,No
+58,Migros,Pasta,Migros Bio  macaroni  wholemeal semolina,Migros Bio,2.5,0.5,kg,https://www.migros.ch/en/product/104155800000,19/10/2024,no discount,2.5,5,5,Yes
+59,Migros,Pasta,Garofalo Bio  radiatori  wholemeal,Garofalo Bio,3.1,0.5,kg,https://www.migros.ch/en/product/104127800000,19/10/2024,no discount,3.1,6.2,6.2,No
+60,Migros,Pasta,Da Emilio  cannelloni,Da Emilio,3.95,0.5,kg,https://www.migros.ch/en/product/104134000000,19/10/2024,no discount,3.95,7.9,7.9,No
+61,Migros,Pasta,Agnesi  spaghetti N°3,Agnesi,3.4,1,kg,https://www.migros.ch/en/product/104146700000,19/10/2024,no discount,3.4,3.4,3.4,No
+62,Migros,Pasta,You  sedanini  red lentils,You,2.5,0.25,kg,https://www.migros.ch/en/product/104105100000,19/10/2024,no discount,2.5,10,10,No
+63,Migros,Pasta,"Aha!  Spaghetti  Gluten free, No wilting, No egg",Aha!,2.35,0.5,kg,https://www.migros.ch/en/product/104168100000,19/10/2024,no discount,2.35,4.7,4.7,No
+64,Migros,Pasta,Tradition IP-SUISSE  tagliatelle  garlic bear,Tradition IP-SUISSE,5.5,0.5,kg,https://www.migros.ch/en/product/104165800000,19/10/2024,no discount,5.5,11,11,No
+65,Migros,Pasta,Tortelloni Ricotta mit Spinat o. Gluten,Le Veneziane,6.4,0.25,kg,https://www.migros.ch/en/product/104067600000,19/10/2024,no discount,6.4,25.6,25.6,No
+66,Migros,Pasta,Di Farro Bio Spaghetti,Poggio del Farro,3.95,0.5,kg,https://www.migros.ch/en/product/104155000000,19/10/2024,no discount,3.95,7.9,7.9,No
+67,Migros,Pasta,Bio AdR Stanserhörnli,Migros Bio,4.7,0.5,kg,https://www.migros.ch/en/product/104192200000,19/10/2024,no discount,4.7,9.4,9.4,Yes
+68,Migros,Pasta,Demeter Urdinkel Penne,Demeter,5.2,0.4,kg,https://www.migros.ch/en/product/104164600000,19/10/2024,no discount,5.2,13,13,No
+69,Migros,Pasta,Le Veneziane Spaghetti,Le Veneziane,2.6,0.25,kg,https://www.migros.ch/en/product/104166900000,19/10/2024,no discount,2.6,10.4,10.4,No
+70,Migros,Pasta,Le Veneziane Penne,Le Veneziane,2.6,0.25,kg,https://www.migros.ch/en/product/104167000000,19/10/2024,no discount,2.6,10.4,10.4,No
+71,Migros,Pasta,Gnocchi di patate ohne Gluten,Le Veneziane,4.3,0.5,kg,https://www.migros.ch/en/product/104179100000,19/10/2024,no discount,4.3,8.6,8.6,No
+72,Migros,Pasta,PIZZOCCHERI VALTELLINESI,Bosco,3.5,0.5,kg,https://www.migros.ch/en/product/104182300000,19/10/2024,no discount,3.5,7,7,No
+73,Migros,Pasta,Aus der Region Bio Älplermagronen,Migros Bio,4.7,0.5,kg,https://www.migros.ch/en/product/104192100000,19/10/2024,no discount,4.7,9.4,9.4,Yes
+74,Migros,Pasta,Tradition IP-Suisse Ur-Dinkel Gnocchi,Tradition - Pasta,3.25,0.5,kg,https://www.migros.ch/en/product/104145900000,19/10/2024,no discount,3.25,6.5,6.5,No
+75,Migros,Pasta,Di Farro Bio Penne,Poggio del Farro,3.95,0.5,kg,https://www.migros.ch/en/product/104155100000,19/10/2024,no discount,3.95,7.9,7.9,No
+76,Migros,Pasta,Alnatura Dinkel Penne,Alnatura,2.2,0.5,kg,https://www.migros.ch/en/product/104165000000,19/10/2024,no discount,2.2,4.4,4.4,No
+77,Migros,Pasta,Le Veneziane Eliche,Le Veneziane,2.6,0.25,kg,https://www.migros.ch/en/product/104167100000,19/10/2024,no discount,2.6,10.4,10.4,No
+78,Migros,Pasta,Bio Penne Quinoa lose,Migros Bio,6,1,kg,https://www.migros.ch/en/product/104168600000,19/10/2024,no discount,6,6,6,Yes
+79,Migros,Pasta,Tagliolini Pasta all'uvo con Tartufo,Ori di Langa,10.9,0.25,kg,https://www.migros.ch/en/product/104012500000,19/10/2024,no discount,10.9,43.6,43.6,No
+80,Migros,Pasta,Garofalo Spaghetti ohne Gluten,Garofalo,3.5,0.4,kg,https://www.migros.ch/en/product/104129800000,19/10/2024,no discount,3.5,8.75,8.75,No
+81,Migros,Pasta,Alnatura Dinkel Spaghetti,Alnatura,3.1,0.5,kg,https://www.migros.ch/en/product/104167700000,19/10/2024,no discount,3.1,6.2,6.2,No
+1,Lidl,Pasta,Pasta Tricolore,Unknown,1.99,0.5,kg,https://sortiment.lidl.ch/de/pasta-tricolore-6011527,21/10/2024,no discount,1.99,3.98,3.98,No
+2,Lidl,Pasta,Pasta trafilata al bronzo,Combino,1.19,0.5,kg,https://sortiment.lidl.ch/de/pasta-trafilata-al-bronzo-0138846,21/10/2024,no discount,1.19,2.38,2.38,Yes
+3,Lidl,Pasta,Pasta trafilata al bronzo,Combino,1.19,0.5,kg,https://sortiment.lidl.ch/de/pasta-trafilata-al-bronzo-0137930,21/10/2024,no discount,1.19,2.38,2.38,Yes
+4,Lidl,Pasta,Bio Kinderpasta,Combino,1.49,0.5,kg,https://sortiment.lidl.ch/de/bio-kinderpasta-0120259,21/10/2024,no discount,1.49,2.98,2.98,Yes
+5,Lidl,Pasta,Glasnudeln,Combino,0.99,0.1,kg,https://sortiment.lidl.ch/de/glasnudeln-0089804,21/10/2024,no discount,0.99,9.9,9.9,Yes
+6,Lidl,Pasta,Reisnudeln,Combino,1.59,0.2,kg,https://sortiment.lidl.ch/de/reisnudeln-0149146,21/10/2024,no discount,1.59,7.95,7.95,Yes
+7,Lidl,Pasta,Hörnli,Combino,1.39,1,kg,https://sortiment.lidl.ch/de/hoernli-0142042,21/10/2024,no discount,1.39,1.39,1.39,Yes
+8,Lidl,Pasta,Spaghetti,Combino,1.39,1,kg,https://sortiment.lidl.ch/de/spaghetti-0027325,21/10/2024,no discount,1.39,1.39,1.39,Yes
+9,Lidl,Pasta,Orecchiette / Trofie,Italiamo,1.79,0.5,kg,https://sortiment.lidl.ch/de/orecchiette-trofie-6001877,21/10/2024,no discount,1.79,3.58,3.58,Yes
+10,Lidl,Pasta,Bio Spaghetti,Combino,1.19,0.5,kg,https://sortiment.lidl.ch/de/bio-spaghetti-0127393,21/10/2024,no discount,1.19,2.38,2.38,Yes
+11,Lidl,Pasta,Penne Rigate,Combino,1.39,1,kg,https://sortiment.lidl.ch/de/penne-rigate-0027328,21/10/2024,no discount,1.39,1.39,1.39,Yes
+12,Lidl,Pasta,Maccheroni al ferretto,Italiamo,1.79,0.5,kg,https://sortiment.lidl.ch/de/maccheroni-al-ferretto-6000313,21/10/2024,no discount,1.79,3.58,3.58,Yes
+13,Lidl,Pasta,Fusilli,Combino,1.39,1,kg,https://sortiment.lidl.ch/de/fusilli-0027326,21/10/2024,no discount,1.39,1.39,1.39,Yes
+14,Lidl,Pasta,Farfalle,Combino,1.25,0.5,kg,https://sortiment.lidl.ch/de/farfalle-0019104,21/10/2024,no discount,1.25,2.5,2.5,Yes
+15,Lidl,Pasta,Bio Dinkel Fusilli / Penne,Combino,1.79,0.5,kg,https://sortiment.lidl.ch/de/bio-dinkel-fusilli-penne-0162401,21/10/2024,no discount,1.79,3.58,3.58,Yes
+16,Lidl,Pasta,Barilla Spaghettoni No. 7,Barilla,3.39,1,kg,https://sortiment.lidl.ch/de/barilla-spaghettoni-no-7-0003356,21/10/2024,no discount,3.39,3.39,3.39,No
+17,Lidl,Pasta,Barilla Fusilli No. 98,Barilla,3.39,1,kg,https://sortiment.lidl.ch/de/barilla-fusilli-no-98-0001067,21/10/2024,no discount,3.39,3.39,3.39,No
+18,Lidl,Pasta,Chow Mein Nudeln,Combino,1.25,0.25,kg,https://sortiment.lidl.ch/de/chow-mein-nudeln-0012038,21/10/2024,no discount,1.25,5,5,Yes
+19,Lidl,Pasta,Lasagneblätter,Combino,1.49,0.5,kg,https://sortiment.lidl.ch/de/lasagneblaetter-6014771,21/10/2024,no discount,1.49,2.98,2.98,Yes
+20,Lidl,Pasta,Barilla Penne Rigate No. 73,Barilla,3.39,1,kg,https://sortiment.lidl.ch/de/barilla-penne-rigate-no-73-0001066,21/10/2024,no discount,3.39,3.39,3.39,No
+21,Lidl,Pasta,Bio Couscous / Bio Bulgur,Golden Sun,1.89,0.5,kg,https://sortiment.lidl.ch/de/bio-couscous-bio-bulgur-0126325,21/10/2024,no discount,1.89,3.78,3.78,No
+22,Lidl,Pasta,Udon Nudeln,Combino,1.79,0.3,kg,https://sortiment.lidl.ch/de/udon-nudeln-0149145,21/10/2024,no discount,1.79,5.97,5.97,Yes
+23,Lidl,Pasta,Tagliatelle,Combino,1.39,0.5,kg,https://sortiment.lidl.ch/de/tagliatelle-0037270,21/10/2024,no discount,1.39,2.78,2.78,Yes
+24,Lidl,Pasta,Bschüssig Teigwaren,Bschüssig,3.45,0.5,kg,https://sortiment.lidl.ch/de/bschuessig-teigwaren-5104312,21/10/2024,no discount,3.45,6.9,6.9,No
+25,Lidl,Pasta,Bio Nudeln,Combino,1.19,0.5,kg,https://sortiment.lidl.ch/de/bio-nudeln-0063265,21/10/2024,no discount,1.19,2.38,2.38,Yes
+26,Lidl,Pasta,Teigwaren glutenfrei,Combino,1.89,0.5,kg,https://sortiment.lidl.ch/de/teigwaren-glutenfrei-7701123,21/10/2024,no discount,1.89,3.78,3.78,Yes
+27,Lidl,Pasta,Barilla Spaghetti No. 5,Barilla,3.39,1,kg,https://sortiment.lidl.ch/de/barilla-spaghetti-no-5-0001064,21/10/2024,no discount,3.39,3.39,3.39,No
