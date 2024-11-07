@@ -1,0 +1,77 @@
+ID,Competitor,Category,Product_Description,Brand,Regular_Price (CH),Grammage,Unit,Link,Scraping_Date,Discount,Actual_Price (CH),Regular_Price/Unit,Actual_Price/Unit
+1,Migros,Rice,Basmati rice,M-Classic Basmati,4.5,1.0,kg,https://www.migros.ch/en/product/104402500000,07/11/2024,20%,3.6,4.5,3.6
+2,Migros,Rice,Long grain rice Parboiled,M-Classic,2.44,1.0,kg,https://www.migros.ch/en/product/104404000000,07/11/2024,20%,1.95,2.44,1.95
+3,Migros,Rice,Jasmine rice,M-Classic,3.0,1.0,kg,https://www.migros.ch/en/product/104402400000,07/11/2024,20%,2.4,3.0,2.4
+4,Migros,Rice,Long grain rice court,M-Budget,1.6,0.25,kg,https://www.migros.ch/en/product/104410000000,07/11/2024,No Discount,1.6,6.4,6.4
+5,Migros,Rice,Risotto d'Italia,M-Classic,3.0,1.0,kg,https://www.migros.ch/en/product/104400700000,07/11/2024,20%,2.4,3.0,2.4
+6,Migros,Rice,Basmati rice Cooking bag,Mister Rice,4.8,0.5,kg,https://www.migros.ch/en/product/104413100000,07/11/2024,No Discount,4.8,9.6,9.6
+7,Migros,Rice,Jasmine rice,Mister Rice Bio,4.5,1.0,kg,https://www.migros.ch/en/product/104412900000,07/11/2024,No Discount,4.5,4.5,4.5
+8,Migros,Rice,Basmati rice,Mister Rice Bio,5.5,1.0,kg,https://www.migros.ch/en/product/104413000000,07/11/2024,No Discount,5.5,5.5,5.5
+9,Migros,Rice,Long grain Wholemeal rice,Mister Rice Bio,3.95,0.5,kg,https://www.migros.ch/en/product/104441400000,07/11/2024,No Discount,3.95,7.9,7.9
+10,Migros,Rice,Risotto With saffron,Subito Carnaroli,4.3,0.25,kg,https://www.migros.ch/en/product/157257700000,07/11/2024,No Discount,4.3,17.2,17.2
+11,Migros,Rice,Risotto Asparagus,M-Budget,1.85,0.25,kg,https://www.migros.ch/en/product/157212800000,07/11/2024,No Discount,1.85,7.4,7.4
+12,Migros,Rice,Whole black rice,Sélection,3.2,0.25,kg,https://www.migros.ch/en/product/104430700000,07/11/2024,No Discount,3.2,12.8,12.8
+13,Migros,Rice,Milanese risotto,Knorr aha!,3.95,0.25,kg,https://www.migros.ch/en/product/157262500000,07/11/2024,No Discount,3.95,15.8,15.8
+14,Migros,Rice,Risotto Tomato,Knorr,3.95,0.25,kg,https://www.migros.ch/en/product/157262600000,07/11/2024,No Discount,3.95,15.8,15.8
+15,Migros,Rice,Risotto rice,Alnatura,3.5,0.5,kg,https://www.migros.ch/en/product/104466100000,07/11/2024,No Discount,3.5,7.0,7.0
+16,Migros,Rice,Long grain rice Carolina,Mister Rice Bio,4.3,1.0,kg,https://www.migros.ch/en/product/104403200000,07/11/2024,No Discount,4.3,4.3,4.3
+17,Migros,Rice,Red rice,Sélection Bio,3.2,0.25,kg,https://www.migros.ch/en/product/104429800000,07/11/2024,No Discount,3.2,12.8,12.8
+18,Migros,Rice,Long grain rice Cooking bag,Mister Rice Bio,3.95,0.32,kg,https://www.migros.ch/en/product/104440000000,07/11/2024,No Discount,3.95,12.34,12.34
+19,Migros,Rice,Rice Milk rice,M-Classic Originario,2.75,1.0,kg,https://www.migros.ch/en/product/104401000000,07/11/2024,20%,2.2,2.75,2.2
+20,Migros,Rice,Risotto With tomatoes,Subito Tomato,2.7,0.25,kg,https://www.migros.ch/en/product/157255100000,07/11/2024,No Discount,2.7,10.8,10.8
+21,Migros,Rice,Rice with lentils and quinoa,Mister Rice Bio,3.95,0.5,kg,https://www.migros.ch/en/product/104412400000,07/11/2024,No Discount,3.95,7.9,7.9
+22,Migros,Rice,Risotto Allo zafferano,Da Emilio,3.4,0.25,kg,https://www.migros.ch/en/product/104446500000,07/11/2024,No Discount,3.4,13.6,13.6
+23,Migros,Rice,Risotto Al funghi porcini,Da Emilio,3.4,0.25,kg,https://www.migros.ch/en/product/104446400000,07/11/2024,No Discount,3.4,13.6,13.6
+24,Migros,Rice,Risotto with porcini mushrooms Vegetarian,Buon Gusto Risotto,3.7,0.25,kg,https://www.migros.ch/en/product/157256500000,07/11/2024,No Discount,3.7,14.8,14.8
+25,Migros,Rice,Rice Red Thai Curry With coconut milk,Subito,2.95,0.17,kg,https://www.migros.ch/en/product/157256900000,07/11/2024,No Discount,2.95,17.35,17.35
+26,Migros,Rice,Jasmine rice,Mister Rice Bio,4.7,1.0,kg,https://www.migros.ch/en/product/104412000000,07/11/2024,No Discount,4.7,4.7,4.7
+27,Migros,Rice,Basmati rice,M-Budget,2.65,1.0,kg,https://www.migros.ch/en/product/104431100000,07/11/2024,No Discount,2.65,2.65,2.65
+28,Migros,Rice,Rice with quinoa,Mister Rice Bio,3.95,0.5,kg,https://www.migros.ch/en/product/104412500000,07/11/2024,No Discount,3.95,7.9,7.9
+29,Migros,Rice,Organic long grain rice Red jasmine rice,Mister Rice,3.5,0.5,kg,https://www.migros.ch/en/product/104428300000,07/11/2024,No Discount,3.5,7.0,7.0
+30,Migros,Rice,Organic long grain rice Black Thai,Mister Rice,3.75,0.5,kg,https://www.migros.ch/en/product/104428500000,07/11/2024,No Discount,3.75,7.5,7.5
+31,Migros,Rice,Bio Jasminreis lose,Migros Bio,4.5,1.0,kg,https://www.migros.ch/en/product/104405400000,07/11/2024,No Discount,4.5,4.5,4.5
+32,Migros,Rice,Bio Basmatireis lose,Migros Bio,6.0,1.0,kg,https://www.migros.ch/en/product/104405500000,07/11/2024,No Discount,6.0,6.0,6.0
+33,Migros,Rice,Fairtrade Mister Ric Bio Jasmin Mix,Mister Rice,3.5,0.5,kg,https://www.migros.ch/en/product/104412700000,07/11/2024,No Discount,3.5,7.0,7.0
+34,Migros,Rice,Whole Grain Basmati - Long Grain - Fragrant Rice,Mister Rice Bio,3.5,0.5,kg,https://www.migros.ch/en/product/104412600000,07/11/2024,No Discount,3.5,7.0,7.0
+35,Migros,Rice,Beness. Reis Inte 250g,Riso Scotti,2.4,0.25,kg,https://www.migros.ch/en/product/157270400000,07/11/2024,No Discount,2.4,9.6,9.6
+36,Migros,Rice,Beness. Reis rot 250g,Riso Scotti,2.4,0.25,kg,https://www.migros.ch/en/product/157270300000,07/11/2024,No Discount,2.4,9.6,9.6
+37,Migros,Rice,Risotto With morels,Subito Carnaroli,4.3,0.25,kg,https://www.migros.ch/en/product/157255500000,07/11/2024,No Discount,4.3,17.2,17.2
+38,Migros,Rice,Risotto with mushrooms Vegetarian,Buon Gusto Risotto,2.7,0.25,kg,https://www.migros.ch/en/product/157256300000,07/11/2024,No Discount,2.7,10.8,10.8
+39,Migros,Rice,Risotto Milanese,M-Budget,1.85,0.25,kg,https://www.migros.ch/en/product/157212700000,07/11/2024,No Discount,1.85,7.4,7.4
+40,Migros,Rice,Riso Carnaroli,Riso Scotti,5.5,1.0,kg,https://www.migros.ch/en/product/104409400000,07/11/2024,No Discount,5.5,5.5,5.5
+41,Migros,Rice,Demeter Carnaroli Reis,Demeter,3.95,0.5,kg,https://www.migros.ch/en/product/104450200000,07/11/2024,No Discount,3.95,7.9,7.9
+42,Migros,Rice,Bio Carnaroli lose,Migros Bio,5.5,1.0,kg,https://www.migros.ch/en/product/104405200000,07/11/2024,No Discount,5.5,5.5,5.5
+43,Migros,Rice,Migros Bio Risotto mit Tomaten,Migros Bio,7.9,0.73,kg,https://www.migros.ch/en/product/138183200000,07/11/2024,No Discount,7.9,10.82,10.82
+44,Migros,Rice,Risotto con Tartufo,Ori di Langa,8.9,0.18,kg,https://www.migros.ch/en/product/104409600000,07/11/2024,No Discount,8.9,50.86,50.86
+45,Migros,Rice,Scotti Risotti cremosi,Scotti,3.5,0.8,kg,https://www.migros.ch/en/product/104414100000,07/11/2024,No Discount,3.5,4.38,4.38
+46,Migros,Rice,Risotto rice,Mister Rice Bio,5.5,1.0,kg,https://www.migros.ch/en/product/104404600000,07/11/2024,No Discount,5.5,5.5,5.5
+47,Migros,Rice,Wholemeal Rice,Mister Rice Bio,4.6,1.0,kg,https://www.migros.ch/en/product/104425200000,07/11/2024,No Discount,4.6,4.6,4.6
+48,Migros,Rice,Risotto Pomodoro e basilico,Da Emilio,3.4,0.25,kg,https://www.migros.ch/en/product/104446200000,07/11/2024,No Discount,3.4,13.6,13.6
+49,Migros,Rice,Polenta Al funghi porcini,Da Emilio,3.4,0.25,kg,https://www.migros.ch/en/product/104446600000,07/11/2024,No Discount,3.4,13.6,13.6
+50,Migros,Rice,Basmati rice,Demeter,3.8,0.5,kg,https://www.migros.ch/en/product/104450100000,07/11/2024,No Discount,3.8,7.6,7.6
+51,Migros,Rice,Whole Grain Basmati - Long Grain - Fragrant Rice,Mister Rice Bio,3.0,0.5,kg,https://www.migros.ch/en/product/104413300000,07/11/2024,No Discount,3.0,6.0,6.0
+52,Migros,Rice,Long grain wild rice,Mister Rice Bio,5.95,1.0,kg,https://www.migros.ch/en/product/104424800000,07/11/2024,No Discount,5.95,5.95,5.95
+53,Migros,Rice,Bio Langkornreis lose,Migros Bio,3.5,1.0,kg,https://www.migros.ch/en/product/104405100000,07/11/2024,No Discount,3.5,3.5,3.5
+54,Migros,Rice,Riso Insalate,Riso Scotti,4.2,1.0,kg,https://www.migros.ch/en/product/104409200000,07/11/2024,No Discount,4.2,4.2,4.2
+55,Migros,Rice,Riso Arborio,Riso Scotti,5.0,1.0,kg,https://www.migros.ch/en/product/104409300000,07/11/2024,No Discount,5.0,5.0,5.0
+56,Migros,Rice,Demeter Langkornreis Parboiled,Demeter,3.6,0.5,kg,https://www.migros.ch/en/product/104450500000,07/11/2024,No Discount,3.6,7.2,7.2
+57,Migros,Rice,La Cuna Paëlla Reis,La Cuna,4.25,1.0,kg,https://www.migros.ch/en/product/158593300000,07/11/2024,No Discount,4.25,4.25,4.25
+58,Migros,Rice,Riso Scotti Vener,Riso Scotti,4.2,0.5,kg,https://www.migros.ch/en/product/104409100000,07/11/2024,No Discount,4.2,8.4,8.4
+59,Migros,Rice,Scotti Oro insalate Riso Jasmine,Scotti,3.9,0.8,kg,https://www.migros.ch/en/product/104413800000,07/11/2024,No Discount,3.9,4.88,4.88
+60,Migros,Rice,Long grain rice,M-Budget,1.5,1.0,kg,https://www.migros.ch/en/product/104431000000,07/11/2024,No Discount,1.5,1.5,1.5
+61,Migros,Rice,Risotto Al gusto di tartufo,Da Emilio,3.75,0.25,kg,https://www.migros.ch/en/product/104446300000,07/11/2024,No Discount,3.75,15.0,15.0
+62,Migros,Rice,Long grain rice parboiled,Alnatura,3.0,1.0,kg,https://www.migros.ch/en/product/104474600000,07/11/2024,No Discount,3.0,3.0,3.0
+63,Migros,Rice,Bio Wild rice mix lose,Migros Bio,6.0,1.0,kg,https://www.migros.ch/en/product/104405300000,07/11/2024,No Discount,6.0,6.0,6.0
+64,Migros,Rice,Long grain wild rice,M-Classic,3.75,1.0,kg,https://www.migros.ch/en/product/104402600000,07/11/2024,20%,3.0,3.75,3.0
+65,Migros,Rice,Risotto,M-Budget,2.0,1.0,kg,https://www.migros.ch/en/product/104431200000,07/11/2024,No Discount,2.0,2.0,2.0
+66,Migros,Rice,Basmati rice white,Alnatura,1.8,0.5,kg,https://www.migros.ch/en/product/104464300000,07/11/2024,No Discount,1.8,3.6,3.6
+67,Lidl,Rice,Ben's Langkorn Reis,Ben's,5.89,1.0,kg,https://sortiment.lidl.ch/de/ben-s-langkorn-reis-1800158,07/11/2024,No Discount,5.89,5.89,5.89
+68,Lidl,Rice,Ben's Spitzen-Langkornreis,Ben's,5.89,1.0,kg,https://sortiment.lidl.ch/de/ben-s-spitzen-langkornreis-1800157,07/11/2024,No Discount,5.89,5.89,5.89
+69,Lidl,Rice,Bio Langkornreis,Golden Sun,1.49,0.5,kg,https://sortiment.lidl.ch/de/bio-langkornreis-0109155,07/11/2024,No Discount,1.49,2.98,2.98
+70,Lidl,Rice,Ben's Express Reis,Ben's,3.29,0.22,kg,https://sortiment.lidl.ch/de/ben-s-express-reis-0008986,07/11/2024,No Discount,3.29,14.95,14.95
+71,Lidl,Rice,Parboiled Reis Langkorn,Golden Sun,1.35,1.0,kg,https://sortiment.lidl.ch/de/parboiled-reis-langkorn-0138125,07/11/2024,No Discount,1.35,1.35,1.35
+72,Lidl,Rice,Bio Basmati Reis,Golden Sun,1.79,0.5,kg,https://sortiment.lidl.ch/de/bio-basmati-reis-0128944,07/11/2024,No Discount,1.79,3.58,3.58
+73,Lidl,Rice,Langkornreis im Kochbeutel,Golden Sun,1.99,1.0,kg,https://sortiment.lidl.ch/de/langkornreis-im-kochbeutel-0012590,07/11/2024,No Discount,1.99,1.99,1.99
+74,Lidl,Rice,Basmati Reis,Golden Sun,2.65,1.0,kg,https://sortiment.lidl.ch/de/basmati-reis-0136419,07/11/2024,No Discount,2.65,2.65,2.65
+75,Lidl,Rice,San Andrea Risottoreis,Golden Sun,1.99,1.0,kg,https://sortiment.lidl.ch/de/san-andrea-risottoreis-0129108,07/11/2024,No Discount,1.99,1.99,1.99
+76,Lidl,Rice,Jasmin Reis,Golden Sun,2.69,1.0,kg,https://sortiment.lidl.ch/de/jasmin-reis-0012592,07/11/2024,No Discount,2.69,2.69,2.69
