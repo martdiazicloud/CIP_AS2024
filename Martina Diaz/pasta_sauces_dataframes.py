@@ -147,10 +147,12 @@ df['Distance_average_price'] = (((df['Regular_Price/Unit']-average_price)/averag
 it when running this script again, since it will import or "csv" files available in the directory selected
 at the beginning of this script.'''
 
+## 4.1 Ordering columns according to group project
+df = df[['ID', 'Competitor', 'Category', 'Product_Description', 'Brand', 'Regular_Price (CHF)', 'Grammage', 'Unit', 'Link', 'Scraping_Date', 'Discount', 'Actual_Price (CHF)', 'Regular_Price (CHF)', 'Actual_Price/Unit', 'Distance_average_price']]
+
+## 4.2 Visualize & exporting
 print(df.to_string())  # Visualize the data frame for final check
 df.to_csv('/Users/diazm/Documents/HSLU/05_AS2024/CIP/project/merged_dfs/pasta_sauces_merged.csv', index=False)  # save
-
-
 
 
 
