@@ -1,114 +1,114 @@
-ID,Competitor,Category,Product_Description,Brand,Regular_Price (CHF),Grammage,Unit,Link,Scraping_Date,Discount,Actual_Price (CHF),Regular_Price (CHF),Actual_Price/Unit,Distance_average_price
-0,lidl,Pasta Sauces,Bio gehackte Tomaten classic,Baresa,0.95,0.4,Kg,https://sortiment.lidl.ch/de/bio-gehackte-tomaten-classic-0133303,2024-11-01,no discount,0.95,0.95,2.375,-84.03%
-1,lidl,Pasta Sauces,Bio Passierte Tomaten,Baresa,1.59,0.7,Kg,https://sortiment.lidl.ch/de/bio-passierte-tomaten-0150221,2024-11-01,no discount,1.59,1.59,2.271,-84.73%
-3,lidl,Pasta Sauces,Geschälte Tomaten,Baresa,1.29,0.8,Kg,https://sortiment.lidl.ch/de/geschaelte-tomaten-0110541,2024-11-01,no discount,1.29,1.29,1.612,-89.16%
-4,lidl,Pasta Sauces,Passierte Tomaten Rustica,Baresa,1.19,0.72,L,https://sortiment.lidl.ch/de/passierte-tomaten-rustica-0133251,2024-11-01,no discount,1.19,1.19,1.653,-88.88%
-5,lidl,Pasta Sauces,Bio Tomatenmark,Baresa,1.39,0.2,Kg,https://sortiment.lidl.ch/de/bio-tomatenmark-0142043,2024-11-01,no discount,1.39,1.39,6.95,-53.26%
-13,lidl,Pasta Sauces,Tomatensuppe,Kania,0.39,0.059,Kg,https://sortiment.lidl.ch/de/tomatensuppe-0150092,2024-11-01,no discount,0.39,0.39,6.61,-55.54%
-14,lidl,Pasta Sauces,Passierte Tomaten,Freshona,0.95,0.5,Kg,https://sortiment.lidl.ch/de/passierte-tomaten-0029232,2024-11-01,no discount,0.95,0.95,1.9,-87.22%
-15,lidl,Pasta Sauces,Tomatenpüree,Baresa,0.95,0.2,Kg,https://sortiment.lidl.ch/de/tomatenpueree-0028939,2024-11-01,no discount,0.95,0.95,4.75,-68.05%
-16,lidl,Pasta Sauces,Gehackte Tomaten,Baresa,0.75,0.4,Kg,https://sortiment.lidl.ch/de/gehackte-tomaten-0029239,2024-11-01,no discount,0.75,0.75,1.875,-87.39%
-17,lidl,Pasta Sauces,Kirschtomatensauce,Italiamo,1.49,0.33,Kg,https://sortiment.lidl.ch/de/kirschtomatensauce-6000017,2024-11-01,no discount,1.49,1.49,4.515,-69.63%
-18,lidl,Pasta Sauces,Bio gehackte Tomaten gewürzt,Baresa,1.19,0.4,Kg,https://sortiment.lidl.ch/de/bio-gehackte-tomaten-gewuerzt-0126008,2024-11-01,no discount,1.19,1.19,2.975,-79.99%
-19,lidl,Pasta Sauces,Tomatensauce mit Basilikum,Baresa,1.19,0.7,Kg,https://sortiment.lidl.ch/de/tomatensauce-mit-basilikum-0029251,2024-11-01,no discount,1.19,1.19,1.7,-88.57%
-25,lidl,Pasta Sauces,Tomatenketchup hot,Kania,1.59,0.5,L,https://sortiment.lidl.ch/de/tomatenketchup-hot-0202080,2024-11-01,no discount,1.59,1.59,3.18,-78.61%
-27,lidl,Pasta Sauces,Sauce,Kania,1.75,0.265,Kg,https://sortiment.lidl.ch/de/sauce-5102344,2024-11-01,no discount,1.75,1.75,6.604,-55.58%
-29,lidl,Pasta Sauces,Tomatenketchup light,Kania,1.59,0.5,L,https://sortiment.lidl.ch/de/tomatenketchup-light-0192435,2024-11-01,no discount,1.59,1.59,3.18,-78.61%
-30,lidl,Pasta Sauces,Tomatenketchup,Kania,1.59,0.5,L,https://sortiment.lidl.ch/de/tomatenketchup-0079337,2024-11-01,no discount,1.59,1.59,3.18,-78.61%
-32,lidl,Pasta Sauces,Kirschtomatensauce,Baresa,1.59,0.33,Kg,https://sortiment.lidl.ch/de/kirschtomatensauce-6015800,2024-11-01,no discount,1.59,1.59,4.818,-67.6%
+ID,Competitor,Category,Product_Description,Brand,Regular_Price (CHF),Grammage,Unit,Link,Scraping_Date,Discount,Actual_Price (CHF),Regular_Price/Unit,Actual_Price/Unit,Distance_average_price
+0,lidl,Pasta Sauces,Bio gehackte Tomaten classic,Baresa,0.95,0.4,Kg,https://sortiment.lidl.ch/de/bio-gehackte-tomaten-classic-0133303,2024-11-01,no discount,0.95,2.375,2.375,-84.03%
+1,lidl,Pasta Sauces,Bio Passierte Tomaten,Baresa,1.59,0.7,Kg,https://sortiment.lidl.ch/de/bio-passierte-tomaten-0150221,2024-11-01,no discount,1.59,2.271,2.271,-84.73%
+3,lidl,Pasta Sauces,Geschälte Tomaten,Baresa,1.29,0.8,Kg,https://sortiment.lidl.ch/de/geschaelte-tomaten-0110541,2024-11-01,no discount,1.29,1.612,1.612,-89.16%
+4,lidl,Pasta Sauces,Passierte Tomaten Rustica,Baresa,1.19,0.72,L,https://sortiment.lidl.ch/de/passierte-tomaten-rustica-0133251,2024-11-01,no discount,1.19,1.653,1.653,-88.88%
+5,lidl,Pasta Sauces,Bio Tomatenmark,Baresa,1.39,0.2,Kg,https://sortiment.lidl.ch/de/bio-tomatenmark-0142043,2024-11-01,no discount,1.39,6.95,6.95,-53.26%
+13,lidl,Pasta Sauces,Tomatensuppe,Kania,0.39,0.059,Kg,https://sortiment.lidl.ch/de/tomatensuppe-0150092,2024-11-01,no discount,0.39,6.61,6.61,-55.54%
+14,lidl,Pasta Sauces,Passierte Tomaten,Freshona,0.95,0.5,Kg,https://sortiment.lidl.ch/de/passierte-tomaten-0029232,2024-11-01,no discount,0.95,1.9,1.9,-87.22%
+15,lidl,Pasta Sauces,Tomatenpüree,Baresa,0.95,0.2,Kg,https://sortiment.lidl.ch/de/tomatenpueree-0028939,2024-11-01,no discount,0.95,4.75,4.75,-68.05%
+16,lidl,Pasta Sauces,Gehackte Tomaten,Baresa,0.75,0.4,Kg,https://sortiment.lidl.ch/de/gehackte-tomaten-0029239,2024-11-01,no discount,0.75,1.875,1.875,-87.39%
+17,lidl,Pasta Sauces,Kirschtomatensauce,Italiamo,1.49,0.33,Kg,https://sortiment.lidl.ch/de/kirschtomatensauce-6000017,2024-11-01,no discount,1.49,4.515,4.515,-69.63%
+18,lidl,Pasta Sauces,Bio gehackte Tomaten gewürzt,Baresa,1.19,0.4,Kg,https://sortiment.lidl.ch/de/bio-gehackte-tomaten-gewuerzt-0126008,2024-11-01,no discount,1.19,2.975,2.975,-79.99%
+19,lidl,Pasta Sauces,Tomatensauce mit Basilikum,Baresa,1.19,0.7,Kg,https://sortiment.lidl.ch/de/tomatensauce-mit-basilikum-0029251,2024-11-01,no discount,1.19,1.7,1.7,-88.57%
+25,lidl,Pasta Sauces,Tomatenketchup hot,Kania,1.59,0.5,L,https://sortiment.lidl.ch/de/tomatenketchup-hot-0202080,2024-11-01,no discount,1.59,3.18,3.18,-78.61%
+27,lidl,Pasta Sauces,Sauce,Kania,1.75,0.265,Kg,https://sortiment.lidl.ch/de/sauce-5102344,2024-11-01,no discount,1.75,6.604,6.604,-55.58%
+29,lidl,Pasta Sauces,Tomatenketchup light,Kania,1.59,0.5,L,https://sortiment.lidl.ch/de/tomatenketchup-light-0192435,2024-11-01,no discount,1.59,3.18,3.18,-78.61%
+30,lidl,Pasta Sauces,Tomatenketchup,Kania,1.59,0.5,L,https://sortiment.lidl.ch/de/tomatenketchup-0079337,2024-11-01,no discount,1.59,3.18,3.18,-78.61%
+32,lidl,Pasta Sauces,Kirschtomatensauce,Baresa,1.59,0.33,Kg,https://sortiment.lidl.ch/de/kirschtomatensauce-6015800,2024-11-01,no discount,1.59,4.818,4.818,-67.6%
 35,lidl,Pasta Sauces,Tomatenketchup,Kania,1.19,1.0,Kg,https://sortiment.lidl.ch/de/tomatenketchup-6906368,2024-11-01,no discount,1.19,1.19,1.19,-92.0%
-36,lidl,Pasta Sauces,Veganes Pesto,Vemondo,1.59,0.19,Kg,https://sortiment.lidl.ch/de/veganes-pesto-0162808,2024-11-01,no discount,1.59,1.59,8.368,-43.72%
-37,lidl,Pasta Sauces,Pastasauce,Combino,1.09,0.4,L,https://sortiment.lidl.ch/de/pastasauce-0029787,2024-11-01,no discount,1.09,1.09,2.725,-81.67%
-38,lidl,Pasta Sauces,Barilla Pesto,Barilla,3.99,0.19,Kg,https://sortiment.lidl.ch/de/barilla-pesto-0002861,2024-11-01,no discount,3.99,3.99,21.0,41.24%
-39,lidl,Pasta Sauces,Chinoisesaucen,Deluxe,1.49,0.18,Kg,https://sortiment.lidl.ch/de/chinoisesaucen-0001887,2024-11-01,no discount,1.49,1.49,8.278,-44.33%
-41,lidl,Pasta Sauces,Barilla Arrabbiata Sauce,Barilla,2.99,0.4,Kg,https://sortiment.lidl.ch/de/barilla-arrabbiata-sauce-0001767,2024-11-01,no discount,2.99,2.99,7.475,-49.73%
-42,lidl,Pasta Sauces,Barilla Napoletana Sauce,Barilla,2.99,0.4,Kg,https://sortiment.lidl.ch/de/barilla-napoletana-sauce-0001061,2024-11-01,no discount,2.99,2.99,7.475,-49.73%
-43,lidl,Pasta Sauces,Barilla Basilico Sauce,Barilla,2.99,0.4,Kg,https://sortiment.lidl.ch/de/barilla-basilico-sauce-0001060,2024-11-01,no discount,2.99,2.99,7.475,-49.73%
-44,lidl,Pasta Sauces,Bio Pastasauce,Combino,1.85,0.35,Kg,https://sortiment.lidl.ch/de/bio-pastasauce-0039124,2024-11-01,no discount,1.85,1.85,5.286,-64.45%
-45,lidl,Pasta Sauces,Pesto,Italiamo,1.45,0.19,Kg,https://sortiment.lidl.ch/de/pesto-0011624,2024-11-01,no discount,1.45,1.45,7.632,-48.67%
-47,lidl,Pasta Sauces,Barilla Bolognese/Ricotta Sauce,Barilla,3.99,0.4,Kg,https://sortiment.lidl.ch/de/barilla-bolognese-ricotta-sauce-0003353,2024-11-01,no discount,3.99,3.99,9.975,-32.91%
-48,Mirgos,Pasta Sauces,Longobardi Pizza Sauce Basilikum,Longobardi,1.3,0.2,Kg,https://www.migros.ch//de/product/153220500000,2024-11-01,no discount,1.3,1.3,6.5,-56.28%
-49,Mirgos,Pasta Sauces,Migros Bio Tomatensauce,Migros,3.1,0.4,Kg,https://www.migros.ch//de/product/153210200000,2024-11-01,no discount,3.1,3.1,7.75,-47.88%
-50,Mirgos,Pasta Sauces,Salsa all' Italiana Tomatensauce Napoli,Salsa,1.55,0.25,L,https://www.migros.ch//de/product/153224200000,2024-11-01,no discount,1.55,1.55,6.2,-58.3%
-51,Mirgos,Pasta Sauces,Agnesi Tomatensauce Basilico,Agnesi,2.95,0.4,Kg,https://www.migros.ch//de/product/153221700000,2024-11-01,no discount,2.95,2.95,7.375,-50.4%
-52,Mirgos,Pasta Sauces,Agnesi Tomatensauce mit Gemüse,Agnesi,4.4,0.4,Kg,https://www.migros.ch//de/product/153222000000,2024-11-01,no discount,4.4,4.4,11.0,-26.02%
-53,Mirgos,Pasta Sauces,Agnesi Pesto alla Genovese,Agnesi,3.9,0.185,Kg,https://www.migros.ch//de/product/153225800000,2024-11-01,no discount,3.9,3.9,21.081,41.78%
-54,Mirgos,Pasta Sauces,Demeter Tomatensauce basilico,Demeter,4.5,0.34,Kg,https://www.migros.ch//de/product/153211700000,2024-11-01,no discount,4.5,4.5,13.235,-10.99%
-55,Mirgos,Pasta Sauces,Salsa all' Italiana Tomatensauce Basilikum und Olivenöl,Salsa,1.35,0.25,L,https://www.migros.ch//de/product/153224300000,2024-11-01,no discount,1.35,1.35,5.4,-63.68%
-56,Mirgos,Pasta Sauces,Sélection Pesto Sauce Limone,Sélection,4.95,0.13,Kg,https://www.migros.ch//de/product/153236800000,2024-11-01,no discount,4.95,4.95,38.077,156.09%
-57,Mirgos,Pasta Sauces,Demeter Tomatensauce arrabbiata,Demeter,4.5,0.34,Kg,https://www.migros.ch//de/product/153211800000,2024-11-01,no discount,4.5,4.5,13.235,-10.99%
-58,Mirgos,Pasta Sauces,Agnesi Tomatensauce Bolognese,Agnesi,4.0,0.4,Kg,https://www.migros.ch//de/product/153221800000,2024-11-01,no discount,4.0,4.0,10.0,-32.74%
-59,Mirgos,Pasta Sauces,Sélection Pesto con basilico Genovese D.O.P,Sélection,4.95,0.09,Kg,https://www.migros.ch//de/product/153236500000,2024-11-01,no discount,4.95,4.95,55.0,269.91%
-60,Mirgos,Pasta Sauces,Agnesi Pesto Alla Calabrese,Agnesi,3.9,0.185,Kg,https://www.migros.ch//de/product/153223400000,2024-11-01,no discount,3.9,3.9,21.081,41.78%
-61,Mirgos,Pasta Sauces,Alnatura Pesto Basilico,Alnatura,2.7,0.13,Kg,https://www.migros.ch//de/product/153270300000,2024-11-01,no discount,2.7,2.7,20.769,39.68%
-62,Mirgos,Pasta Sauces,Agnesi Tomatensauce Napoletana,Agnesi,2.95,0.4,Kg,https://www.migros.ch//de/product/153222300000,2024-11-01,no discount,2.95,2.95,7.375,-50.4%
-63,Mirgos,Pasta Sauces,Migros Bio Pesto mit grilliertem Gemüse,Migros,3.95,0.13,Kg,https://www.migros.ch//de/product/153210500000,2024-11-01,no discount,3.95,3.95,30.385,104.36%
-64,Mirgos,Pasta Sauces,Alnatura Pesto Arrabbiata,Alnatura,3.7,0.13,Kg,https://www.migros.ch//de/product/153270200000,2024-11-01,no discount,3.7,3.7,28.462,91.42%
-65,Mirgos,Pasta Sauces,Alnatura Pesto Ricotta,Alnatura,3.7,0.14,Kg,https://www.migros.ch//de/product/153271200000,2024-11-01,no discount,3.7,3.7,26.429,77.75%
-66,Mirgos,Pasta Sauces,Agnesi Pesto Rosso,Agnesi,3.7,0.185,Kg,https://www.migros.ch//de/product/153223300000,2024-11-01,no discount,3.7,3.7,20.0,34.51%
-67,Mirgos,Pasta Sauces,Salsa all' Italiana Tomatensauce Bolognese,Salsa,1.95,0.25,L,https://www.migros.ch//de/product/153224800000,2024-11-01,no discount,1.95,1.95,7.8,-47.54%
-68,Mirgos,Pasta Sauces,Alnatura Sugo Basilico,Alnatura,2.25,0.34,Kg,https://www.migros.ch//de/product/153270500000,2024-11-01,no discount,2.25,2.25,6.618,-55.49%
-69,Mirgos,Pasta Sauces,M-Budget Pesto alla genovese,M-Budget,1.6,0.19,Kg,https://www.migros.ch//de/product/153236600000,2024-11-01,no discount,1.6,1.6,8.421,-43.36%
-70,Mirgos,Pasta Sauces,Garofalo Sauce fur Pasta Pesto alla Genovese,Garofalo,4.1,0.18,Kg,https://www.migros.ch//de/product/153236100000,2024-11-01,no discount,4.1,4.1,22.778,53.19%
-71,Mirgos,Pasta Sauces,Demeter pesto al basilico mit Knoblauch,Demeter,4.1,0.13,Kg,https://www.migros.ch//de/product/153211600000,2024-11-01,no discount,4.1,4.1,31.538,112.11%
-72,Mirgos,Pasta Sauces,Salsa all' Italiana Tomatensauce Arrabbiata,Salsa,1.35,0.25,L,https://www.migros.ch//de/product/153224100000,2024-11-01,no discount,1.35,1.35,5.4,-63.68%
-73,Mirgos,Pasta Sauces,Alnatura Sugo Toscano,Alnatura,2.9,0.34,Kg,https://www.migros.ch//de/product/153270700000,2024-11-01,no discount,2.9,2.9,8.529,-42.64%
-74,Mirgos,Pasta Sauces,Alnatura Tomatensauce Mit Kräuter,Alnatura,2.95,0.35,L,https://www.migros.ch//de/product/153271300000,2024-11-01,no discount,2.95,2.95,8.429,-43.31%
-75,Mirgos,Pasta Sauces,Agnesi Tomatensauce Basilico,Agnesi,2.25,0.19,Kg,https://www.migros.ch//de/product/153200400000,2024-11-01,no discount,2.25,2.25,11.842,-20.36%
-76,Mirgos,Pasta Sauces,Bon Chef Käsesauce,Bon Chef,1.9,0.037,Kg,https://www.migros.ch//de/product/106508200000,2024-11-01,no discount,1.9,1.9,51.351,245.36%
-77,Mirgos,Pasta Sauces,M-Classic Tomatenpüree mit Gemüse,M-Classic,1.95,0.2,Kg,https://www.migros.ch//de/product/153226300000,2024-11-01,no discount,1.95,1.95,9.75,-34.43%
-78,Mirgos,Pasta Sauces,Agnesi Tomatensauce Arrabbiata,Agnesi,2.95,0.4,Kg,https://www.migros.ch//de/product/153223100000,2024-11-01,no discount,2.95,2.95,7.375,-50.4%
-79,Mirgos,Pasta Sauces,Migros Bio Pesto Rosso,Migros,3.0,0.13,Kg,https://www.migros.ch//de/product/153210400000,2024-11-01,no discount,3.0,3.0,23.077,55.21%
-80,Mirgos,Pasta Sauces,Alnatura Vegetarische Gemüse Bolognese,Alnatura,2.85,0.35,L,https://www.migros.ch//de/product/153270900000,2024-11-01,no discount,2.85,2.85,8.143,-45.23%
-81,Mirgos,Pasta Sauces,Alnatura Pesto Rosso,Alnatura,2.4,0.12,Kg,https://www.migros.ch//de/product/153270000000,2024-11-01,no discount,2.4,2.4,20.0,34.51%
-82,Mirgos,Pasta Sauces,Garofalo Sauce fur Pasta Pomodoro e Basilico,Garofalo,2.8,0.18,Kg,https://www.migros.ch//de/product/153236300000,2024-11-01,no discount,2.8,2.8,15.556,4.62%
-83,Mirgos,Pasta Sauces,Longobardi Pizza Sauce con aglio e origano,Longobardi,1.1,0.2,Kg,https://www.migros.ch//de/product/153234700000,2024-11-01,no discount,1.1,1.1,5.5,-63.01%
-85,Mirgos,Pasta Sauces,La Molisana Pastasauce Basilico,La Molisana,2.5,0.34,Kg,https://www.migros.ch//de/product/153200900000,2024-11-01,no discount,2.5,2.5,7.353,-50.55%
-86,Mirgos,Pasta Sauces,Agnesi Pesto Rosso,Agnesi,5.55,2.185,Kg,https://www.migros.ch//de/product/153226400000,2024-11-01,no discount,5.55,5.55,2.54,-82.92%
-87,Mirgos,Pasta Sauces,M-Budget Mix Bolognese,M-Budget,0.65,0.05,Kg,https://www.migros.ch//de/product/106501000000,2024-11-01,no discount,0.65,0.65,13.0,-12.57%
-88,Mirgos,Pasta Sauces,Sugo al Basilico,Sugo,3.1,0.35,Kg,https://www.migros.ch//de/product/153220600000,2024-11-01,no discount,3.1,3.1,8.857,-40.43%
-89,Mirgos,Pasta Sauces,Sugo Basilico,Sugo,4.8,0.28,Kg,https://www.migros.ch//de/product/153252100000,2024-11-01,no discount,4.8,4.8,17.143,15.3%
-90,Mirgos,Pasta Sauces,Aus der Region Bärlauchpüree,Aus der Region,7.1,0.095,Kg,https://www.migros.ch//de/product/153261000000,2024-11-01,no discount,7.1,7.1,74.737,402.65%
-91,Mirgos,Pasta Sauces,Sugo alla Carne,Sugo,3.9,0.35,Kg,https://www.migros.ch//de/product/153220900000,2024-11-01,no discount,3.9,3.9,11.143,-25.06%
-92,Mirgos,Pasta Sauces,Sugo Rustico,Sugo,4.8,0.28,Kg,https://www.migros.ch//de/product/153252000000,2024-11-01,no discount,4.8,4.8,17.143,15.3%
-93,Mirgos,Pasta Sauces,Pesto genovese senza aglio,Pesto,4.4,0.09,Kg,https://www.migros.ch//de/product/130602900000,2024-11-01,no discount,4.4,4.4,48.889,228.81%
-94,Mirgos,Pasta Sauces,Pesto genovese con aglio,Pesto,4.4,0.09,Kg,https://www.migros.ch//de/product/130602800000,2024-11-01,no discount,4.4,4.4,48.889,228.81%
-95,Mirgos,Pasta Sauces,Star Ragù funghi porcini,Star,4.5,2.18,Kg,https://www.migros.ch//de/product/153240100000,2024-11-01,no discount,4.5,4.5,2.064,-86.12%
-96,Mirgos,Pasta Sauces,Pesto Carc/Prezzem,Pesto,2.1,0.12,Kg,https://www.migros.ch//de/product/153226600000,2024-11-01,20.0%,1.68,2.1,14.0,17.7%
-97,Mirgos,Pasta Sauces,V-Love Tomatensauce Bolognese,V-Love,2.25,0.35,Kg,https://www.migros.ch//de/product/153225700000,2024-11-01,no discount,2.25,2.25,6.429,-56.76%
-98,Mirgos,Pasta Sauces,Sélection Trüffelpesto,Sélection,4.8,0.13,Kg,https://www.migros.ch//de/product/153211900000,2024-11-01,no discount,4.8,4.8,36.923,148.33%
-99,Mirgos,Pasta Sauces,Sélection Pesto peperoncin,Sélection,4.6,0.13,Kg,https://www.migros.ch//de/product/153212000000,2024-11-01,no discount,4.6,4.6,35.385,137.98%
-100,Mirgos,Pasta Sauces,Aus der Region Tomatensugo Basili.,Aus der Region,6.5,0.36,L,https://www.migros.ch//de/product/153264000000,2024-11-01,no discount,6.5,6.5,18.056,21.44%
-102,Mirgos,Pasta Sauces,Agnesi Pesto mit Aubergine,Agnesi,5.55,2.185,Kg,https://www.migros.ch//de/product/153223800000,2024-11-01,no discount,5.55,5.55,2.54,-82.92%
-103,Mirgos,Pasta Sauces,Migros Bio Tomatensauce scharf,Migros,4.95,2.35,Kg,https://www.migros.ch//de/product/153212500000,2024-11-01,no discount,4.95,4.95,2.106,-85.84%
-104,Mirgos,Pasta Sauces,Monini Pesto Rucola,Monini,3.9,0.19,Kg,https://www.migros.ch//de/product/153240400000,2024-11-01,no discount,3.9,3.9,20.526,38.05%
-105,Mirgos,Pasta Sauces,Agnesi Sauce Bolognese,Agnesi,10.5,4.4,Kg,https://www.migros.ch//de/product/153224600000,2024-11-01,no discount,10.5,10.5,2.386,-83.95%
-106,Mirgos,Pasta Sauces,Sugo Carciofi,Sugo,4.35,0.33,Kg,https://www.migros.ch//de/product/153226000000,2024-11-01,20.0%,3.48,4.35,10.545,-11.34%
-107,Mirgos,Pasta Sauces,Aus der Region Pesto Vaudois,Aus der Region,6.95,0.09,Kg,https://www.migros.ch//de/product/153265200000,2024-11-01,no discount,6.95,6.95,77.222,419.36%
-108,Mirgos,Pasta Sauces,Monini Pesto Rosso,Monini,3.9,0.19,Kg,https://www.migros.ch//de/product/153240500000,2024-11-01,no discount,3.9,3.9,20.526,38.05%
-109,Mirgos,Pasta Sauces,Monini Pesto Genovese,Monini,3.9,0.19,Kg,https://www.migros.ch//de/product/153240600000,2024-11-01,no discount,3.9,3.9,20.526,38.05%
-110,Mirgos,Pasta Sauces,Da Emilio Pesto Limone,Da Emilio,3.6,0.13,Kg,https://www.migros.ch//de/product/153227700000,2024-11-01,20.0%,2.88,3.6,22.154,86.24%
-111,Mirgos,Pasta Sauces,V-Love Pesto genovese,V-Love,2.3,0.13,Kg,https://www.migros.ch//de/product/153272700000,2024-11-01,no discount,2.3,2.3,17.692,18.99%
-112,Mirgos,Pasta Sauces,"Bon Chef Sauce Carbonara Eiern, Rahm und Speck, für Teigwaren",Bon Chef,1.9,0.022,Kg,https://www.migros.ch//de/product/106508300000,2024-11-01,no discount,1.9,1.9,86.364,480.85%
-113,Mirgos,Pasta Sauces,La Molisana Pastasauce Marinara,La Molisana,2.5,0.34,Kg,https://www.migros.ch//de/product/153200700000,2024-11-01,no discount,2.5,2.5,7.353,-50.55%
-114,Mirgos,Pasta Sauces,La Molisana Pesto Basilico,La Molisana,3.9,0.19,Kg,https://www.migros.ch//de/product/153200500000,2024-11-01,no discount,3.9,3.9,20.526,38.05%
-115,Mirgos,Pasta Sauces,Migros Bio Tomatensauce mit Gemüse,Migros,4.25,0.42,Kg,https://www.migros.ch//de/product/153239500000,2024-11-01,no discount,4.25,4.25,10.119,-31.94%
-116,Mirgos,Pasta Sauces,La Molisana Pastasauce Arrabbiata,La Molisana,2.5,0.34,Kg,https://www.migros.ch//de/product/153200800000,2024-11-01,no discount,2.5,2.5,7.353,-50.55%
-117,Mirgos,Pasta Sauces,La Molisana Pesto Rosso,La Molisana,3.9,0.19,Kg,https://www.migros.ch//de/product/153200600000,2024-11-01,no discount,3.9,3.9,20.526,38.05%
-118,Mirgos,Pasta Sauces,Da Emilio Tomatensauce Napoletana,Da Emilio,3.6,0.29,Kg,https://www.migros.ch//de/product/153227200000,2024-11-01,20.0%,2.88,3.6,9.931,-16.51%
-120,Mirgos,Pasta Sauces,Da Emilio Tomatensauce Aglio e Peperoncino,Da Emilio,3.45,0.33,Kg,https://www.migros.ch//de/product/153226200000,2024-11-01,20.0%,2.76,3.45,8.364,-29.68%
-121,Mirgos,Pasta Sauces,Bon Chef Sauce Napoli für Teigwaren,Bon Chef,1.9,0.05,Kg,https://www.migros.ch//de/product/106508500000,2024-11-01,no discount,1.9,1.9,38.0,155.57%
-122,Mirgos,Pasta Sauces,Garofalo Tomatensauce arrabbiata,Garofalo,2.8,0.18,Kg,https://www.migros.ch//de/product/153236700000,2024-11-01,no discount,2.8,2.8,15.556,4.62%
-123,Mirgos,Pasta Sauces,Garofalo Pesto Alla Calabrese,Garofalo,4.1,0.18,Kg,https://www.migros.ch//de/product/153235700000,2024-11-01,no discount,4.1,4.1,22.778,53.19%
-124,Mirgos,Pasta Sauces,Alnatura Tomatensauce Toskana,Alnatura,2.3,0.34,Kg,https://www.migros.ch//de/product/153270800000,2024-11-01,no discount,2.3,2.3,6.765,-54.5%
-125,Mirgos,Pasta Sauces,Agnesi Arrabbiatasauce,Agnesi,2.2,0.19,Kg,https://www.migros.ch//de/product/153200300000,2024-11-01,no discount,2.2,2.2,11.579,-22.12%
-126,Mirgos,Pasta Sauces,Alnatura Tomatensauce Ricotta Bio,Alnatura,3.2,0.35,L,https://www.migros.ch//de/product/153271500000,2024-11-01,no discount,3.2,3.2,9.143,-38.51%
-127,Mirgos,Pasta Sauces,M-Budget Tomatensauce mit Basilikum,M-Budget,1.05,0.42,Kg,https://www.migros.ch//de/product/153211500000,2024-11-01,no discount,1.05,1.05,2.5,-83.19%
-128,Mirgos,Pasta Sauces,Da Emilio Tomatensauce mit Datteltomaten,Da Emilio,2.6,0.33,Kg,https://www.migros.ch//de/product/153255000000,2024-11-01,20.0%,2.08,2.6,6.303,-47.01%
-129,Mirgos,Pasta Sauces,Alnatura Bolognese Sauce,Alnatura,3.1,0.33,L,https://www.migros.ch//de/product/153271700000,2024-11-01,no discount,3.1,3.1,9.394,-36.82%
-130,Mirgos,Pasta Sauces,Alnatura Sugo Piccante,Alnatura,2.25,0.34,Kg,https://www.migros.ch//de/product/153270600000,2024-11-01,no discount,2.25,2.25,6.618,-55.49%
-131,Mirgos,Pasta Sauces,V-Love Tomatensauce,V-Love,3.5,0.29,Kg,https://www.migros.ch//de/product/153272600000,2024-11-01,no discount,3.5,3.5,12.069,-18.83%
-133,Mirgos,Pasta Sauces,Migros Bio salsa mit getrockneten Tomaten,Migros,3.5,0.42,Kg,https://www.migros.ch//de/product/153212200000,2024-11-01,no discount,3.5,3.5,8.333,-43.96%
-134,Mirgos,Pasta Sauces,Alnatura Pesto Verde,Alnatura,2.4,0.12,Kg,https://www.migros.ch//de/product/153271800000,2024-11-01,no discount,2.4,2.4,20.0,34.51%
-135,Mirgos,Pasta Sauces,Da Emilio Tomatensauce Ciliegino con basilico,Da Emilio,2.6,0.33,Kg,https://www.migros.ch//de/product/153225900000,2024-11-01,20.0%,2.08,2.6,6.303,-47.01%
-136,Mirgos,Pasta Sauces,Migros Bio Tomatensauce Arrabbiata,Migros,3.2,0.42,Kg,https://www.migros.ch//de/product/153238900000,2024-11-01,no discount,3.2,3.2,7.619,-48.76%
+36,lidl,Pasta Sauces,Veganes Pesto,Vemondo,1.59,0.19,Kg,https://sortiment.lidl.ch/de/veganes-pesto-0162808,2024-11-01,no discount,1.59,8.368,8.368,-43.72%
+37,lidl,Pasta Sauces,Pastasauce,Combino,1.09,0.4,L,https://sortiment.lidl.ch/de/pastasauce-0029787,2024-11-01,no discount,1.09,2.725,2.725,-81.67%
+38,lidl,Pasta Sauces,Barilla Pesto,Barilla,3.99,0.19,Kg,https://sortiment.lidl.ch/de/barilla-pesto-0002861,2024-11-01,no discount,3.99,21.0,21.0,41.24%
+39,lidl,Pasta Sauces,Chinoisesaucen,Deluxe,1.49,0.18,Kg,https://sortiment.lidl.ch/de/chinoisesaucen-0001887,2024-11-01,no discount,1.49,8.278,8.278,-44.33%
+41,lidl,Pasta Sauces,Barilla Arrabbiata Sauce,Barilla,2.99,0.4,Kg,https://sortiment.lidl.ch/de/barilla-arrabbiata-sauce-0001767,2024-11-01,no discount,2.99,7.475,7.475,-49.73%
+42,lidl,Pasta Sauces,Barilla Napoletana Sauce,Barilla,2.99,0.4,Kg,https://sortiment.lidl.ch/de/barilla-napoletana-sauce-0001061,2024-11-01,no discount,2.99,7.475,7.475,-49.73%
+43,lidl,Pasta Sauces,Barilla Basilico Sauce,Barilla,2.99,0.4,Kg,https://sortiment.lidl.ch/de/barilla-basilico-sauce-0001060,2024-11-01,no discount,2.99,7.475,7.475,-49.73%
+44,lidl,Pasta Sauces,Bio Pastasauce,Combino,1.85,0.35,Kg,https://sortiment.lidl.ch/de/bio-pastasauce-0039124,2024-11-01,no discount,1.85,5.286,5.286,-64.45%
+45,lidl,Pasta Sauces,Pesto,Italiamo,1.45,0.19,Kg,https://sortiment.lidl.ch/de/pesto-0011624,2024-11-01,no discount,1.45,7.632,7.632,-48.67%
+47,lidl,Pasta Sauces,Barilla Bolognese/Ricotta Sauce,Barilla,3.99,0.4,Kg,https://sortiment.lidl.ch/de/barilla-bolognese-ricotta-sauce-0003353,2024-11-01,no discount,3.99,9.975,9.975,-32.91%
+48,Migros,Pasta Sauces,Longobardi Pizza Sauce Basilikum,Longobardi,1.3,0.2,Kg,https://www.migros.ch//de/product/153220500000,2024-11-01,no discount,1.3,6.5,6.5,-56.28%
+49,Migros,Pasta Sauces,Migros Bio Tomatensauce,Migros,3.1,0.4,Kg,https://www.migros.ch//de/product/153210200000,2024-11-01,no discount,3.1,7.75,7.75,-47.88%
+50,Migros,Pasta Sauces,Salsa all' Italiana Tomatensauce Napoli,Salsa,1.55,0.25,L,https://www.migros.ch//de/product/153224200000,2024-11-01,no discount,1.55,6.2,6.2,-58.3%
+51,Migros,Pasta Sauces,Agnesi Tomatensauce Basilico,Agnesi,2.95,0.4,Kg,https://www.migros.ch//de/product/153221700000,2024-11-01,no discount,2.95,7.375,7.375,-50.4%
+52,Migros,Pasta Sauces,Agnesi Tomatensauce mit Gemüse,Agnesi,4.4,0.4,Kg,https://www.migros.ch//de/product/153222000000,2024-11-01,no discount,4.4,11.0,11.0,-26.02%
+53,Migros,Pasta Sauces,Agnesi Pesto alla Genovese,Agnesi,3.9,0.185,Kg,https://www.migros.ch//de/product/153225800000,2024-11-01,no discount,3.9,21.081,21.081,41.78%
+54,Migros,Pasta Sauces,Demeter Tomatensauce basilico,Demeter,4.5,0.34,Kg,https://www.migros.ch//de/product/153211700000,2024-11-01,no discount,4.5,13.235,13.235,-10.99%
+55,Migros,Pasta Sauces,Salsa all' Italiana Tomatensauce Basilikum und Olivenöl,Salsa,1.35,0.25,L,https://www.migros.ch//de/product/153224300000,2024-11-01,no discount,1.35,5.4,5.4,-63.68%
+56,Migros,Pasta Sauces,Sélection Pesto Sauce Limone,Sélection,4.95,0.13,Kg,https://www.migros.ch//de/product/153236800000,2024-11-01,no discount,4.95,38.077,38.077,156.09%
+57,Migros,Pasta Sauces,Demeter Tomatensauce arrabbiata,Demeter,4.5,0.34,Kg,https://www.migros.ch//de/product/153211800000,2024-11-01,no discount,4.5,13.235,13.235,-10.99%
+58,Migros,Pasta Sauces,Agnesi Tomatensauce Bolognese,Agnesi,4.0,0.4,Kg,https://www.migros.ch//de/product/153221800000,2024-11-01,no discount,4.0,10.0,10.0,-32.74%
+59,Migros,Pasta Sauces,Sélection Pesto con basilico Genovese D.O.P,Sélection,4.95,0.09,Kg,https://www.migros.ch//de/product/153236500000,2024-11-01,no discount,4.95,55.0,55.0,269.91%
+60,Migros,Pasta Sauces,Agnesi Pesto Alla Calabrese,Agnesi,3.9,0.185,Kg,https://www.migros.ch//de/product/153223400000,2024-11-01,no discount,3.9,21.081,21.081,41.78%
+61,Migros,Pasta Sauces,Alnatura Pesto Basilico,Alnatura,2.7,0.13,Kg,https://www.migros.ch//de/product/153270300000,2024-11-01,no discount,2.7,20.769,20.769,39.68%
+62,Migros,Pasta Sauces,Agnesi Tomatensauce Napoletana,Agnesi,2.95,0.4,Kg,https://www.migros.ch//de/product/153222300000,2024-11-01,no discount,2.95,7.375,7.375,-50.4%
+63,Migros,Pasta Sauces,Migros Bio Pesto mit grilliertem Gemüse,Migros,3.95,0.13,Kg,https://www.migros.ch//de/product/153210500000,2024-11-01,no discount,3.95,30.385,30.385,104.36%
+64,Migros,Pasta Sauces,Alnatura Pesto Arrabbiata,Alnatura,3.7,0.13,Kg,https://www.migros.ch//de/product/153270200000,2024-11-01,no discount,3.7,28.462,28.462,91.42%
+65,Migros,Pasta Sauces,Alnatura Pesto Ricotta,Alnatura,3.7,0.14,Kg,https://www.migros.ch//de/product/153271200000,2024-11-01,no discount,3.7,26.429,26.429,77.75%
+66,Migros,Pasta Sauces,Agnesi Pesto Rosso,Agnesi,3.7,0.185,Kg,https://www.migros.ch//de/product/153223300000,2024-11-01,no discount,3.7,20.0,20.0,34.51%
+67,Migros,Pasta Sauces,Salsa all' Italiana Tomatensauce Bolognese,Salsa,1.95,0.25,L,https://www.migros.ch//de/product/153224800000,2024-11-01,no discount,1.95,7.8,7.8,-47.54%
+68,Migros,Pasta Sauces,Alnatura Sugo Basilico,Alnatura,2.25,0.34,Kg,https://www.migros.ch//de/product/153270500000,2024-11-01,no discount,2.25,6.618,6.618,-55.49%
+69,Migros,Pasta Sauces,M-Budget Pesto alla genovese,M-Budget,1.6,0.19,Kg,https://www.migros.ch//de/product/153236600000,2024-11-01,no discount,1.6,8.421,8.421,-43.36%
+70,Migros,Pasta Sauces,Garofalo Sauce fur Pasta Pesto alla Genovese,Garofalo,4.1,0.18,Kg,https://www.migros.ch//de/product/153236100000,2024-11-01,no discount,4.1,22.778,22.778,53.19%
+71,Migros,Pasta Sauces,Demeter pesto al basilico mit Knoblauch,Demeter,4.1,0.13,Kg,https://www.migros.ch//de/product/153211600000,2024-11-01,no discount,4.1,31.538,31.538,112.11%
+72,Migros,Pasta Sauces,Salsa all' Italiana Tomatensauce Arrabbiata,Salsa,1.35,0.25,L,https://www.migros.ch//de/product/153224100000,2024-11-01,no discount,1.35,5.4,5.4,-63.68%
+73,Migros,Pasta Sauces,Alnatura Sugo Toscano,Alnatura,2.9,0.34,Kg,https://www.migros.ch//de/product/153270700000,2024-11-01,no discount,2.9,8.529,8.529,-42.64%
+74,Migros,Pasta Sauces,Alnatura Tomatensauce Mit Kräuter,Alnatura,2.95,0.35,L,https://www.migros.ch//de/product/153271300000,2024-11-01,no discount,2.95,8.429,8.429,-43.31%
+75,Migros,Pasta Sauces,Agnesi Tomatensauce Basilico,Agnesi,2.25,0.19,Kg,https://www.migros.ch//de/product/153200400000,2024-11-01,no discount,2.25,11.842,11.842,-20.36%
+76,Migros,Pasta Sauces,Bon Chef Käsesauce,Bon Chef,1.9,0.037,Kg,https://www.migros.ch//de/product/106508200000,2024-11-01,no discount,1.9,51.351,51.351,245.36%
+77,Migros,Pasta Sauces,M-Classic Tomatenpüree mit Gemüse,M-Classic,1.95,0.2,Kg,https://www.migros.ch//de/product/153226300000,2024-11-01,no discount,1.95,9.75,9.75,-34.43%
+78,Migros,Pasta Sauces,Agnesi Tomatensauce Arrabbiata,Agnesi,2.95,0.4,Kg,https://www.migros.ch//de/product/153223100000,2024-11-01,no discount,2.95,7.375,7.375,-50.4%
+79,Migros,Pasta Sauces,Migros Bio Pesto Rosso,Migros,3.0,0.13,Kg,https://www.migros.ch//de/product/153210400000,2024-11-01,no discount,3.0,23.077,23.077,55.21%
+80,Migros,Pasta Sauces,Alnatura Vegetarische Gemüse Bolognese,Alnatura,2.85,0.35,L,https://www.migros.ch//de/product/153270900000,2024-11-01,no discount,2.85,8.143,8.143,-45.23%
+81,Migros,Pasta Sauces,Alnatura Pesto Rosso,Alnatura,2.4,0.12,Kg,https://www.migros.ch//de/product/153270000000,2024-11-01,no discount,2.4,20.0,20.0,34.51%
+82,Migros,Pasta Sauces,Garofalo Sauce fur Pasta Pomodoro e Basilico,Garofalo,2.8,0.18,Kg,https://www.migros.ch//de/product/153236300000,2024-11-01,no discount,2.8,15.556,15.556,4.62%
+83,Migros,Pasta Sauces,Longobardi Pizza Sauce con aglio e origano,Longobardi,1.1,0.2,Kg,https://www.migros.ch//de/product/153234700000,2024-11-01,no discount,1.1,5.5,5.5,-63.01%
+85,Migros,Pasta Sauces,La Molisana Pastasauce Basilico,La Molisana,2.5,0.34,Kg,https://www.migros.ch//de/product/153200900000,2024-11-01,no discount,2.5,7.353,7.353,-50.55%
+86,Migros,Pasta Sauces,Agnesi Pesto Rosso,Agnesi,5.55,2.185,Kg,https://www.migros.ch//de/product/153226400000,2024-11-01,no discount,5.55,2.54,2.54,-82.92%
+87,Migros,Pasta Sauces,M-Budget Mix Bolognese,M-Budget,0.65,0.05,Kg,https://www.migros.ch//de/product/106501000000,2024-11-01,no discount,0.65,13.0,13.0,-12.57%
+88,Migros,Pasta Sauces,Sugo al Basilico,Sugo,3.1,0.35,Kg,https://www.migros.ch//de/product/153220600000,2024-11-01,no discount,3.1,8.857,8.857,-40.43%
+89,Migros,Pasta Sauces,Sugo Basilico,Sugo,4.8,0.28,Kg,https://www.migros.ch//de/product/153252100000,2024-11-01,no discount,4.8,17.143,17.143,15.3%
+90,Migros,Pasta Sauces,Aus der Region Bärlauchpüree,Aus der Region,7.1,0.095,Kg,https://www.migros.ch//de/product/153261000000,2024-11-01,no discount,7.1,74.737,74.737,402.65%
+91,Migros,Pasta Sauces,Sugo alla Carne,Sugo,3.9,0.35,Kg,https://www.migros.ch//de/product/153220900000,2024-11-01,no discount,3.9,11.143,11.143,-25.06%
+92,Migros,Pasta Sauces,Sugo Rustico,Sugo,4.8,0.28,Kg,https://www.migros.ch//de/product/153252000000,2024-11-01,no discount,4.8,17.143,17.143,15.3%
+93,Migros,Pasta Sauces,Pesto genovese senza aglio,Pesto,4.4,0.09,Kg,https://www.migros.ch//de/product/130602900000,2024-11-01,no discount,4.4,48.889,48.889,228.81%
+94,Migros,Pasta Sauces,Pesto genovese con aglio,Pesto,4.4,0.09,Kg,https://www.migros.ch//de/product/130602800000,2024-11-01,no discount,4.4,48.889,48.889,228.81%
+95,Migros,Pasta Sauces,Star Ragù funghi porcini,Star,4.5,2.18,Kg,https://www.migros.ch//de/product/153240100000,2024-11-01,no discount,4.5,2.064,2.064,-86.12%
+96,Migros,Pasta Sauces,Pesto Carc/Prezzem,Pesto,2.1,0.12,Kg,https://www.migros.ch//de/product/153226600000,2024-11-01,20.0%,1.68,17.5,14.0,17.7%
+97,Migros,Pasta Sauces,V-Love Tomatensauce Bolognese,V-Love,2.25,0.35,Kg,https://www.migros.ch//de/product/153225700000,2024-11-01,no discount,2.25,6.429,6.429,-56.76%
+98,Migros,Pasta Sauces,Sélection Trüffelpesto,Sélection,4.8,0.13,Kg,https://www.migros.ch//de/product/153211900000,2024-11-01,no discount,4.8,36.923,36.923,148.33%
+99,Migros,Pasta Sauces,Sélection Pesto peperoncin,Sélection,4.6,0.13,Kg,https://www.migros.ch//de/product/153212000000,2024-11-01,no discount,4.6,35.385,35.385,137.98%
+100,Migros,Pasta Sauces,Aus der Region Tomatensugo Basili.,Aus der Region,6.5,0.36,L,https://www.migros.ch//de/product/153264000000,2024-11-01,no discount,6.5,18.056,18.056,21.44%
+102,Migros,Pasta Sauces,Agnesi Pesto mit Aubergine,Agnesi,5.55,2.185,Kg,https://www.migros.ch//de/product/153223800000,2024-11-01,no discount,5.55,2.54,2.54,-82.92%
+103,Migros,Pasta Sauces,Migros Bio Tomatensauce scharf,Migros,4.95,2.35,Kg,https://www.migros.ch//de/product/153212500000,2024-11-01,no discount,4.95,2.106,2.106,-85.84%
+104,Migros,Pasta Sauces,Monini Pesto Rucola,Monini,3.9,0.19,Kg,https://www.migros.ch//de/product/153240400000,2024-11-01,no discount,3.9,20.526,20.526,38.05%
+105,Migros,Pasta Sauces,Agnesi Sauce Bolognese,Agnesi,10.5,4.4,Kg,https://www.migros.ch//de/product/153224600000,2024-11-01,no discount,10.5,2.386,2.386,-83.95%
+106,Migros,Pasta Sauces,Sugo Carciofi,Sugo,4.35,0.33,Kg,https://www.migros.ch//de/product/153226000000,2024-11-01,20.0%,3.48,13.182,10.545,-11.34%
+107,Migros,Pasta Sauces,Aus der Region Pesto Vaudois,Aus der Region,6.95,0.09,Kg,https://www.migros.ch//de/product/153265200000,2024-11-01,no discount,6.95,77.222,77.222,419.36%
+108,Migros,Pasta Sauces,Monini Pesto Rosso,Monini,3.9,0.19,Kg,https://www.migros.ch//de/product/153240500000,2024-11-01,no discount,3.9,20.526,20.526,38.05%
+109,Migros,Pasta Sauces,Monini Pesto Genovese,Monini,3.9,0.19,Kg,https://www.migros.ch//de/product/153240600000,2024-11-01,no discount,3.9,20.526,20.526,38.05%
+110,Migros,Pasta Sauces,Da Emilio Pesto Limone,Da Emilio,3.6,0.13,Kg,https://www.migros.ch//de/product/153227700000,2024-11-01,20.0%,2.88,27.692,22.154,86.24%
+111,Migros,Pasta Sauces,V-Love Pesto genovese,V-Love,2.3,0.13,Kg,https://www.migros.ch//de/product/153272700000,2024-11-01,no discount,2.3,17.692,17.692,18.99%
+112,Migros,Pasta Sauces,"Bon Chef Sauce Carbonara Eiern, Rahm und Speck, für Teigwaren",Bon Chef,1.9,0.022,Kg,https://www.migros.ch//de/product/106508300000,2024-11-01,no discount,1.9,86.364,86.364,480.85%
+113,Migros,Pasta Sauces,La Molisana Pastasauce Marinara,La Molisana,2.5,0.34,Kg,https://www.migros.ch//de/product/153200700000,2024-11-01,no discount,2.5,7.353,7.353,-50.55%
+114,Migros,Pasta Sauces,La Molisana Pesto Basilico,La Molisana,3.9,0.19,Kg,https://www.migros.ch//de/product/153200500000,2024-11-01,no discount,3.9,20.526,20.526,38.05%
+115,Migros,Pasta Sauces,Migros Bio Tomatensauce mit Gemüse,Migros,4.25,0.42,Kg,https://www.migros.ch//de/product/153239500000,2024-11-01,no discount,4.25,10.119,10.119,-31.94%
+116,Migros,Pasta Sauces,La Molisana Pastasauce Arrabbiata,La Molisana,2.5,0.34,Kg,https://www.migros.ch//de/product/153200800000,2024-11-01,no discount,2.5,7.353,7.353,-50.55%
+117,Migros,Pasta Sauces,La Molisana Pesto Rosso,La Molisana,3.9,0.19,Kg,https://www.migros.ch//de/product/153200600000,2024-11-01,no discount,3.9,20.526,20.526,38.05%
+118,Migros,Pasta Sauces,Da Emilio Tomatensauce Napoletana,Da Emilio,3.6,0.29,Kg,https://www.migros.ch//de/product/153227200000,2024-11-01,20.0%,2.88,12.414,9.931,-16.51%
+120,Migros,Pasta Sauces,Da Emilio Tomatensauce Aglio e Peperoncino,Da Emilio,3.45,0.33,Kg,https://www.migros.ch//de/product/153226200000,2024-11-01,20.0%,2.76,10.455,8.364,-29.68%
+121,Migros,Pasta Sauces,Bon Chef Sauce Napoli für Teigwaren,Bon Chef,1.9,0.05,Kg,https://www.migros.ch//de/product/106508500000,2024-11-01,no discount,1.9,38.0,38.0,155.57%
+122,Migros,Pasta Sauces,Garofalo Tomatensauce arrabbiata,Garofalo,2.8,0.18,Kg,https://www.migros.ch//de/product/153236700000,2024-11-01,no discount,2.8,15.556,15.556,4.62%
+123,Migros,Pasta Sauces,Garofalo Pesto Alla Calabrese,Garofalo,4.1,0.18,Kg,https://www.migros.ch//de/product/153235700000,2024-11-01,no discount,4.1,22.778,22.778,53.19%
+124,Migros,Pasta Sauces,Alnatura Tomatensauce Toskana,Alnatura,2.3,0.34,Kg,https://www.migros.ch//de/product/153270800000,2024-11-01,no discount,2.3,6.765,6.765,-54.5%
+125,Migros,Pasta Sauces,Agnesi Arrabbiatasauce,Agnesi,2.2,0.19,Kg,https://www.migros.ch//de/product/153200300000,2024-11-01,no discount,2.2,11.579,11.579,-22.12%
+126,Migros,Pasta Sauces,Alnatura Tomatensauce Ricotta Bio,Alnatura,3.2,0.35,L,https://www.migros.ch//de/product/153271500000,2024-11-01,no discount,3.2,9.143,9.143,-38.51%
+127,Migros,Pasta Sauces,M-Budget Tomatensauce mit Basilikum,M-Budget,1.05,0.42,Kg,https://www.migros.ch//de/product/153211500000,2024-11-01,no discount,1.05,2.5,2.5,-83.19%
+128,Migros,Pasta Sauces,Da Emilio Tomatensauce mit Datteltomaten,Da Emilio,2.6,0.33,Kg,https://www.migros.ch//de/product/153255000000,2024-11-01,20.0%,2.08,7.879,6.303,-47.01%
+129,Migros,Pasta Sauces,Alnatura Bolognese Sauce,Alnatura,3.1,0.33,L,https://www.migros.ch//de/product/153271700000,2024-11-01,no discount,3.1,9.394,9.394,-36.82%
+130,Migros,Pasta Sauces,Alnatura Sugo Piccante,Alnatura,2.25,0.34,Kg,https://www.migros.ch//de/product/153270600000,2024-11-01,no discount,2.25,6.618,6.618,-55.49%
+131,Migros,Pasta Sauces,V-Love Tomatensauce,V-Love,3.5,0.29,Kg,https://www.migros.ch//de/product/153272600000,2024-11-01,no discount,3.5,12.069,12.069,-18.83%
+133,Migros,Pasta Sauces,Migros Bio salsa mit getrockneten Tomaten,Migros,3.5,0.42,Kg,https://www.migros.ch//de/product/153212200000,2024-11-01,no discount,3.5,8.333,8.333,-43.96%
+134,Migros,Pasta Sauces,Alnatura Pesto Verde,Alnatura,2.4,0.12,Kg,https://www.migros.ch//de/product/153271800000,2024-11-01,no discount,2.4,20.0,20.0,34.51%
+135,Migros,Pasta Sauces,Da Emilio Tomatensauce Ciliegino con basilico,Da Emilio,2.6,0.33,Kg,https://www.migros.ch//de/product/153225900000,2024-11-01,20.0%,2.08,7.879,6.303,-47.01%
+136,Migros,Pasta Sauces,Migros Bio Tomatensauce Arrabbiata,Migros,3.2,0.42,Kg,https://www.migros.ch//de/product/153238900000,2024-11-01,no discount,3.2,7.619,7.619,-48.76%
