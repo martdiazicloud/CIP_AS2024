@@ -59,6 +59,8 @@ In the final step g and ml are converted respectively in Kg and L.
 Entries where the unit is not specified are dropped from the dataframe.'''
 
 for i in range(len(df)):
+    if df.loc[i, 'Competitor'] != 'lidl':
+        df.loc[i, 'Competitor'] = 'Migros'
     # regex to extract the grammage from strings like "pro 265g | 100g = 0.67 CHF"
     if df.loc[i, 'Competitor'] == 'lidl':
         match = re.search(r'pro (\d+)(?:g|ml)', df.loc[i, 'Grammage'])
@@ -148,7 +150,7 @@ it when running this script again, since it will import or "csv" files available
 at the beginning of this script.'''
 
 ## 4.1 Ordering columns according to group project
-df = df[['ID', 'Competitor', 'Category', 'Product_Description', 'Brand', 'Regular_Price (CHF)', 'Grammage', 'Unit', 'Link', 'Scraping_Date', 'Discount', 'Actual_Price (CHF)', 'Regular_Price (CHF)', 'Actual_Price/Unit', 'Distance_average_price']]
+df = df[['ID', 'Competitor', 'Category', 'Product_Description', 'Brand', 'Regular_Price (CHF)', 'Grammage', 'Unit', 'Link', 'Scraping_Date', 'Discount', 'Actual_Price (CHF)', 'Regular_Price/Unit', 'Actual_Price/Unit', 'Distance_average_price']]
 
 ## 4.2 Visualize & exporting
 print(df.to_string())  # Visualize the data frame for final check
