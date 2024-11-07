@@ -1,0 +1,11 @@
+ID,Competitor,Category,Description,Brand,Price,Grammage,Unit,Discount,Product Link,Scraping Date
+1,Lidl,Rice,Ben's Langkorn Reis,Ben's,5.89,1.00,kg,No Discount,https://sortiment.lidl.ch/de/ben-s-langkorn-reis-1800158,07/11/2024
+2,Lidl,Rice,Ben's Spitzen-Langkornreis,Ben's,5.89,1.00,kg,No Discount,https://sortiment.lidl.ch/de/ben-s-spitzen-langkornreis-1800157,07/11/2024
+3,Lidl,Rice,Bio Langkornreis,Golden Sun,1.49,500.00,g,No Discount,https://sortiment.lidl.ch/de/bio-langkornreis-0109155,07/11/2024
+4,Lidl,Rice,Ben's Express Reis,Ben's,3.29,220.00,g,No Discount,https://sortiment.lidl.ch/de/ben-s-express-reis-0008986,07/11/2024
+5,Lidl,Rice,Parboiled Reis Langkorn,Golden Sun,1.35,1.00,kg,No Discount,https://sortiment.lidl.ch/de/parboiled-reis-langkorn-0138125,07/11/2024
+6,Lidl,Rice,Bio Basmati Reis,Golden Sun,1.79,500.00,g,No Discount,https://sortiment.lidl.ch/de/bio-basmati-reis-0128944,07/11/2024
+7,Lidl,Rice,Langkornreis im Kochbeutel,Golden Sun,1.99,1000.00,g,No Discount,https://sortiment.lidl.ch/de/langkornreis-im-kochbeutel-0012590,07/11/2024
+8,Lidl,Rice,Basmati Reis,Golden Sun,2.65,1.00,kg,No Discount,https://sortiment.lidl.ch/de/basmati-reis-0136419,07/11/2024
+9,Lidl,Rice,San Andrea Risottoreis,Golden Sun,1.99,1.00,kg,No Discount,https://sortiment.lidl.ch/de/san-andrea-risottoreis-0129108,07/11/2024
+10,Lidl,Rice,Jasmin Reis,Golden Sun,2.69,1.00,kg,No Discount,https://sortiment.lidl.ch/de/jasmin-reis-0012592,07/11/2024
