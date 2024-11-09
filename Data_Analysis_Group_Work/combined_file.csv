@@ -1,0 +1,298 @@
+ID,Competitor,Category,Product_Description,Brand,Regular_Price (CHF),Grammage,Unit,Link,Scraping_Date,Discount,Actual_Price (CHF),Regular_Price/Unit,Actual_Price/Unit
+1,Migros,Pasta,Agnesi  lasagne  with eggs,Agnesi,3.95,0.5,kg,https://www.migros.ch/en/product/104066400000,19/10/2024,no discount,3.95,7.9,7.9
+2,Migros,Pasta,M-Classic  tortellini  with raw ham,M-Classic,2.5,0.25,kg,https://www.migros.ch/en/product/104075000000,19/10/2024,12%,2.2,10.0,8.8
+3,Migros,Pasta,M-Classic  älplermagronen  with eggs,M-Classic,1.9,0.5,kg,https://www.migros.ch/en/product/104074500000,19/10/2024,16%,1.6,3.8,3.2
+4,Migros,Pasta,Garofalo  orecchiette,Garofalo,2.95,0.5,kg,https://www.migros.ch/en/product/104126400000,19/10/2024,no discount,2.95,5.9,5.9
+5,Migros,Pasta,Garofalo  rigatoni,Garofalo,2.95,0.5,kg,https://www.migros.ch/en/product/104125200000,19/10/2024,no discount,2.95,5.9,5.9
+6,Migros,Pasta,Garofalo  spaghetti,Garofalo,2.95,0.5,kg,https://www.migros.ch/en/product/104125000000,19/10/2024,no discount,2.95,5.9,5.9
+7,Migros,Pasta,Agnesi  lasagne  spinach from eggs,Agnesi,3.95,0.5,kg,https://www.migros.ch/en/product/104066600000,19/10/2024,no discount,3.95,7.9,7.9
+8,Migros,Pasta,Garofalo  farfalle,Garofalo,2.95,0.5,kg,https://www.migros.ch/en/product/104125500000,19/10/2024,no discount,2.95,5.9,5.9
+9,Migros,Pasta,Garofalo  linguine,Garofalo,2.95,0.5,kg,https://www.migros.ch/en/product/104126800000,19/10/2024,no discount,2.95,5.9,5.9
+10,Migros,Pasta,M-Classic  trivelli  with eggs,M-Classic,2.95,0.5,kg,https://www.migros.ch/en/product/104047500000,19/10/2024,10%,2.65,5.9,5.3
+11,Migros,Pasta,Garofalo  penne rigate,Garofalo,2.95,0.5,kg,https://www.migros.ch/en/product/104125100000,19/10/2024,no discount,2.95,5.9,5.9
+12,Migros,Pasta,M-Classic  spiraloni,M-Classic,2.95,0.5,kg,https://www.migros.ch/en/product/104047400000,19/10/2024,10%,2.65,5.9,5.3
+13,Migros,Pasta,Alnatura Bio  spaghettini  spelt,Alnatura Bio,3.3,0.5,kg,https://www.migros.ch/en/product/104161300000,19/10/2024,no discount,3.3,6.6,6.6
+14,Migros,Pasta,Agnesi  linguine N°10,Agnesi,2.4,0.5,kg,https://www.migros.ch/en/product/104135500000,19/10/2024,no discount,2.4,4.8,4.8
+15,Migros,Pasta,M-Classic  macaroni  large with eggs,M-Classic,1.75,0.5,kg,https://www.migros.ch/en/product/104055200000,19/10/2024,17%,1.45,3.5,2.9
+16,Migros,Pasta,Demeter  spaghetti,Demeter,3.5,0.5,kg,https://www.migros.ch/en/product/104164400000,19/10/2024,no discount,3.5,7.0,7.0
+17,Migros,Pasta,You  fusilli  whole grain rice,You,3.6,0.34,kg,https://www.migros.ch/en/product/104163500000,19/10/2024,no discount,3.6,10.59,10.59
+18,Migros,Pasta,Agnesi  spaghetti N°3,Agnesi,2.5,0.5,kg,https://www.migros.ch/en/product/104135100000,19/10/2024,no discount,2.5,5.0,5.0
+19,Migros,Pasta,Agnesi  spaghettini N°2,Agnesi,2.5,0.5,kg,https://www.migros.ch/en/product/104137000000,19/10/2024,no discount,2.5,5.0,5.0
+20,Migros,Pasta,Alnatura Bio  curls  spelt,Alnatura Bio,2.95,0.5,kg,https://www.migros.ch/en/product/104161000000,19/10/2024,no discount,2.95,5.9,5.9
+21,Migros,Pasta,Garofalo  radiatori,Garofalo,2.95,0.5,kg,https://www.migros.ch/en/product/104126000000,19/10/2024,no discount,2.95,5.9,5.9
+22,Migros,Pasta,M-Classic  penne  with eggs,M-Classic,1.9,0.5,kg,https://www.migros.ch/en/product/104063100000,19/10/2024,16%,1.6,3.8,3.2
+23,Migros,Pasta,Garofalo  lumaca rigata,Garofalo,2.95,0.5,kg,https://www.migros.ch/en/product/104126200000,19/10/2024,no discount,2.95,5.9,5.9
+24,Migros,Pasta,Garofalo  bucatini,Garofalo,2.95,0.5,kg,https://www.migros.ch/en/product/104128600000,19/10/2024,no discount,2.95,5.9,5.9
+25,Migros,Pasta,Agnesi  spaghettoni N°4,Agnesi,2.5,0.5,kg,https://www.migros.ch/en/product/104135300000,19/10/2024,no discount,2.5,5.0,5.0
+26,Migros,Pasta,You  penne  oats,You,3.6,0.34,kg,https://www.migros.ch/en/product/104164000000,19/10/2024,no discount,3.6,10.59,10.59
+27,Migros,Pasta,You  spaghetti  whole grain rice,You,3.6,0.4,kg,https://www.migros.ch/en/product/104163900000,19/10/2024,no discount,3.6,9.0,9.0
+28,Migros,Pasta,Tradition IP-SUISSE  tagliatelle  spelt,Tradition IP-SUISSE,5.6,0.5,kg,https://www.migros.ch/en/product/104147500000,19/10/2024,no discount,5.6,11.2,11.2
+29,Migros,Pasta,M-Classic  macaroni  with eggs,M-Classic,1.75,0.5,kg,https://www.migros.ch/en/product/104055100000,19/10/2024,17%,1.45,3.5,2.9
+30,Migros,Pasta,Tradition IP-SUISSE  macaroni  spelt,Tradition IP-SUISSE,3.3,0.5,kg,https://www.migros.ch/en/product/104147400000,19/10/2024,no discount,3.3,6.6,6.6
+31,Migros,Pasta,Alnatura Bio  tortelloni  spelt with ricotta/spinach,Alnatura Bio,3.95,0.25,kg,https://www.migros.ch/en/product/104162200000,19/10/2024,no discount,3.95,15.8,15.8
+32,Migros,Pasta,M-Classic  spaghetti 1.8mm  with eggs,M-Classic,2.45,0.75,kg,https://www.migros.ch/en/product/104041100000,19/10/2024,12%,2.15,3.27,2.87
+33,Migros,Pasta,Agnesi  pennette rigatte N°87,Agnesi,2.5,0.5,kg,https://www.migros.ch/en/product/104138700000,19/10/2024,no discount,2.5,5.0,5.0
+34,Migros,Pasta,Garofalo  fusilli bucati corti,Garofalo,2.95,0.5,kg,https://www.migros.ch/en/product/104126100000,19/10/2024,no discount,2.95,5.9,5.9
+35,Migros,Pasta,Garofalo  linguine  quinoa gluten free,Garofalo,3.5,0.4,kg,https://www.migros.ch/en/product/104129600000,19/10/2024,no discount,3.5,8.75,8.75
+36,Migros,Pasta,Agnesi  tortiglioni N°46,Agnesi,2.5,0.5,kg,https://www.migros.ch/en/product/104137500000,19/10/2024,no discount,2.5,5.0,5.0
+37,Migros,Pasta,Agnesi  linguine N°10,Agnesi,3.4,1.0,kg,https://www.migros.ch/en/product/104146800000,19/10/2024,no discount,3.4,3.4,3.4
+38,Migros,Pasta,Demeter  fusilli,Demeter,3.5,0.5,kg,https://www.migros.ch/en/product/104164500000,19/10/2024,no discount,3.5,7.0,7.0
+39,Migros,Pasta,Garofalo  sigarette,Garofalo,2.95,0.5,kg,https://www.migros.ch/en/product/104129000000,19/10/2024,no discount,2.95,5.9,5.9
+40,Migros,Pasta,Agnesi  penne rigate N°19,Agnesi,2.5,0.5,kg,https://www.migros.ch/en/product/104146100000,19/10/2024,no discount,2.5,5.0,5.0
+41,Migros,Pasta,Garofalo  gnoccho sardo  quinoa gluten free,Garofalo,3.5,0.4,kg,https://www.migros.ch/en/product/104129400000,19/10/2024,no discount,3.5,8.75,8.75
+42,Migros,Pasta,Agnesi  fusilli N°78,Agnesi,2.5,0.5,kg,https://www.migros.ch/en/product/104137800000,19/10/2024,no discount,2.5,5.0,5.0
+43,Migros,Pasta,Migros Bio  spaghetti  with eggs,Migros Bio,3.2,0.5,kg,https://www.migros.ch/en/product/104044500000,19/10/2024,no discount,3.2,6.4,6.4
+44,Migros,Pasta,Alnatura Bio  spaghetti No.3,Alnatura Bio,1.5,0.5,kg,https://www.migros.ch/en/product/104161700000,19/10/2024,no discount,1.5,3.0,3.0
+45,Migros,Pasta,M-Classic  spiral-nudeln  with eggs,M-Classic,1.9,0.5,kg,https://www.migros.ch/en/product/104048100000,19/10/2024,16%,1.6,3.8,3.2
+46,Migros,Pasta,M-Classic  swabian spätzle  with eggs,M-Classic,2.7,0.5,kg,https://www.migros.ch/en/product/104065600000,19/10/2024,11%,2.4,5.4,4.8
+47,Migros,Pasta,Aha!  lasagne  gluten free,Aha!,2.45,0.25,kg,https://www.migros.ch/en/product/104168000000,19/10/2024,no discount,2.45,9.8,9.8
+48,Migros,Pasta,Alnatura Bio  tortellini  with vegetables,Alnatura Bio,2.95,0.25,kg,https://www.migros.ch/en/product/104161800000,19/10/2024,no discount,2.95,11.8,11.8
+49,Migros,Pasta,Migros Bio  spaghettini  wholemeal semolina,Migros Bio,2.25,0.5,kg,https://www.migros.ch/en/product/104131400000,19/10/2024,no discount,2.25,4.5,4.5
+50,Migros,Pasta,Tradition IP-SUISSE  5-grain quadri  spelt,Tradition IP-SUISSE,3.95,0.5,kg,https://www.migros.ch/en/product/104115100000,19/10/2024,no discount,3.95,7.9,7.9
+51,Migros,Pasta,Da Emilio  fregola sarda,Da Emilio,3.95,0.5,kg,https://www.migros.ch/en/product/104131200000,19/10/2024,no discount,3.95,7.9,7.9
+52,Migros,Pasta,M-Classic  pasta letters  with eggs,M-Classic,2.2,0.5,kg,https://www.migros.ch/en/product/104075600000,19/10/2024,14%,1.9,4.4,3.8
+53,Migros,Pasta,Agnesi  tagliolini,Agnesi,3.0,0.5,kg,https://www.migros.ch/en/product/104138200000,19/10/2024,no discount,3.0,6.0,6.0
+54,Migros,Pasta,You  spaghetti  yellow lentils,You,2.6,0.25,kg,https://www.migros.ch/en/product/104105400000,19/10/2024,no discount,2.6,10.4,10.4
+55,Migros,Pasta,Migros Bio  penne  wholemeal semolina,Migros Bio,2.25,0.5,kg,https://www.migros.ch/en/product/104131000000,19/10/2024,no discount,2.25,4.5,4.5
+56,Migros,Pasta,M-Classic  schnäggli  with eggs,M-Classic,1.9,0.5,kg,https://www.migros.ch/en/product/104057100000,19/10/2024,16%,1.6,3.8,3.2
+57,Migros,Pasta,Garofalo  fusillone,Garofalo,3.1,0.5,kg,https://www.migros.ch/en/product/104126600000,19/10/2024,no discount,3.1,6.2,6.2
+58,Migros,Pasta,Migros Bio  macaroni  wholemeal semolina,Migros Bio,2.5,0.5,kg,https://www.migros.ch/en/product/104155800000,19/10/2024,no discount,2.5,5.0,5.0
+59,Migros,Pasta,Garofalo Bio  radiatori  wholemeal,Garofalo Bio,3.1,0.5,kg,https://www.migros.ch/en/product/104127800000,19/10/2024,no discount,3.1,6.2,6.2
+60,Migros,Pasta,Da Emilio  cannelloni,Da Emilio,3.95,0.5,kg,https://www.migros.ch/en/product/104134000000,19/10/2024,no discount,3.95,7.9,7.9
+61,Migros,Pasta,Agnesi  spaghetti N°3,Agnesi,3.4,1.0,kg,https://www.migros.ch/en/product/104146700000,19/10/2024,no discount,3.4,3.4,3.4
+62,Migros,Pasta,You  sedanini  red lentils,You,2.5,0.25,kg,https://www.migros.ch/en/product/104105100000,19/10/2024,no discount,2.5,10.0,10.0
+63,Migros,Pasta,"Aha!  Spaghetti  Gluten free, No wilting, No egg",Aha!,2.35,0.5,kg,https://www.migros.ch/en/product/104168100000,19/10/2024,no discount,2.35,4.7,4.7
+64,Migros,Pasta,Tradition IP-SUISSE  tagliatelle  garlic bear,Tradition IP-SUISSE,5.5,0.5,kg,https://www.migros.ch/en/product/104165800000,19/10/2024,no discount,5.5,11.0,11.0
+65,Migros,Pasta,Tortelloni Ricotta mit Spinat o. Gluten,Le Veneziane,6.4,0.25,kg,https://www.migros.ch/en/product/104067600000,19/10/2024,no discount,6.4,25.6,25.6
+66,Migros,Pasta,Di Farro Bio Spaghetti,Poggio del Farro,3.95,0.5,kg,https://www.migros.ch/en/product/104155000000,19/10/2024,no discount,3.95,7.9,7.9
+67,Migros,Pasta,Bio AdR Stanserhörnli,Migros Bio,4.7,0.5,kg,https://www.migros.ch/en/product/104192200000,19/10/2024,no discount,4.7,9.4,9.4
+68,Migros,Pasta,Demeter Urdinkel Penne,Demeter,5.2,0.4,kg,https://www.migros.ch/en/product/104164600000,19/10/2024,no discount,5.2,13.0,13.0
+69,Migros,Pasta,Le Veneziane Spaghetti,Le Veneziane,2.6,0.25,kg,https://www.migros.ch/en/product/104166900000,19/10/2024,no discount,2.6,10.4,10.4
+70,Migros,Pasta,Le Veneziane Penne,Le Veneziane,2.6,0.25,kg,https://www.migros.ch/en/product/104167000000,19/10/2024,no discount,2.6,10.4,10.4
+71,Migros,Pasta,Gnocchi di patate ohne Gluten,Le Veneziane,4.3,0.5,kg,https://www.migros.ch/en/product/104179100000,19/10/2024,no discount,4.3,8.6,8.6
+72,Migros,Pasta,PIZZOCCHERI VALTELLINESI,Bosco,3.5,0.5,kg,https://www.migros.ch/en/product/104182300000,19/10/2024,no discount,3.5,7.0,7.0
+73,Migros,Pasta,Aus der Region Bio Älplermagronen,Migros Bio,4.7,0.5,kg,https://www.migros.ch/en/product/104192100000,19/10/2024,no discount,4.7,9.4,9.4
+74,Migros,Pasta,Tradition IP-Suisse Ur-Dinkel Gnocchi,Tradition - Pasta,3.25,0.5,kg,https://www.migros.ch/en/product/104145900000,19/10/2024,no discount,3.25,6.5,6.5
+75,Migros,Pasta,Di Farro Bio Penne,Poggio del Farro,3.95,0.5,kg,https://www.migros.ch/en/product/104155100000,19/10/2024,no discount,3.95,7.9,7.9
+76,Migros,Pasta,Alnatura Dinkel Penne,Alnatura,2.2,0.5,kg,https://www.migros.ch/en/product/104165000000,19/10/2024,no discount,2.2,4.4,4.4
+77,Migros,Pasta,Le Veneziane Eliche,Le Veneziane,2.6,0.25,kg,https://www.migros.ch/en/product/104167100000,19/10/2024,no discount,2.6,10.4,10.4
+78,Migros,Pasta,Bio Penne Quinoa lose,Migros Bio,6.0,1.0,kg,https://www.migros.ch/en/product/104168600000,19/10/2024,no discount,6.0,6.0,6.0
+79,Migros,Pasta,Tagliolini Pasta all'uvo con Tartufo,Ori di Langa,10.9,0.25,kg,https://www.migros.ch/en/product/104012500000,19/10/2024,no discount,10.9,43.6,43.6
+80,Migros,Pasta,Garofalo Spaghetti ohne Gluten,Garofalo,3.5,0.4,kg,https://www.migros.ch/en/product/104129800000,19/10/2024,no discount,3.5,8.75,8.75
+81,Migros,Pasta,Alnatura Dinkel Spaghetti,Alnatura,3.1,0.5,kg,https://www.migros.ch/en/product/104167700000,19/10/2024,no discount,3.1,6.2,6.2
+1,Lidl,Pasta,Pasta Tricolore,Unknown,1.99,0.5,kg,https://sortiment.lidl.ch/de/pasta-tricolore-6011527,21/10/2024,no discount,1.99,3.98,3.98
+2,Lidl,Pasta,Pasta trafilata al bronzo,Combino,1.19,0.5,kg,https://sortiment.lidl.ch/de/pasta-trafilata-al-bronzo-0138846,21/10/2024,no discount,1.19,2.38,2.38
+3,Lidl,Pasta,Pasta trafilata al bronzo,Combino,1.19,0.5,kg,https://sortiment.lidl.ch/de/pasta-trafilata-al-bronzo-0137930,21/10/2024,no discount,1.19,2.38,2.38
+4,Lidl,Pasta,Bio Kinderpasta,Combino,1.49,0.5,kg,https://sortiment.lidl.ch/de/bio-kinderpasta-0120259,21/10/2024,no discount,1.49,2.98,2.98
+5,Lidl,Pasta,Glasnudeln,Combino,0.99,0.1,kg,https://sortiment.lidl.ch/de/glasnudeln-0089804,21/10/2024,no discount,0.99,9.9,9.9
+6,Lidl,Pasta,Reisnudeln,Combino,1.59,0.2,kg,https://sortiment.lidl.ch/de/reisnudeln-0149146,21/10/2024,no discount,1.59,7.95,7.95
+7,Lidl,Pasta,Hörnli,Combino,1.39,1.0,kg,https://sortiment.lidl.ch/de/hoernli-0142042,21/10/2024,no discount,1.39,1.39,1.39
+8,Lidl,Pasta,Spaghetti,Combino,1.39,1.0,kg,https://sortiment.lidl.ch/de/spaghetti-0027325,21/10/2024,no discount,1.39,1.39,1.39
+9,Lidl,Pasta,Orecchiette / Trofie,Italiamo,1.79,0.5,kg,https://sortiment.lidl.ch/de/orecchiette-trofie-6001877,21/10/2024,no discount,1.79,3.58,3.58
+10,Lidl,Pasta,Bio Spaghetti,Combino,1.19,0.5,kg,https://sortiment.lidl.ch/de/bio-spaghetti-0127393,21/10/2024,no discount,1.19,2.38,2.38
+11,Lidl,Pasta,Penne Rigate,Combino,1.39,1.0,kg,https://sortiment.lidl.ch/de/penne-rigate-0027328,21/10/2024,no discount,1.39,1.39,1.39
+12,Lidl,Pasta,Maccheroni al ferretto,Italiamo,1.79,0.5,kg,https://sortiment.lidl.ch/de/maccheroni-al-ferretto-6000313,21/10/2024,no discount,1.79,3.58,3.58
+13,Lidl,Pasta,Fusilli,Combino,1.39,1.0,kg,https://sortiment.lidl.ch/de/fusilli-0027326,21/10/2024,no discount,1.39,1.39,1.39
+14,Lidl,Pasta,Farfalle,Combino,1.25,0.5,kg,https://sortiment.lidl.ch/de/farfalle-0019104,21/10/2024,no discount,1.25,2.5,2.5
+15,Lidl,Pasta,Bio Dinkel Fusilli / Penne,Combino,1.79,0.5,kg,https://sortiment.lidl.ch/de/bio-dinkel-fusilli-penne-0162401,21/10/2024,no discount,1.79,3.58,3.58
+16,Lidl,Pasta,Barilla Spaghettoni No. 7,Barilla,3.39,1.0,kg,https://sortiment.lidl.ch/de/barilla-spaghettoni-no-7-0003356,21/10/2024,no discount,3.39,3.39,3.39
+17,Lidl,Pasta,Barilla Fusilli No. 98,Barilla,3.39,1.0,kg,https://sortiment.lidl.ch/de/barilla-fusilli-no-98-0001067,21/10/2024,no discount,3.39,3.39,3.39
+18,Lidl,Pasta,Chow Mein Nudeln,Combino,1.25,0.25,kg,https://sortiment.lidl.ch/de/chow-mein-nudeln-0012038,21/10/2024,no discount,1.25,5.0,5.0
+19,Lidl,Pasta,Lasagneblätter,Combino,1.49,0.5,kg,https://sortiment.lidl.ch/de/lasagneblaetter-6014771,21/10/2024,no discount,1.49,2.98,2.98
+20,Lidl,Pasta,Barilla Penne Rigate No. 73,Barilla,3.39,1.0,kg,https://sortiment.lidl.ch/de/barilla-penne-rigate-no-73-0001066,21/10/2024,no discount,3.39,3.39,3.39
+21,Lidl,Pasta,Bio Couscous / Bio Bulgur,Golden Sun,1.89,0.5,kg,https://sortiment.lidl.ch/de/bio-couscous-bio-bulgur-0126325,21/10/2024,no discount,1.89,3.78,3.78
+22,Lidl,Pasta,Udon Nudeln,Combino,1.79,0.3,kg,https://sortiment.lidl.ch/de/udon-nudeln-0149145,21/10/2024,no discount,1.79,5.97,5.97
+23,Lidl,Pasta,Tagliatelle,Combino,1.39,0.5,kg,https://sortiment.lidl.ch/de/tagliatelle-0037270,21/10/2024,no discount,1.39,2.78,2.78
+24,Lidl,Pasta,Bschüssig Teigwaren,Bschüssig,3.45,0.5,kg,https://sortiment.lidl.ch/de/bschuessig-teigwaren-5104312,21/10/2024,no discount,3.45,6.9,6.9
+25,Lidl,Pasta,Bio Nudeln,Combino,1.19,0.5,kg,https://sortiment.lidl.ch/de/bio-nudeln-0063265,21/10/2024,no discount,1.19,2.38,2.38
+26,Lidl,Pasta,Teigwaren glutenfrei,Combino,1.89,0.5,kg,https://sortiment.lidl.ch/de/teigwaren-glutenfrei-7701123,21/10/2024,no discount,1.89,3.78,3.78
+27,Lidl,Pasta,Barilla Spaghetti No. 5,Barilla,3.39,1.0,kg,https://sortiment.lidl.ch/de/barilla-spaghetti-no-5-0001064,21/10/2024,no discount,3.39,3.39,3.39
+0,lidl,Pasta Sauces,Bio gehackte Tomaten classic,Baresa,0.95,0.4,Kg,https://sortiment.lidl.ch/de/bio-gehackte-tomaten-classic-0133303,2024-11-01,no discount,0.95,2.375,2.375
+1,lidl,Pasta Sauces,Bio Passierte Tomaten,Baresa,1.59,0.7,Kg,https://sortiment.lidl.ch/de/bio-passierte-tomaten-0150221,2024-11-01,no discount,1.59,2.271,2.271
+3,lidl,Pasta Sauces,Geschälte Tomaten,Baresa,1.29,0.8,Kg,https://sortiment.lidl.ch/de/geschaelte-tomaten-0110541,2024-11-01,no discount,1.29,1.612,1.612
+4,lidl,Pasta Sauces,Passierte Tomaten Rustica,Baresa,1.19,0.72,L,https://sortiment.lidl.ch/de/passierte-tomaten-rustica-0133251,2024-11-01,no discount,1.19,1.653,1.653
+5,lidl,Pasta Sauces,Bio Tomatenmark,Baresa,1.39,0.2,Kg,https://sortiment.lidl.ch/de/bio-tomatenmark-0142043,2024-11-01,no discount,1.39,6.95,6.95
+13,lidl,Pasta Sauces,Tomatensuppe,Kania,0.39,0.059,Kg,https://sortiment.lidl.ch/de/tomatensuppe-0150092,2024-11-01,no discount,0.39,6.61,6.61
+14,lidl,Pasta Sauces,Passierte Tomaten,Freshona,0.95,0.5,Kg,https://sortiment.lidl.ch/de/passierte-tomaten-0029232,2024-11-01,no discount,0.95,1.9,1.9
+15,lidl,Pasta Sauces,Tomatenpüree,Baresa,0.95,0.2,Kg,https://sortiment.lidl.ch/de/tomatenpueree-0028939,2024-11-01,no discount,0.95,4.75,4.75
+16,lidl,Pasta Sauces,Gehackte Tomaten,Baresa,0.75,0.4,Kg,https://sortiment.lidl.ch/de/gehackte-tomaten-0029239,2024-11-01,no discount,0.75,1.875,1.875
+17,lidl,Pasta Sauces,Kirschtomatensauce,Italiamo,1.49,0.33,Kg,https://sortiment.lidl.ch/de/kirschtomatensauce-6000017,2024-11-01,no discount,1.49,4.515,4.515
+18,lidl,Pasta Sauces,Bio gehackte Tomaten gewürzt,Baresa,1.19,0.4,Kg,https://sortiment.lidl.ch/de/bio-gehackte-tomaten-gewuerzt-0126008,2024-11-01,no discount,1.19,2.975,2.975
+19,lidl,Pasta Sauces,Tomatensauce mit Basilikum,Baresa,1.19,0.7,Kg,https://sortiment.lidl.ch/de/tomatensauce-mit-basilikum-0029251,2024-11-01,no discount,1.19,1.7,1.7
+25,lidl,Pasta Sauces,Tomatenketchup hot,Kania,1.59,0.5,L,https://sortiment.lidl.ch/de/tomatenketchup-hot-0202080,2024-11-01,no discount,1.59,3.18,3.18
+27,lidl,Pasta Sauces,Sauce,Kania,1.75,0.265,Kg,https://sortiment.lidl.ch/de/sauce-5102344,2024-11-01,no discount,1.75,6.604,6.604
+29,lidl,Pasta Sauces,Tomatenketchup light,Kania,1.59,0.5,L,https://sortiment.lidl.ch/de/tomatenketchup-light-0192435,2024-11-01,no discount,1.59,3.18,3.18
+30,lidl,Pasta Sauces,Tomatenketchup,Kania,1.59,0.5,L,https://sortiment.lidl.ch/de/tomatenketchup-0079337,2024-11-01,no discount,1.59,3.18,3.18
+32,lidl,Pasta Sauces,Kirschtomatensauce,Baresa,1.59,0.33,Kg,https://sortiment.lidl.ch/de/kirschtomatensauce-6015800,2024-11-01,no discount,1.59,4.818,4.818
+35,lidl,Pasta Sauces,Tomatenketchup,Kania,1.19,1.0,Kg,https://sortiment.lidl.ch/de/tomatenketchup-6906368,2024-11-01,no discount,1.19,1.19,1.19
+36,lidl,Pasta Sauces,Veganes Pesto,Vemondo,1.59,0.19,Kg,https://sortiment.lidl.ch/de/veganes-pesto-0162808,2024-11-01,no discount,1.59,8.368,8.368
+37,lidl,Pasta Sauces,Pastasauce,Combino,1.09,0.4,L,https://sortiment.lidl.ch/de/pastasauce-0029787,2024-11-01,no discount,1.09,2.725,2.725
+38,lidl,Pasta Sauces,Barilla Pesto,Barilla,3.99,0.19,Kg,https://sortiment.lidl.ch/de/barilla-pesto-0002861,2024-11-01,no discount,3.99,21.0,21.0
+39,lidl,Pasta Sauces,Chinoisesaucen,Deluxe,1.49,0.18,Kg,https://sortiment.lidl.ch/de/chinoisesaucen-0001887,2024-11-01,no discount,1.49,8.278,8.278
+41,lidl,Pasta Sauces,Barilla Arrabbiata Sauce,Barilla,2.99,0.4,Kg,https://sortiment.lidl.ch/de/barilla-arrabbiata-sauce-0001767,2024-11-01,no discount,2.99,7.475,7.475
+42,lidl,Pasta Sauces,Barilla Napoletana Sauce,Barilla,2.99,0.4,Kg,https://sortiment.lidl.ch/de/barilla-napoletana-sauce-0001061,2024-11-01,no discount,2.99,7.475,7.475
+43,lidl,Pasta Sauces,Barilla Basilico Sauce,Barilla,2.99,0.4,Kg,https://sortiment.lidl.ch/de/barilla-basilico-sauce-0001060,2024-11-01,no discount,2.99,7.475,7.475
+44,lidl,Pasta Sauces,Bio Pastasauce,Combino,1.85,0.35,Kg,https://sortiment.lidl.ch/de/bio-pastasauce-0039124,2024-11-01,no discount,1.85,5.286,5.286
+45,lidl,Pasta Sauces,Pesto,Italiamo,1.45,0.19,Kg,https://sortiment.lidl.ch/de/pesto-0011624,2024-11-01,no discount,1.45,7.632,7.632
+47,lidl,Pasta Sauces,Barilla Bolognese/Ricotta Sauce,Barilla,3.99,0.4,Kg,https://sortiment.lidl.ch/de/barilla-bolognese-ricotta-sauce-0003353,2024-11-01,no discount,3.99,9.975,9.975
+48,Migros,Pasta Sauces,Longobardi Pizza Sauce Basilikum,Longobardi,1.3,0.2,Kg,https://www.migros.ch//de/product/153220500000,2024-11-01,no discount,1.3,6.5,6.5
+49,Migros,Pasta Sauces,Migros Bio Tomatensauce,Migros,3.1,0.4,Kg,https://www.migros.ch//de/product/153210200000,2024-11-01,no discount,3.1,7.75,7.75
+50,Migros,Pasta Sauces,Salsa all' Italiana Tomatensauce Napoli,Salsa,1.55,0.25,L,https://www.migros.ch//de/product/153224200000,2024-11-01,no discount,1.55,6.2,6.2
+51,Migros,Pasta Sauces,Agnesi Tomatensauce Basilico,Agnesi,2.95,0.4,Kg,https://www.migros.ch//de/product/153221700000,2024-11-01,no discount,2.95,7.375,7.375
+52,Migros,Pasta Sauces,Agnesi Tomatensauce mit Gemüse,Agnesi,4.4,0.4,Kg,https://www.migros.ch//de/product/153222000000,2024-11-01,no discount,4.4,11.0,11.0
+53,Migros,Pasta Sauces,Agnesi Pesto alla Genovese,Agnesi,3.9,0.185,Kg,https://www.migros.ch//de/product/153225800000,2024-11-01,no discount,3.9,21.081,21.081
+54,Migros,Pasta Sauces,Demeter Tomatensauce basilico,Demeter,4.5,0.34,Kg,https://www.migros.ch//de/product/153211700000,2024-11-01,no discount,4.5,13.235,13.235
+55,Migros,Pasta Sauces,Salsa all' Italiana Tomatensauce Basilikum und Olivenöl,Salsa,1.35,0.25,L,https://www.migros.ch//de/product/153224300000,2024-11-01,no discount,1.35,5.4,5.4
+56,Migros,Pasta Sauces,Sélection Pesto Sauce Limone,Sélection,4.95,0.13,Kg,https://www.migros.ch//de/product/153236800000,2024-11-01,no discount,4.95,38.077,38.077
+57,Migros,Pasta Sauces,Demeter Tomatensauce arrabbiata,Demeter,4.5,0.34,Kg,https://www.migros.ch//de/product/153211800000,2024-11-01,no discount,4.5,13.235,13.235
+58,Migros,Pasta Sauces,Agnesi Tomatensauce Bolognese,Agnesi,4.0,0.4,Kg,https://www.migros.ch//de/product/153221800000,2024-11-01,no discount,4.0,10.0,10.0
+59,Migros,Pasta Sauces,Sélection Pesto con basilico Genovese D.O.P,Sélection,4.95,0.09,Kg,https://www.migros.ch//de/product/153236500000,2024-11-01,no discount,4.95,55.0,55.0
+60,Migros,Pasta Sauces,Agnesi Pesto Alla Calabrese,Agnesi,3.9,0.185,Kg,https://www.migros.ch//de/product/153223400000,2024-11-01,no discount,3.9,21.081,21.081
+61,Migros,Pasta Sauces,Alnatura Pesto Basilico,Alnatura,2.7,0.13,Kg,https://www.migros.ch//de/product/153270300000,2024-11-01,no discount,2.7,20.769,20.769
+62,Migros,Pasta Sauces,Agnesi Tomatensauce Napoletana,Agnesi,2.95,0.4,Kg,https://www.migros.ch//de/product/153222300000,2024-11-01,no discount,2.95,7.375,7.375
+63,Migros,Pasta Sauces,Migros Bio Pesto mit grilliertem Gemüse,Migros,3.95,0.13,Kg,https://www.migros.ch//de/product/153210500000,2024-11-01,no discount,3.95,30.385,30.385
+64,Migros,Pasta Sauces,Alnatura Pesto Arrabbiata,Alnatura,3.7,0.13,Kg,https://www.migros.ch//de/product/153270200000,2024-11-01,no discount,3.7,28.462,28.462
+65,Migros,Pasta Sauces,Alnatura Pesto Ricotta,Alnatura,3.7,0.14,Kg,https://www.migros.ch//de/product/153271200000,2024-11-01,no discount,3.7,26.429,26.429
+66,Migros,Pasta Sauces,Agnesi Pesto Rosso,Agnesi,3.7,0.185,Kg,https://www.migros.ch//de/product/153223300000,2024-11-01,no discount,3.7,20.0,20.0
+67,Migros,Pasta Sauces,Salsa all' Italiana Tomatensauce Bolognese,Salsa,1.95,0.25,L,https://www.migros.ch//de/product/153224800000,2024-11-01,no discount,1.95,7.8,7.8
+68,Migros,Pasta Sauces,Alnatura Sugo Basilico,Alnatura,2.25,0.34,Kg,https://www.migros.ch//de/product/153270500000,2024-11-01,no discount,2.25,6.618,6.618
+69,Migros,Pasta Sauces,M-Budget Pesto alla genovese,M-Budget,1.6,0.19,Kg,https://www.migros.ch//de/product/153236600000,2024-11-01,no discount,1.6,8.421,8.421
+70,Migros,Pasta Sauces,Garofalo Sauce fur Pasta Pesto alla Genovese,Garofalo,4.1,0.18,Kg,https://www.migros.ch//de/product/153236100000,2024-11-01,no discount,4.1,22.778,22.778
+71,Migros,Pasta Sauces,Demeter pesto al basilico mit Knoblauch,Demeter,4.1,0.13,Kg,https://www.migros.ch//de/product/153211600000,2024-11-01,no discount,4.1,31.538,31.538
+72,Migros,Pasta Sauces,Salsa all' Italiana Tomatensauce Arrabbiata,Salsa,1.35,0.25,L,https://www.migros.ch//de/product/153224100000,2024-11-01,no discount,1.35,5.4,5.4
+73,Migros,Pasta Sauces,Alnatura Sugo Toscano,Alnatura,2.9,0.34,Kg,https://www.migros.ch//de/product/153270700000,2024-11-01,no discount,2.9,8.529,8.529
+74,Migros,Pasta Sauces,Alnatura Tomatensauce Mit Kräuter,Alnatura,2.95,0.35,L,https://www.migros.ch//de/product/153271300000,2024-11-01,no discount,2.95,8.429,8.429
+75,Migros,Pasta Sauces,Agnesi Tomatensauce Basilico,Agnesi,2.25,0.19,Kg,https://www.migros.ch//de/product/153200400000,2024-11-01,no discount,2.25,11.842,11.842
+76,Migros,Pasta Sauces,Bon Chef Käsesauce,Bon Chef,1.9,0.037,Kg,https://www.migros.ch//de/product/106508200000,2024-11-01,no discount,1.9,51.351,51.351
+77,Migros,Pasta Sauces,M-Classic Tomatenpüree mit Gemüse,M-Classic,1.95,0.2,Kg,https://www.migros.ch//de/product/153226300000,2024-11-01,no discount,1.95,9.75,9.75
+78,Migros,Pasta Sauces,Agnesi Tomatensauce Arrabbiata,Agnesi,2.95,0.4,Kg,https://www.migros.ch//de/product/153223100000,2024-11-01,no discount,2.95,7.375,7.375
+79,Migros,Pasta Sauces,Migros Bio Pesto Rosso,Migros,3.0,0.13,Kg,https://www.migros.ch//de/product/153210400000,2024-11-01,no discount,3.0,23.077,23.077
+80,Migros,Pasta Sauces,Alnatura Vegetarische Gemüse Bolognese,Alnatura,2.85,0.35,L,https://www.migros.ch//de/product/153270900000,2024-11-01,no discount,2.85,8.143,8.143
+81,Migros,Pasta Sauces,Alnatura Pesto Rosso,Alnatura,2.4,0.12,Kg,https://www.migros.ch//de/product/153270000000,2024-11-01,no discount,2.4,20.0,20.0
+82,Migros,Pasta Sauces,Garofalo Sauce fur Pasta Pomodoro e Basilico,Garofalo,2.8,0.18,Kg,https://www.migros.ch//de/product/153236300000,2024-11-01,no discount,2.8,15.556,15.556
+83,Migros,Pasta Sauces,Longobardi Pizza Sauce con aglio e origano,Longobardi,1.1,0.2,Kg,https://www.migros.ch//de/product/153234700000,2024-11-01,no discount,1.1,5.5,5.5
+85,Migros,Pasta Sauces,La Molisana Pastasauce Basilico,La Molisana,2.5,0.34,Kg,https://www.migros.ch//de/product/153200900000,2024-11-01,no discount,2.5,7.353,7.353
+86,Migros,Pasta Sauces,Agnesi Pesto Rosso,Agnesi,5.55,2.185,Kg,https://www.migros.ch//de/product/153226400000,2024-11-01,no discount,5.55,2.54,2.54
+87,Migros,Pasta Sauces,M-Budget Mix Bolognese,M-Budget,0.65,0.05,Kg,https://www.migros.ch//de/product/106501000000,2024-11-01,no discount,0.65,13.0,13.0
+88,Migros,Pasta Sauces,Sugo al Basilico,Sugo,3.1,0.35,Kg,https://www.migros.ch//de/product/153220600000,2024-11-01,no discount,3.1,8.857,8.857
+89,Migros,Pasta Sauces,Sugo Basilico,Sugo,4.8,0.28,Kg,https://www.migros.ch//de/product/153252100000,2024-11-01,no discount,4.8,17.143,17.143
+90,Migros,Pasta Sauces,Aus der Region Bärlauchpüree,Aus der Region,7.1,0.095,Kg,https://www.migros.ch//de/product/153261000000,2024-11-01,no discount,7.1,74.737,74.737
+91,Migros,Pasta Sauces,Sugo alla Carne,Sugo,3.9,0.35,Kg,https://www.migros.ch//de/product/153220900000,2024-11-01,no discount,3.9,11.143,11.143
+92,Migros,Pasta Sauces,Sugo Rustico,Sugo,4.8,0.28,Kg,https://www.migros.ch//de/product/153252000000,2024-11-01,no discount,4.8,17.143,17.143
+93,Migros,Pasta Sauces,Pesto genovese senza aglio,Pesto,4.4,0.09,Kg,https://www.migros.ch//de/product/130602900000,2024-11-01,no discount,4.4,48.889,48.889
+94,Migros,Pasta Sauces,Pesto genovese con aglio,Pesto,4.4,0.09,Kg,https://www.migros.ch//de/product/130602800000,2024-11-01,no discount,4.4,48.889,48.889
+95,Migros,Pasta Sauces,Star Ragù funghi porcini,Star,4.5,2.18,Kg,https://www.migros.ch//de/product/153240100000,2024-11-01,no discount,4.5,2.064,2.064
+96,Migros,Pasta Sauces,Pesto Carc/Prezzem,Pesto,2.1,0.12,Kg,https://www.migros.ch//de/product/153226600000,2024-11-01,20.0%,1.68,17.5,14.0
+97,Migros,Pasta Sauces,V-Love Tomatensauce Bolognese,V-Love,2.25,0.35,Kg,https://www.migros.ch//de/product/153225700000,2024-11-01,no discount,2.25,6.429,6.429
+98,Migros,Pasta Sauces,Sélection Trüffelpesto,Sélection,4.8,0.13,Kg,https://www.migros.ch//de/product/153211900000,2024-11-01,no discount,4.8,36.923,36.923
+99,Migros,Pasta Sauces,Sélection Pesto peperoncin,Sélection,4.6,0.13,Kg,https://www.migros.ch//de/product/153212000000,2024-11-01,no discount,4.6,35.385,35.385
+100,Migros,Pasta Sauces,Aus der Region Tomatensugo Basili.,Aus der Region,6.5,0.36,L,https://www.migros.ch//de/product/153264000000,2024-11-01,no discount,6.5,18.056,18.056
+102,Migros,Pasta Sauces,Agnesi Pesto mit Aubergine,Agnesi,5.55,2.185,Kg,https://www.migros.ch//de/product/153223800000,2024-11-01,no discount,5.55,2.54,2.54
+103,Migros,Pasta Sauces,Migros Bio Tomatensauce scharf,Migros,4.95,2.35,Kg,https://www.migros.ch//de/product/153212500000,2024-11-01,no discount,4.95,2.106,2.106
+104,Migros,Pasta Sauces,Monini Pesto Rucola,Monini,3.9,0.19,Kg,https://www.migros.ch//de/product/153240400000,2024-11-01,no discount,3.9,20.526,20.526
+105,Migros,Pasta Sauces,Agnesi Sauce Bolognese,Agnesi,10.5,4.4,Kg,https://www.migros.ch//de/product/153224600000,2024-11-01,no discount,10.5,2.386,2.386
+106,Migros,Pasta Sauces,Sugo Carciofi,Sugo,4.35,0.33,Kg,https://www.migros.ch//de/product/153226000000,2024-11-01,20.0%,3.48,13.182,10.545
+107,Migros,Pasta Sauces,Aus der Region Pesto Vaudois,Aus der Region,6.95,0.09,Kg,https://www.migros.ch//de/product/153265200000,2024-11-01,no discount,6.95,77.222,77.222
+108,Migros,Pasta Sauces,Monini Pesto Rosso,Monini,3.9,0.19,Kg,https://www.migros.ch//de/product/153240500000,2024-11-01,no discount,3.9,20.526,20.526
+109,Migros,Pasta Sauces,Monini Pesto Genovese,Monini,3.9,0.19,Kg,https://www.migros.ch//de/product/153240600000,2024-11-01,no discount,3.9,20.526,20.526
+110,Migros,Pasta Sauces,Da Emilio Pesto Limone,Da Emilio,3.6,0.13,Kg,https://www.migros.ch//de/product/153227700000,2024-11-01,20.0%,2.88,27.692,22.154
+111,Migros,Pasta Sauces,V-Love Pesto genovese,V-Love,2.3,0.13,Kg,https://www.migros.ch//de/product/153272700000,2024-11-01,no discount,2.3,17.692,17.692
+112,Migros,Pasta Sauces,"Bon Chef Sauce Carbonara Eiern, Rahm und Speck, für Teigwaren",Bon Chef,1.9,0.022,Kg,https://www.migros.ch//de/product/106508300000,2024-11-01,no discount,1.9,86.364,86.364
+113,Migros,Pasta Sauces,La Molisana Pastasauce Marinara,La Molisana,2.5,0.34,Kg,https://www.migros.ch//de/product/153200700000,2024-11-01,no discount,2.5,7.353,7.353
+114,Migros,Pasta Sauces,La Molisana Pesto Basilico,La Molisana,3.9,0.19,Kg,https://www.migros.ch//de/product/153200500000,2024-11-01,no discount,3.9,20.526,20.526
+115,Migros,Pasta Sauces,Migros Bio Tomatensauce mit Gemüse,Migros,4.25,0.42,Kg,https://www.migros.ch//de/product/153239500000,2024-11-01,no discount,4.25,10.119,10.119
+116,Migros,Pasta Sauces,La Molisana Pastasauce Arrabbiata,La Molisana,2.5,0.34,Kg,https://www.migros.ch//de/product/153200800000,2024-11-01,no discount,2.5,7.353,7.353
+117,Migros,Pasta Sauces,La Molisana Pesto Rosso,La Molisana,3.9,0.19,Kg,https://www.migros.ch//de/product/153200600000,2024-11-01,no discount,3.9,20.526,20.526
+118,Migros,Pasta Sauces,Da Emilio Tomatensauce Napoletana,Da Emilio,3.6,0.29,Kg,https://www.migros.ch//de/product/153227200000,2024-11-01,20.0%,2.88,12.414,9.931
+120,Migros,Pasta Sauces,Da Emilio Tomatensauce Aglio e Peperoncino,Da Emilio,3.45,0.33,Kg,https://www.migros.ch//de/product/153226200000,2024-11-01,20.0%,2.76,10.455,8.364
+121,Migros,Pasta Sauces,Bon Chef Sauce Napoli für Teigwaren,Bon Chef,1.9,0.05,Kg,https://www.migros.ch//de/product/106508500000,2024-11-01,no discount,1.9,38.0,38.0
+122,Migros,Pasta Sauces,Garofalo Tomatensauce arrabbiata,Garofalo,2.8,0.18,Kg,https://www.migros.ch//de/product/153236700000,2024-11-01,no discount,2.8,15.556,15.556
+123,Migros,Pasta Sauces,Garofalo Pesto Alla Calabrese,Garofalo,4.1,0.18,Kg,https://www.migros.ch//de/product/153235700000,2024-11-01,no discount,4.1,22.778,22.778
+124,Migros,Pasta Sauces,Alnatura Tomatensauce Toskana,Alnatura,2.3,0.34,Kg,https://www.migros.ch//de/product/153270800000,2024-11-01,no discount,2.3,6.765,6.765
+125,Migros,Pasta Sauces,Agnesi Arrabbiatasauce,Agnesi,2.2,0.19,Kg,https://www.migros.ch//de/product/153200300000,2024-11-01,no discount,2.2,11.579,11.579
+126,Migros,Pasta Sauces,Alnatura Tomatensauce Ricotta Bio,Alnatura,3.2,0.35,L,https://www.migros.ch//de/product/153271500000,2024-11-01,no discount,3.2,9.143,9.143
+127,Migros,Pasta Sauces,M-Budget Tomatensauce mit Basilikum,M-Budget,1.05,0.42,Kg,https://www.migros.ch//de/product/153211500000,2024-11-01,no discount,1.05,2.5,2.5
+128,Migros,Pasta Sauces,Da Emilio Tomatensauce mit Datteltomaten,Da Emilio,2.6,0.33,Kg,https://www.migros.ch//de/product/153255000000,2024-11-01,20.0%,2.08,7.879,6.303
+129,Migros,Pasta Sauces,Alnatura Bolognese Sauce,Alnatura,3.1,0.33,L,https://www.migros.ch//de/product/153271700000,2024-11-01,no discount,3.1,9.394,9.394
+130,Migros,Pasta Sauces,Alnatura Sugo Piccante,Alnatura,2.25,0.34,Kg,https://www.migros.ch//de/product/153270600000,2024-11-01,no discount,2.25,6.618,6.618
+131,Migros,Pasta Sauces,V-Love Tomatensauce,V-Love,3.5,0.29,Kg,https://www.migros.ch//de/product/153272600000,2024-11-01,no discount,3.5,12.069,12.069
+133,Migros,Pasta Sauces,Migros Bio salsa mit getrockneten Tomaten,Migros,3.5,0.42,Kg,https://www.migros.ch//de/product/153212200000,2024-11-01,no discount,3.5,8.333,8.333
+134,Migros,Pasta Sauces,Alnatura Pesto Verde,Alnatura,2.4,0.12,Kg,https://www.migros.ch//de/product/153271800000,2024-11-01,no discount,2.4,20.0,20.0
+135,Migros,Pasta Sauces,Da Emilio Tomatensauce Ciliegino con basilico,Da Emilio,2.6,0.33,Kg,https://www.migros.ch//de/product/153225900000,2024-11-01,20.0%,2.08,7.879,6.303
+136,Migros,Pasta Sauces,Migros Bio Tomatensauce Arrabbiata,Migros,3.2,0.42,Kg,https://www.migros.ch//de/product/153238900000,2024-11-01,no discount,3.2,7.619,7.619
+1,Migros,Rice,Basmati rice,M-Classic Basmati,4.5,1.0,kg,https://www.migros.ch/en/product/104402500000,07/11/2024,20%,3.6,4.5,3.6
+2,Migros,Rice,Long grain rice Parboiled,M-Classic,2.44,1.0,kg,https://www.migros.ch/en/product/104404000000,07/11/2024,20%,1.95,2.44,1.95
+3,Migros,Rice,Jasmine rice,M-Classic,3.0,1.0,kg,https://www.migros.ch/en/product/104402400000,07/11/2024,20%,2.4,3.0,2.4
+4,Migros,Rice,Long grain rice court,M-Budget,1.6,0.25,kg,https://www.migros.ch/en/product/104410000000,07/11/2024,No Discount,1.6,6.4,6.4
+5,Migros,Rice,Risotto d'Italia,M-Classic,3.0,1.0,kg,https://www.migros.ch/en/product/104400700000,07/11/2024,20%,2.4,3.0,2.4
+6,Migros,Rice,Basmati rice Cooking bag,Mister Rice,4.8,0.5,kg,https://www.migros.ch/en/product/104413100000,07/11/2024,No Discount,4.8,9.6,9.6
+7,Migros,Rice,Jasmine rice,Mister Rice Bio,4.5,1.0,kg,https://www.migros.ch/en/product/104412900000,07/11/2024,No Discount,4.5,4.5,4.5
+8,Migros,Rice,Basmati rice,Mister Rice Bio,5.5,1.0,kg,https://www.migros.ch/en/product/104413000000,07/11/2024,No Discount,5.5,5.5,5.5
+9,Migros,Rice,Long grain Wholemeal rice,Mister Rice Bio,3.95,0.5,kg,https://www.migros.ch/en/product/104441400000,07/11/2024,No Discount,3.95,7.9,7.9
+10,Migros,Rice,Risotto With saffron,Subito Carnaroli,4.3,0.25,kg,https://www.migros.ch/en/product/157257700000,07/11/2024,No Discount,4.3,17.2,17.2
+11,Migros,Rice,Risotto Asparagus,M-Budget,1.85,0.25,kg,https://www.migros.ch/en/product/157212800000,07/11/2024,No Discount,1.85,7.4,7.4
+12,Migros,Rice,Whole black rice,Sélection,3.2,0.25,kg,https://www.migros.ch/en/product/104430700000,07/11/2024,No Discount,3.2,12.8,12.8
+13,Migros,Rice,Milanese risotto,Knorr aha!,3.95,0.25,kg,https://www.migros.ch/en/product/157262500000,07/11/2024,No Discount,3.95,15.8,15.8
+14,Migros,Rice,Risotto Tomato,Knorr,3.95,0.25,kg,https://www.migros.ch/en/product/157262600000,07/11/2024,No Discount,3.95,15.8,15.8
+15,Migros,Rice,Risotto rice,Alnatura,3.5,0.5,kg,https://www.migros.ch/en/product/104466100000,07/11/2024,No Discount,3.5,7.0,7.0
+16,Migros,Rice,Long grain rice Carolina,Mister Rice Bio,4.3,1.0,kg,https://www.migros.ch/en/product/104403200000,07/11/2024,No Discount,4.3,4.3,4.3
+17,Migros,Rice,Red rice,Sélection Bio,3.2,0.25,kg,https://www.migros.ch/en/product/104429800000,07/11/2024,No Discount,3.2,12.8,12.8
+18,Migros,Rice,Long grain rice Cooking bag,Mister Rice Bio,3.95,0.32,kg,https://www.migros.ch/en/product/104440000000,07/11/2024,No Discount,3.95,12.34,12.34
+19,Migros,Rice,Rice Milk rice,M-Classic Originario,2.75,1.0,kg,https://www.migros.ch/en/product/104401000000,07/11/2024,20%,2.2,2.75,2.2
+20,Migros,Rice,Risotto With tomatoes,Subito Tomato,2.7,0.25,kg,https://www.migros.ch/en/product/157255100000,07/11/2024,No Discount,2.7,10.8,10.8
+21,Migros,Rice,Rice with lentils and quinoa,Mister Rice Bio,3.95,0.5,kg,https://www.migros.ch/en/product/104412400000,07/11/2024,No Discount,3.95,7.9,7.9
+22,Migros,Rice,Risotto Allo zafferano,Da Emilio,3.4,0.25,kg,https://www.migros.ch/en/product/104446500000,07/11/2024,No Discount,3.4,13.6,13.6
+23,Migros,Rice,Risotto Al funghi porcini,Da Emilio,3.4,0.25,kg,https://www.migros.ch/en/product/104446400000,07/11/2024,No Discount,3.4,13.6,13.6
+24,Migros,Rice,Risotto with porcini mushrooms Vegetarian,Buon Gusto Risotto,3.7,0.25,kg,https://www.migros.ch/en/product/157256500000,07/11/2024,No Discount,3.7,14.8,14.8
+25,Migros,Rice,Rice Red Thai Curry With coconut milk,Subito,2.95,0.17,kg,https://www.migros.ch/en/product/157256900000,07/11/2024,No Discount,2.95,17.35,17.35
+26,Migros,Rice,Jasmine rice,Mister Rice Bio,4.7,1.0,kg,https://www.migros.ch/en/product/104412000000,07/11/2024,No Discount,4.7,4.7,4.7
+27,Migros,Rice,Basmati rice,M-Budget,2.65,1.0,kg,https://www.migros.ch/en/product/104431100000,07/11/2024,No Discount,2.65,2.65,2.65
+28,Migros,Rice,Rice with quinoa,Mister Rice Bio,3.95,0.5,kg,https://www.migros.ch/en/product/104412500000,07/11/2024,No Discount,3.95,7.9,7.9
+29,Migros,Rice,Organic long grain rice Red jasmine rice,Mister Rice,3.5,0.5,kg,https://www.migros.ch/en/product/104428300000,07/11/2024,No Discount,3.5,7.0,7.0
+30,Migros,Rice,Organic long grain rice Black Thai,Mister Rice,3.75,0.5,kg,https://www.migros.ch/en/product/104428500000,07/11/2024,No Discount,3.75,7.5,7.5
+31,Migros,Rice,Bio Jasminreis lose,Migros Bio,4.5,1.0,kg,https://www.migros.ch/en/product/104405400000,07/11/2024,No Discount,4.5,4.5,4.5
+32,Migros,Rice,Bio Basmatireis lose,Migros Bio,6.0,1.0,kg,https://www.migros.ch/en/product/104405500000,07/11/2024,No Discount,6.0,6.0,6.0
+33,Migros,Rice,Fairtrade Mister Ric Bio Jasmin Mix,Mister Rice,3.5,0.5,kg,https://www.migros.ch/en/product/104412700000,07/11/2024,No Discount,3.5,7.0,7.0
+34,Migros,Rice,Whole Grain Basmati - Long Grain - Fragrant Rice,Mister Rice Bio,3.5,0.5,kg,https://www.migros.ch/en/product/104412600000,07/11/2024,No Discount,3.5,7.0,7.0
+35,Migros,Rice,Beness. Reis Inte 250g,Riso Scotti,2.4,0.25,kg,https://www.migros.ch/en/product/157270400000,07/11/2024,No Discount,2.4,9.6,9.6
+36,Migros,Rice,Beness. Reis rot 250g,Riso Scotti,2.4,0.25,kg,https://www.migros.ch/en/product/157270300000,07/11/2024,No Discount,2.4,9.6,9.6
+37,Migros,Rice,Risotto With morels,Subito Carnaroli,4.3,0.25,kg,https://www.migros.ch/en/product/157255500000,07/11/2024,No Discount,4.3,17.2,17.2
+38,Migros,Rice,Risotto with mushrooms Vegetarian,Buon Gusto Risotto,2.7,0.25,kg,https://www.migros.ch/en/product/157256300000,07/11/2024,No Discount,2.7,10.8,10.8
+39,Migros,Rice,Risotto Milanese,M-Budget,1.85,0.25,kg,https://www.migros.ch/en/product/157212700000,07/11/2024,No Discount,1.85,7.4,7.4
+40,Migros,Rice,Riso Carnaroli,Riso Scotti,5.5,1.0,kg,https://www.migros.ch/en/product/104409400000,07/11/2024,No Discount,5.5,5.5,5.5
+41,Migros,Rice,Demeter Carnaroli Reis,Demeter,3.95,0.5,kg,https://www.migros.ch/en/product/104450200000,07/11/2024,No Discount,3.95,7.9,7.9
+42,Migros,Rice,Bio Carnaroli lose,Migros Bio,5.5,1.0,kg,https://www.migros.ch/en/product/104405200000,07/11/2024,No Discount,5.5,5.5,5.5
+43,Migros,Rice,Migros Bio Risotto mit Tomaten,Migros Bio,7.9,0.73,kg,https://www.migros.ch/en/product/138183200000,07/11/2024,No Discount,7.9,10.82,10.82
+44,Migros,Rice,Risotto con Tartufo,Ori di Langa,8.9,0.18,kg,https://www.migros.ch/en/product/104409600000,07/11/2024,No Discount,8.9,50.86,50.86
+45,Migros,Rice,Scotti Risotti cremosi,Scotti,3.5,0.8,kg,https://www.migros.ch/en/product/104414100000,07/11/2024,No Discount,3.5,4.38,4.38
+46,Migros,Rice,Risotto rice,Mister Rice Bio,5.5,1.0,kg,https://www.migros.ch/en/product/104404600000,07/11/2024,No Discount,5.5,5.5,5.5
+47,Migros,Rice,Wholemeal Rice,Mister Rice Bio,4.6,1.0,kg,https://www.migros.ch/en/product/104425200000,07/11/2024,No Discount,4.6,4.6,4.6
+48,Migros,Rice,Risotto Pomodoro e basilico,Da Emilio,3.4,0.25,kg,https://www.migros.ch/en/product/104446200000,07/11/2024,No Discount,3.4,13.6,13.6
+49,Migros,Rice,Polenta Al funghi porcini,Da Emilio,3.4,0.25,kg,https://www.migros.ch/en/product/104446600000,07/11/2024,No Discount,3.4,13.6,13.6
+50,Migros,Rice,Basmati rice,Demeter,3.8,0.5,kg,https://www.migros.ch/en/product/104450100000,07/11/2024,No Discount,3.8,7.6,7.6
+51,Migros,Rice,Whole Grain Basmati - Long Grain - Fragrant Rice,Mister Rice Bio,3.0,0.5,kg,https://www.migros.ch/en/product/104413300000,07/11/2024,No Discount,3.0,6.0,6.0
+52,Migros,Rice,Long grain wild rice,Mister Rice Bio,5.95,1.0,kg,https://www.migros.ch/en/product/104424800000,07/11/2024,No Discount,5.95,5.95,5.95
+53,Migros,Rice,Bio Langkornreis lose,Migros Bio,3.5,1.0,kg,https://www.migros.ch/en/product/104405100000,07/11/2024,No Discount,3.5,3.5,3.5
+54,Migros,Rice,Riso Insalate,Riso Scotti,4.2,1.0,kg,https://www.migros.ch/en/product/104409200000,07/11/2024,No Discount,4.2,4.2,4.2
+55,Migros,Rice,Riso Arborio,Riso Scotti,5.0,1.0,kg,https://www.migros.ch/en/product/104409300000,07/11/2024,No Discount,5.0,5.0,5.0
+56,Migros,Rice,Demeter Langkornreis Parboiled,Demeter,3.6,0.5,kg,https://www.migros.ch/en/product/104450500000,07/11/2024,No Discount,3.6,7.2,7.2
+57,Migros,Rice,La Cuna Paëlla Reis,La Cuna,4.25,1.0,kg,https://www.migros.ch/en/product/158593300000,07/11/2024,No Discount,4.25,4.25,4.25
+58,Migros,Rice,Riso Scotti Vener,Riso Scotti,4.2,0.5,kg,https://www.migros.ch/en/product/104409100000,07/11/2024,No Discount,4.2,8.4,8.4
+59,Migros,Rice,Scotti Oro insalate Riso Jasmine,Scotti,3.9,0.8,kg,https://www.migros.ch/en/product/104413800000,07/11/2024,No Discount,3.9,4.88,4.88
+60,Migros,Rice,Long grain rice,M-Budget,1.5,1.0,kg,https://www.migros.ch/en/product/104431000000,07/11/2024,No Discount,1.5,1.5,1.5
+61,Migros,Rice,Risotto Al gusto di tartufo,Da Emilio,3.75,0.25,kg,https://www.migros.ch/en/product/104446300000,07/11/2024,No Discount,3.75,15.0,15.0
+62,Migros,Rice,Long grain rice parboiled,Alnatura,3.0,1.0,kg,https://www.migros.ch/en/product/104474600000,07/11/2024,No Discount,3.0,3.0,3.0
+63,Migros,Rice,Bio Wild rice mix lose,Migros Bio,6.0,1.0,kg,https://www.migros.ch/en/product/104405300000,07/11/2024,No Discount,6.0,6.0,6.0
+64,Migros,Rice,Long grain wild rice,M-Classic,3.75,1.0,kg,https://www.migros.ch/en/product/104402600000,07/11/2024,20%,3.0,3.75,3.0
+65,Migros,Rice,Risotto,M-Budget,2.0,1.0,kg,https://www.migros.ch/en/product/104431200000,07/11/2024,No Discount,2.0,2.0,2.0
+66,Migros,Rice,Basmati rice white,Alnatura,1.8,0.5,kg,https://www.migros.ch/en/product/104464300000,07/11/2024,No Discount,1.8,3.6,3.6
+67,Lidl,Rice,Ben's Langkorn Reis,Ben's,5.89,1.0,kg,https://sortiment.lidl.ch/de/ben-s-langkorn-reis-1800158,07/11/2024,No Discount,5.89,5.89,5.89
+68,Lidl,Rice,Ben's Spitzen-Langkornreis,Ben's,5.89,1.0,kg,https://sortiment.lidl.ch/de/ben-s-spitzen-langkornreis-1800157,07/11/2024,No Discount,5.89,5.89,5.89
+69,Lidl,Rice,Bio Langkornreis,Golden Sun,1.49,0.5,kg,https://sortiment.lidl.ch/de/bio-langkornreis-0109155,07/11/2024,No Discount,1.49,2.98,2.98
+70,Lidl,Rice,Ben's Express Reis,Ben's,3.29,0.22,kg,https://sortiment.lidl.ch/de/ben-s-express-reis-0008986,07/11/2024,No Discount,3.29,14.95,14.95
+71,Lidl,Rice,Parboiled Reis Langkorn,Golden Sun,1.35,1.0,kg,https://sortiment.lidl.ch/de/parboiled-reis-langkorn-0138125,07/11/2024,No Discount,1.35,1.35,1.35
+72,Lidl,Rice,Bio Basmati Reis,Golden Sun,1.79,0.5,kg,https://sortiment.lidl.ch/de/bio-basmati-reis-0128944,07/11/2024,No Discount,1.79,3.58,3.58
+73,Lidl,Rice,Langkornreis im Kochbeutel,Golden Sun,1.99,1.0,kg,https://sortiment.lidl.ch/de/langkornreis-im-kochbeutel-0012590,07/11/2024,No Discount,1.99,1.99,1.99
+74,Lidl,Rice,Basmati Reis,Golden Sun,2.65,1.0,kg,https://sortiment.lidl.ch/de/basmati-reis-0136419,07/11/2024,No Discount,2.65,2.65,2.65
+75,Lidl,Rice,San Andrea Risottoreis,Golden Sun,1.99,1.0,kg,https://sortiment.lidl.ch/de/san-andrea-risottoreis-0129108,07/11/2024,No Discount,1.99,1.99,1.99
+76,Lidl,Rice,Jasmin Reis,Golden Sun,2.69,1.0,kg,https://sortiment.lidl.ch/de/jasmin-reis-0012592,07/11/2024,No Discount,2.69,2.69,2.69
