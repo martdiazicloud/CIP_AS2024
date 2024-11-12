@@ -24,7 +24,7 @@ step every time the script runs entirely.
 based on my practical considerations.
 "RiceData_Cleaned_Transformed_GroupProject.csv": Final file created with standardized column names,
 among others, after group team agreement. File used in the following steps for Group Project.
-(same file outside of folder Rice for use of group project)
+(Same file located outside the Rice folder for group project use)
 
 
 Some relevant Key Challenges:
