@@ -8,6 +8,7 @@ https://www.lidl.ch/
 Rice Webscraping from two competitors, starting from the initial webpage link and
 navigating through multiple links until reaching the Rice sections.
 
+Folder Rice:
 Files:
 "scrap_lidl.py": Script for web scraping Lidl.
 "scrap_migros.py": Script web scraping Migros.
@@ -23,6 +24,7 @@ step every time the script runs entirely.
 based on my practical considerations.
 "RiceData_Cleaned_Transformed_GroupProject.csv": Final file created with standardized column names,
 among others, after group team agreement. File used in the following steps for Group Project.
+(same file outside of folder Rice for use of group project)
 
 
 Some relevant Key Challenges:
@@ -37,11 +39,13 @@ Without doing so, the field would return  a high rate of NaN.
 - Special case in Lidl´s web scraping, weight normally appeared as number followed by unit
 (250g) but occasionally as a multiplication( 2x500g), which the initial scraping code not recognize,
 resulting missing values. The Lidl web scraping script addresses this special case to prevent NaN values.
--cookies
--discount supermarket website updating : no se pudieron testear ciertos elementos como los descuentos de forma continua
-durante el desarrollo
+-On the supermarket websites, certain elements, such as discounts, could not be continuously tested during development
+due to their dynamic nature. There were a couple of weeks without discounts on either site, which made continuous
+testing challenging. However, discounts were eventually published on the Migros site, allowing me to successfully
+test them
+-Handle cookies consent
 
-Goal:Fulfill the requirements of the project in each phase. Learning through this real-world
+Goal: Fulfill the requirements of the project in each phase. Learning through this real-world
 web scraping by using Beautiful Soup and Selenium,followed by data cleaning, inspection and transformation
 with pandas.
 My aim was to apply a wide range of  tools and methods in this practical case in an organized, structured and
