@@ -421,11 +421,13 @@ range_outliers = df_rice[(df_rice['Price per Kg'] < min_expected_price_per_kg)
 print("\nRows with 'Price per Kg' outside the expected range:")
 print(range_outliers[['Competitor', 'Description', 'Price per Kg']])
 print("According website is ok. Check it!")
-print("*****************************************************************")
+print("*****************************************************************\n")
 
 # 9. Visualizations:
 # helpful for identifying outliers as well as providing insights into the data.
-print("\n***** 7 Graphs and boxplot. Checking and understanding. ******")
+print("*"*50)
+print("\n 7 Graphs and boxplot. Checking and understanding.\n")
+print("*"*50)
 #Graphs and boxplot
 
 #1. Box Plot - Visualize Price per Kg by Competitor
@@ -503,12 +505,14 @@ plt.legend(title="Supermarket")
 plt.tight_layout()
 plt.show()
 
-print("**End of Graph visualization**\n")
+print("\n**End of Graph visualization**\n")
 
 
 # 10. Categorical variables
 # Descriptive statistics of the rice dataset
-print("***** Overview of Categorical Variables *****\n")
+print("*"*40)
+print("\nOverview of Categorical Variables\n")
+print("*"*40)
 print("\nDescriptive Statistics (Including Categorical Variables):")
 print(df_rice.describe(include='all'))  #statistics for categorical and numerical columns
 
