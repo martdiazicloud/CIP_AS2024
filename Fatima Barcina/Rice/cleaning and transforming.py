@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt   #Basic plotting
 import seaborn as sns             #Advanced plotting
 from collections import Counter   #Count items
 import re                         #Text pattern matching
-
+import numpy as np
 
 #Set options:
 pd.set_option('display.precision', 2)     #For floating show two decimals
@@ -425,33 +425,16 @@ print("*****************************************************************")
 
 # 9. Visualizations:
 # helpful for identifying outliers as well as providing insights into the data.
-print("\n***** 6 Graphs and boxplot. Checking and understanding. ******")
+print("\n***** 7 Graphs and boxplot. Checking and understanding. ******")
 #Graphs and boxplot
+
 #1. Box Plot - Visualize Price per Kg by Competitor
 plt.figure(figsize=(8, 6))
-sns.boxplot(data=df_rice, x='Competitor', y='Price per Kg')
+sns.boxplot(data=df_rice, x='Competitor', y='Price per Kg', hue='Competitor', palette={"Migros": "orange", "Lidl": "blue"})  #warning new version hue
 plt.title("Distribution of Price per Kg by Competitor")
 plt.show()
 
-#2. Histogram - Overall Distribution of Price per Kg
-# Histogram of Price per Kg
-plt.figure(figsize=(8, 6))
-sns.histplot(df_rice['Price per Kg'], bins=20, kde=True)
-plt.title("Histogram of Price per Kg")
-plt.xlabel("Price per Kg")
-plt.ylabel("Frequency")
-plt.show()
-
-#3. Scatter Plot - Price vs. Price per Kg
-# Scatter plot of Price vs. Price per Kg (pricing coherence)
-plt.figure(figsize=(8, 6))
-plt.scatter(df_rice['Price'], df_rice['Price per Kg'])
-plt.title("Scatter Plot of Price vs. Price per Kg")
-plt.xlabel("Price (CHF)")
-plt.ylabel("Price per Kg (CHF)")
-plt.show()
-
-#4. Bar Plot - Average Price per Kg by Competitor
+#2. Bar Plot - Average Price per Kg by Competitor
 # Bar plot of average Price per Kg by Competitor
 mean_price_per_kg_by_competitor = df_rice.groupby('Competitor')['Price per Kg'].mean()
 mean_price_per_kg_by_competitor.plot(kind='bar', color=['blue', 'orange'], figsize=(8, 6))
@@ -460,7 +443,35 @@ plt.xlabel("Competitor")
 plt.ylabel("Average Price per Kg (CHF)")
 plt.show()
 
-#5. Highlight Outlier in Scatter Plot
+#3. Histogram - Overall Distribution of Price per Kg
+# Histogram of Price per Kg both competitors
+plt.figure(figsize=(8, 6))
+sns.histplot(df_rice['Price per Kg'], bins=20, kde=True)
+plt.title("Histogram of Price per Kg (both competitors)")
+plt.xlabel("Price per Kg")
+plt.ylabel("Frequency")
+plt.show()
+
+#4. Histogram - Distribution of Price per Kg by Competitor
+# Histogram - Distribution of Price per Kg by Competitor
+plt.figure(figsize=(8, 6))
+# by 'Competitor' Migros and Lidl, to see the distribution difference of Price per Kg
+sns.histplot(data=df_rice, x='Price per Kg', hue='Competitor', bins=20, kde=True, palette={"Migros": "orange", "Lidl": "blue"})
+plt.title("Histogram of Price per Kg by Competitor")
+plt.xlabel("Price per Kg")
+plt.ylabel("Frequency")
+plt.show()
+
+#5. Scatter Plot - Price vs. Price per Kg
+# Scatter plot of Price vs. Price per Kg (pricing coherence)
+plt.figure(figsize=(8, 6))
+plt.scatter(df_rice['Price'], df_rice['Price per Kg'])
+plt.title("Scatter Plot of Price vs. Price per Kg")
+plt.xlabel("Price (CHF)")
+plt.ylabel("Price per Kg (CHF)")
+plt.show()
+
+#6. Highlight Outlier in Scatter Plot
 # Highlight the outlier in scatter plot
 plt.figure(figsize=(8, 6))
 plt.scatter(df_rice['Price'], df_rice['Price per Kg'], color='blue')
@@ -473,7 +484,7 @@ plt.scatter(outlier['Price'], outlier['Price per Kg'], color='red', label='Risot
 plt.legend()
 plt.show()
 
-#6. Horizontal Bar Plot- Product count by 'Brand' and 'Competitor'
+#7. Horizontal Bar Plot- Product count by 'Brand' and 'Competitor'
 # Group by 'Competitor' and 'Brand', then count the number of occurrences for each brand
 brand_counts = df_rice.groupby(['Competitor', 'Brand']).size().reset_index(name='Product Count')
 #Sorting brand counts in descending order by 'Product Count'
@@ -492,7 +503,7 @@ plt.legend(title="Supermarket")
 plt.tight_layout()
 plt.show()
 
-print("**End of Graph visualization**")
+print("**End of Graph visualization**\n")
 
 
 # 10. Categorical variables
@@ -502,7 +513,7 @@ print("\nDescriptive Statistics (Including Categorical Variables):")
 print(df_rice.describe(include='all'))  #statistics for categorical and numerical columns
 
 # Check the data and better understanding.Insights and Observations.
-print("\n*** Insights and Observations Categorical Variables for this dataset***\n:")
+print("\n*** Insights and Observations Categorical Variables for this dataset***:\n")
 
 # Competitor Analysis
 # print("Directly from table: 2 competitors. Migros offers 66 products, therefore Lidl offers 10 products"). #ok
@@ -569,8 +580,12 @@ for col in categorical_columns:
     print("Value Counts:")
     print(df_rice[col].value_counts().head(10))  # Show top 10
 
+# Competitive and Descriptive Insights from Rice data:
 # Product Proportions, Price Analysis, and Leading Brands by Competitor
 # Calculate proportions of each competitor: proportion of products offered by each competitor as %.
+print("*"*50)
+print("\nCompetitive and Descriptive Insights from Rice Data:\n")
+print("*"*50)
 competitor_proportions = df_rice['Competitor'].value_counts(normalize=True) * 100
 print("\nCompetitor Proportions (%):")
 print(competitor_proportions)
@@ -585,6 +600,20 @@ price_range_per_kg = df_rice.groupby('Competitor')['Price per Kg'].agg(['min', '
 print("\nPrice Range per Kg by Competitor:")
 print(price_range_per_kg)
 
+#Price per kg Interval by Competitor
+## Calculate the minimum and maximum values of 'Price per Kg' in df_rice
+price_per_kg_min = df_rice['Price per Kg'].min()
+price_per_kg_max = df_rice['Price per Kg'].max()
+# Define price intervals: 0-2, 2-4, ..., up to the maximum value
+price_intervals = np.arange(0, price_per_kg_max + 2, 2)
+# Group and count the number of products in each interval
+price_per_kg_summary = (pd.cut(df_rice['Price per Kg'], bins=price_intervals)               #segment and sort price per kg into the defined intervals
+                        .groupby(df_rice['Competitor']).value_counts().unstack(fill_value=0))  #group by each Competitor column  #count number in each interval  #pivot each interval to column
+
+# Summary table
+print("\nPrice per Kg Interval Summary by Competitor:")
+print(price_per_kg_summary)
+
 # Quartile Distribution of Price per kg for each Competitor
 price_quartiles = df_rice.groupby('Competitor')['Price per Kg'].describe()[['25%', '50%', '75%']].round(2)
 print("\nQuartile Distribution of Price per Kg for Each Competitor:")
@@ -592,7 +621,7 @@ print(price_quartiles)
 
 #Top 5 most common products by description
 common_products = df_rice['Description'].value_counts().head(5)
-print("\nTop 5 Most Common Products by description:")
+print("\nTop 5 Most Common Products by Description:")
 print(common_products)
 
 # Average price per kg of top brands grouped by competitor: Average Price per Kg of the top 5 most frequent brands, grouped by competitor.
@@ -706,7 +735,9 @@ for keyword, avg_price in keyword_price_comparison.items():
 
 
 # 11. Save Transformed Data
-print("*****Create .csv  *******")
+print("\n************************\n")
+print("***   Create .csv      ***\n")
+print("************************")
 #1. ALL columns: Save 'df_rice' with all transformations and added columns to a final CSV file with ALL columns: overview
 #df_rice.to_csv("RiceCleanedAndTransformed.csv", index=False)
 #print("\nFinal DataFrame with all transformations saved as 'RiceCleanedAndTransformedAll.csv'")
@@ -775,5 +806,5 @@ print(df_group_project)
 
 
 print("*"*20)
-print("\n13. END OF SCRIPT\n")
+print("\n END OF SCRIPT\n")
 print("*"*20)
