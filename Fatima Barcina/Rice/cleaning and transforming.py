@@ -1,17 +1,7 @@
 """
 Title: "Rice Migros and Lidl: Data Cleaning and Transforming ""
-author:
-date:		Fall Semester 2024 (November 2024)
-"""
-
-"""
-Requirements
-- Check for gaps / missing data
-- Check if columns show appropriate datatypes, change if needed
-- Check if values lie in the expected range
-- Identify outliers, treat them reasonably
-- Format your dataset suitable for your task (combine, merge, resample, …)
-- Enrich your dataset with at least one column of helpful additional information
+author: Fátima Barcina Arias
+date:  Fall Semester 2024 (November 2024)
 """
 
 # 1. Import and set up
@@ -342,7 +332,7 @@ print(outliers[['Description', 'Brand', 'Price', 'Grammage', 'Price per Kg', 'Ou
 print("Already check it!")
 
 # Important: Data Consistency: Converting 'g' to 'kg' for Standardized Units for next comparing steps
-# Convert all 'g' entries to 'kg' by dividing by 1000 (data consistency: Scaling by 1000)!!!
+# Convert all 'g' entries to 'kg' by dividing by 1000 (data consistency: Scaling by 1000)
 df_rice.loc[df_rice['Unit'] == 'g', 'Grammage'] = df_rice['Grammage'] / 1000
 df_rice.loc[df_rice['Unit'] == 'g', 'Unit'] = 'kg'
 print("\n Convert all 'g' entries to 'kg':")
@@ -714,20 +704,6 @@ for keyword, avg_price in keyword_price_comparison.items():
     print(f"\nKeyword: {keyword}")
     print(avg_price)
 
-#Group Project
-# Average price per kg for discounted products by Competitor_ group project
-discounted_avg_price = df_rice[df_rice['Discount'] != 'No Discount'].groupby('Competitor')['Price per Kg'].mean()
-print("\nAverage Price per Kg for Discounted Products by Competitor:")
-print(discounted_avg_price)
-# Calculate average price per kg by Category and Competitor
-avg_price_per_kg_category = df_rice.groupby(['Category', 'Competitor'])['Price per Kg'].mean().round(2)
-print("\nAverage Price per Kg by Category and Competitor:")
-print(avg_price_per_kg_category)
-# Count of products per category by Competitor
-category_counts = df_rice.groupby(['Competitor', 'Category']).size().unstack(fill_value=0)
-print("\nProduct Count by Category for Each Competitor:")
-print(category_counts)
-
 
 # 11. Save Transformed Data
 print("*****Create .csv  *******")
@@ -739,7 +715,7 @@ print("*****Create .csv  *******")
 #print(df3)
 
 # 2.Save 'df_rice' with just some selected columns of all cleaning and transforming process
-# Define the columns to keep, excluding as 'Outlier' and 'Negative Value Outlier' columns where in number 1.csv:
+# Define the columns to keep, excluding as 'Outlier' and 'Negative Value Outlier' columns
 # According to the whole process of this Cleaning and Transforming script, included only some selected columns in CSV
 selected_columns = [
     'ID', 'Competitor', 'Category', 'Description', 'Brand', 'Price', 'Discount', 'Regular Price',
@@ -801,73 +777,3 @@ print(df_group_project)
 print("*"*20)
 print("\n13. END OF SCRIPT\n")
 print("*"*20)
-"""
-# End of analysis
-print("\n--- End of Descriptive Analysis ---\n")
-
-
-mmucho lio 
-# Find the top 5 most frequent brands for each competitor
-top_brands_by_competitor = (df_rice.groupby('Competitor')['Brand'].apply(lambda x: x.value_counts().head(5))
-                            .reset_index(name='Frequency'))
-print("\nTop 5 Most Frequent Brands by Competitor:")
-print(top_brands_by_competitor)
-
-# Calculate the average price per kg for these top brands within each competitor error!!
-top_brands_list = top_brands_by_competitor['Brand'].unique()  # Unique top brands across competitors
-brand_price_comparison = df_rice[df_rice['Brand'].isin(top_brands_list)].groupby(['Brand', 'Competitor'])['Price per Kg'].mean().round(2)
-
-print("\nAverage Price per Kg of Top Brands by Competitor:")
-print(brand_price_comparison)
-
-"""
-"""
-borrar es lo de los duplicados
-# Define the columns to check for exact matches
-comparison_columns = ['Description', 'Brand', 'Price', 'Grammage', 'Unit', 'Product Link']
-
-# Find duplicates based only on 'Description' and 'Brand'
-duplicates_check = df_rice[df_rice.duplicated(subset=['Description', 'Brand'], keep=False)]
-
-if not duplicates_check.empty:
-    print("\nDuplicate rows found based on 'Description' and 'Brand':")
-
-    # Group by 'Description' and 'Brand' to check for matches across other columns
-    for (description, brand), group in duplicates_check.groupby(['Description', 'Brand']):
-        # Check if all values in 'Price', 'Grammage', 'Unit', and 'Product Link' are the same
-        if group[comparison_columns].nunique().sum() == len(comparison_columns):
-            print(
-                f"\nAll fields match for 'Description': '{description}' and 'Brand': '{brand}'. Product is a true duplicate. Recommended for removal:")
-        else:
-            print(
-                f"\nFields differ for 'Description': '{description}' and 'Brand': '{brand}'. Product may not be a true duplicate.")
-
-        # Display the rows of the group for inspection
-        print(group[['Competitor', 'Description', 'Brand', 'Price', 'Grammage', 'Unit', 'Product Link']])
-
-else:
-    print("\nNo duplicates found based on 'Description' and 'Brand'.")
-
-"""
-
-"""
-# Description Analysis
-unique_descriptions = df_rice['Description'].nunique()
-common_description = df_rice['Description'].mode()[0]
-common_description_count = df_rice['Description'].value_counts().iloc[0]
-
-print("\n3. Description Analysis:")
-print(f"- There are {unique_descriptions} unique descriptions.")
-print(f"- The most common description is '{common_description}' appearing {common_description_count} times.")
-print("- Duplicate descriptions suggest checking for differences in 'Brand' or 'Price' columns.")
-
------
-
-# Discount Analysis!!!!!
-print("\n5. Discount Analysis:")
-discount_counts = df_rice['Discount'].value_counts()
-print(discount_counts)
-print(f"\n- 'No Discount' appears {discount_counts['No Discount']} times in the dataset.")
-print(f"- '20%' appears {discount_counts['20%']} times in the dataset.")
-
-"""
