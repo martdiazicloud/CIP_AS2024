@@ -48,5 +48,5 @@ test them
 Goal: Fulfill the requirements of the project in each phase. Learning through this real-world
 web scraping by using Beautiful Soup and Selenium,followed by data cleaning, inspection and transformation
 with pandas.
-My aim was to apply a wide range of  tools and methods in this practical case in an organized, structured and
+My aim was to apply a wide range of  tools and methods in this practical case in an organized, cleared, structured and
 consistent way throughout the project.
