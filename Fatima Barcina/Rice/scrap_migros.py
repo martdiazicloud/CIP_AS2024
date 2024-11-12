@@ -2,8 +2,9 @@
 """\
 Title: "Rice Migros Web Scraping "
 by Fátima Barcina Arias (CIP_Group:03)
-Date: Fall Semester 2024 (November 2024)
+Date: 07.11.2024
 """
+
 from bs4 import BeautifulSoup
 import csv
 from selenium import webdriver

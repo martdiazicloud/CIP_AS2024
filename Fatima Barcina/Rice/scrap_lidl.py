@@ -1,9 +1,9 @@
 """\
-scrape data from www.lidl.ch
-
-date: 27.10.2024
-
+Title: "Rice Lidl Web Scraping "
+by Fátima Barcina Arias (CIP_Group:03)
+Date: 07.11.204
 """
+
 
 import csv
 import re
