@@ -20,11 +20,10 @@ and transforming.
 as an outcome of organized method has been implemented to fill missing fields column by column,
 using the "input" function. Saving this file avoids repeating the NaN filling step every time
 the script runs entirely. (for filling NaN again just delete this CSV and filling clicking on link product suggested)
-
-"RiceData_Cleaned_Transformed.csv": Final cleaned and transformed file with column names chosen
-based on my own practical considerations.
-"RiceData_Cleaned_Transformed_GroupProject.csv": Final file transformed with standardized column names,
-among others, after group team agreement. File used in the following steps for Group Project.
+"RiceData_Cleaned_Transformed.csv": Final cleaned and transformed file with column names chosen based on my
+own practical considerations.
+"RiceData_Cleaned_Transformed_GroupProject.csv": Final cleaned and transformed file with standardized column names and
+order after group team agreement. File used in the following steps for Group Project.
 (Same file located outside the Rice folder for group project use)
 
 
