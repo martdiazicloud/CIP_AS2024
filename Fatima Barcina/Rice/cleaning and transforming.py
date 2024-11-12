@@ -1,4 +1,10 @@
 """
+Title: "Rice Migros and Lidl: Data Cleaning and Transforming ""
+author:
+date:		Fall Semester 2024 (November 2024)
+"""
+
+"""
 Requirements
 - Check for gaps / missing data
 - Check if columns show appropriate datatypes, change if needed
@@ -8,7 +14,7 @@ Requirements
 - Enrich your dataset with at least one column of helpful additional information
 """
 
-
+# 1. Import and set up
 import pandas as pd     # Data manipulation (tables)
 import os               # Interact with operating system
 import matplotlib.pyplot as plt   #Basic plotting
@@ -26,6 +32,7 @@ pd.set_option('display.max_colwidth', 30 ) #Set option column width
 #pd.set_option('display.max_columns', None)
 #pd.set_option('display.max_colwidth', None )
 
+# 2. Load and Inspect Data: Load the datasets and perform initial checks
 # Load the CSV files into a DataFrame, where df1=Migros y df2=Lidl
 df1 = pd.read_csv('RiceOfMigros.csv', header=0)
 df2= pd.read_csv('RiceOfLidl.csv', header=0)
@@ -44,12 +51,14 @@ print(df1.info())
 print("\n Info DF Lidl:")
 print(df2.info())
 
+# 3. Merge DataFrames: Combine the two datasets into a single DataFrame: df_rice
 # Merge df1 and df2: Combine  vertically, with index reset
 print("*"*50)
 print("      Rice DF(Migros+Lidl): 'df_rice' ")
 print("*"*50)
 df_rice = pd.concat([df1, df2], axis=0).reset_index(drop=True)   #One DF: Migros and Lidl Rice
 
+# 4. Check Data Types and Missing Values: Display data types and summarize missing values.
 ##Inspection:
 print (f"\n Migros and Lidl Rice DF Overview: ")
 print (df_rice.head)
@@ -79,7 +88,8 @@ print(f"\nNumber of non-NA/null entries for each column:\n{non_na_counts}\n")
 print("\n Are there rows with NaN values?")
 print(df_rice.isna().any(axis=1))
 
-# Find and Fill Missing Data with dynamically Web Links assistance; avoiding filling again NaN if the script run again
+#5. Handle Missing Data: Fill missing values if needed and load 'df_rice_cleaned'(if this file is deleted> fill Nan with loop)
+# Find and Fill Missing Data with dynamically input assistance; avoiding filling again NaN if the script run again
 # For filling again the missing values: delete 'df_rice_cleaned.csv' and use input function for each NaN
 # Path to the CSV file where the DataFrame will be saved with filled missing values.
 csv_file_path = 'df_rice_cleaned.csv'
@@ -143,9 +153,9 @@ remaining_nans = df_rice.isna().sum()
 print("\nSummary of remaining NaN values in each column:")
 print(remaining_nans)
 
+
 """
-Above automatically code, 
-This is filling gaps manually one by one as example 43 'Brand':
+#For filling missing values manually one by one, access specific row with missing value as example 43 'Brand':
 
 print("\n Click in the product link to check the brand: ")
 print(df_rice.iloc[43,:])
@@ -158,9 +168,8 @@ print(df_rice.loc[43])
 remaining_nans = df_rice.isna().sum()
 print("\nSummary of remaining NaN values in each column:")
 print(remaining_nans)
-"""
-"""
-# Remove rows
+
+# Remove rows (no need it)
 #As all the data are in the website Removing Rows are not need. In some missing values cases might be necessary:
 # Remove rows that have NaN in any column
 df_rice = df_rice.dropna()
@@ -187,7 +196,7 @@ print(rows_with_nulls)
 print("\n Are there rows with Null values?")
 print(df_rice.isnull().any(axis=1))                 #shows boolean check for null presence across rows
 
-#Check duplicates
+# 6. Check duplicates
 # Check for any duplicated row:
 if df_rice.duplicated().any():
     # Boolean Series indicating duplicated rows (only from second occurrence duplicates are marked as True)
@@ -218,7 +227,9 @@ if not duplicates_check.empty:
     print(duplicates_check[['Competitor', 'Description', 'Brand', 'Price', 'Grammage','Unit', 'Product Link']])
 print("\nNo duplicates, rest of columns as Price and Product Link are different")
 
-#Columns.
+# 7. Data Cleaning and Transformation:
+
+# Columns.
 print("\nNames of columns: ")
 print(df_rice.columns)
 
@@ -228,7 +239,8 @@ df_rice['ID'] = df_rice.index + 1
 # Define the new column order
 columns_order = ['ID', 'Competitor', 'Category', 'Description', 'Brand', 'Price', 'Grammage', 'Unit', 'Discount',
                  'Product Link', 'Scraping Date']
-# Reorder the DataFrame columns
+
+# Reorder the DataFrame columns,  under my consideration
 df_rice = df_rice[columns_order]
 print("\nDataFrame with 'Discount' moved after 'Unit':")
 print(df_rice)
@@ -236,9 +248,9 @@ print(df_rice)
 print("\n Display some of columns: ")
 print(df_rice.iloc[:,3:9])     #interested in Description, Brand, Price, Grammage, Unit, Discount
 
-#New Columns
+# New Columns:
 
-## Add "Price per kg" column:                     #group project: Actual_Price/Unit
+## Add "Price per kg" column:                     #(group project: Actual_Price/Unit)
 ## Note:The price per kg at the moment of purchase (including the discount) is generally more relevant for consumers
 ## It is the amount consumer pay per kg when they buy the product, considering any ongoing discounts
 df_rice['Price per Kg'] = df_rice.apply(lambda row: row['Price'] * (1000 / row['Grammage']) if row['Unit'] == 'g'
@@ -251,18 +263,17 @@ print(df_rice[['Description', 'Brand', 'Price', 'Grammage', 'Unit', 'Price per K
 ## Add "Regular Price" column.                                          (Group Project: Regular_Price (CH))
 ## Calculate 'Regular Price' based on 'Price' and 'Discount Percentage' from webscraping
 ### Note: more relevant for consumer, Price at moment purchase than regular price (price without discount)
-### as it is what consumer really pay
+### as it is what consumer really pay and made the decision buy or not.
 df_rice['Regular Price'] =df_rice['Price'] / (1 - pd.to_numeric(
     df_rice['Discount'].str.replace('%', ''), errors='coerce'
 ).fillna(0) / 100)
-
 # Round to 2 decimal places
 df_rice = df_rice.round(2)
 
 print("\nDataFrame with 'Regular Price' column:")
 print(df_rice[['Description', 'Price', 'Discount', 'Regular Price']])
 
-# Add "Regular Price per kg" based on 'Regular Price' and 'Grammage'      (Group project: Regular_Price/Unit)
+## Add "Regular Price per kg" based on 'Regular Price' and 'Grammage'      (Group project: Regular_Price/Unit)
 df_rice['Regular Price per Kg'] = df_rice.apply(lambda row: row['Regular Price'] * (1000 / row['Grammage'])
 if row['Unit'] == 'g' else row['Regular Price'] / row['Grammage'],
     axis=1
@@ -270,7 +281,7 @@ if row['Unit'] == 'g' else row['Regular Price'] / row['Grammage'],
 print("\nDataFrame with 'Regular Price per Kg' column:")
 print(df_rice[['Description', 'Regular Price', 'Grammage', 'Unit', 'Regular Price per Kg']])
 
-# Add 'Discounted Price Difference' column: (the difference between Regular Price and Price)
+## Add 'Discounted Price Difference' column: (the difference between Regular Price and Price)
 df_rice['Discounted Price Difference'] = df_rice['Regular Price'] - df_rice['Price']
 print("\nDataFrame with 'Discounted Price Difference' column:")
 print(df_rice[['Description', 'Price', 'Regular Price', 'Discounted Price Difference']])
@@ -291,7 +302,7 @@ print(df_rice)
 #Check summary of the Df
 df_rice.info()
 
-# Outliers:
+# 8. Outlier Detection
 # Statistics for all numeric columns
 print("\nStatistics for all numeric columns:")
 print(df_rice.describe())
@@ -330,15 +341,16 @@ print("\nRows marked as Outliers (Price per Kg > 20 CHF):")
 print(outliers[['Description', 'Brand', 'Price', 'Grammage', 'Price per Kg', 'Outlier']])
 print("Already check it!")
 
-
+# Important: Data Consistency: Converting 'g' to 'kg' for Standardized Units for next comparing steps
 # Convert all 'g' entries to 'kg' by dividing by 1000 (data consistency: Scaling by 1000)!!!
 df_rice.loc[df_rice['Unit'] == 'g', 'Grammage'] = df_rice['Grammage'] / 1000
 df_rice.loc[df_rice['Unit'] == 'g', 'Unit'] = 'kg'
 print("\n Convert all 'g' entries to 'kg':")
 print(df_rice)
 
-#Outlier identify any negative number in numeric columns
-#Identify numeric columns
+
+# Outlier identify any negative number in numeric columns
+# Identify numeric columns
 numeric_columns = df_rice.select_dtypes(include=['float64', 'int64']).columns
 # Create a "Negative Value Outlier" column to mark rows with negative values in numeric columns
 df_rice['Negative Value Outlier'] = df_rice[numeric_columns].lt(0).any(axis=1)
@@ -348,8 +360,13 @@ print("\nRows marked as Negative Value Outliers (containing negative values in n
 print(negative_outliers)
 
 
-#Means
-# Note: For this section, mean calculations is used column Price =Purchase Price (Actual_Price) as from my consideration is more relevant as consumer
+# Mean: Importance of means as a method of detecting outliers.
+# Analysis of price variations that help in detecting potential outliers.
+# The resulting columns are added to the dataframe.
+
+# Note: For this section, mean calculations is used column 'Price' =Purchase Price (Actual_Price)
+# as from my consideration is more relevant as consumer
+
 # Calculate the Overall Average Price per kg for all rice in the Df
 print("*"*50)
 mean_price_per_kg_all = df_rice['Price per Kg'].mean()
@@ -391,7 +408,7 @@ print(df_rice[['Competitor', 'Description', 'Price per Kg', 'Abs Diff Price per 
                'Abs Diff Price per Kg vs Competitor Mean']])
 
 # Outlier Detection and Validation for 'Price per Kg'
-print("****** Outlier Detection and Validation for 'Price per Kg' ******")
+print("******** Outlier Detection and Validation for 'Price per Kg' ********")
 # Define outliers using the Interquartile Range (IQR)
 Q1 = df_rice['Price per Kg'].quantile(0.25)
 Q3 = df_rice['Price per Kg'].quantile(0.75)
@@ -416,6 +433,9 @@ print(range_outliers[['Competitor', 'Description', 'Price per Kg']])
 print("According website is ok. Check it!")
 print("*****************************************************************")
 
+# 9. Visualizations:
+# helpful for identifying outliers as well as providing insights into the data.
+print("\n***** 6 Graphs and boxplot. Checking and understanding. ******")
 #Graphs and boxplot
 #1. Box Plot - Visualize Price per Kg by Competitor
 plt.figure(figsize=(8, 6))
@@ -433,7 +453,7 @@ plt.ylabel("Frequency")
 plt.show()
 
 #3. Scatter Plot - Price vs. Price per Kg
-# Scatter plot of Price vs. Price per Kg
+# Scatter plot of Price vs. Price per Kg (pricing coherence)
 plt.figure(figsize=(8, 6))
 plt.scatter(df_rice['Price'], df_rice['Price per Kg'])
 plt.title("Scatter Plot of Price vs. Price per Kg")
@@ -444,7 +464,7 @@ plt.show()
 #4. Bar Plot - Average Price per Kg by Competitor
 # Bar plot of average Price per Kg by Competitor
 mean_price_per_kg_by_competitor = df_rice.groupby('Competitor')['Price per Kg'].mean()
-mean_price_per_kg_by_competitor.plot(kind='bar', color=['skyblue', 'salmon'], figsize=(8, 6))
+mean_price_per_kg_by_competitor.plot(kind='bar', color=['blue', 'orange'], figsize=(8, 6))
 plt.title("Average Price per Kg by Competitor")
 plt.xlabel("Competitor")
 plt.ylabel("Average Price per Kg (CHF)")
@@ -459,11 +479,12 @@ plt.ylabel("Price per Kg (CHF)")
 plt.title("Scatter Plot of Price vs. Price per Kg with Outlier Highlighted")
 # Highlighting the specific outlier row
 outlier = df_rice[df_rice['Price per Kg'] == 50.86]
-plt.scatter(outlier['Price'], outlier['Price per Kg'], color='red', label='Outlier')
+plt.scatter(outlier['Price'], outlier['Price per Kg'], color='red', label='Risotto con Tartufo')
 plt.legend()
 plt.show()
 
-# Group by Competitor and Brand, then count the number of occurrences for each brand
+#6. Horizontal Bar Plot- Product count by 'Brand' and 'Competitor'
+# Group by 'Competitor' and 'Brand', then count the number of occurrences for each brand
 brand_counts = df_rice.groupby(['Competitor', 'Brand']).size().reset_index(name='Product Count')
 #Sorting brand counts in descending order by 'Product Count'
 brand_counts_sorted = brand_counts.sort_values(by='Product Count', ascending=False)
@@ -481,29 +502,38 @@ plt.legend(title="Supermarket")
 plt.tight_layout()
 plt.show()
 
+print("**End of Graph visualization**")
 
-#Overview categorical variables
-# Analyze and document insights from the descriptive statistics of the rice dataset
+
+# 10. Categorical variables
+# Descriptive statistics of the rice dataset
+print("***** Overview of Categorical Variables *****\n")
 print("\nDescriptive Statistics (Including Categorical Variables):")
 print(df_rice.describe(include='all'))  #statistics for categorical and numerical columns
 
-# Insights and Observations
-print("\nConclusions and Observations:")
+# Check the data and better understanding.Insights and Observations.
+print("\n*** Insights and Observations Categorical Variables for this dataset***\n:")
 
 # Competitor Analysis
-print("\n1. Competitor Analysis:")
-print("- There are two competitors in the dataset.")
-print("- 'Migros' appears in 66 rows, showing that most products are from Migros.")
+# print("Directly from table: 2 competitors. Migros offers 66 products, therefore Lidl offers 10 products"). #ok
+# Calculate the percentage of products from Migros
+total_products = df_rice['Competitor'].count()
+migros_count = df_rice['Competitor'].value_counts().get('Migros', 0)   #if not found, return 0
+migros_percentage = (migros_count / total_products) * 100
+
+print("\n1. 'Competitor' Analysis:")
+print("- There are two competitors: Migros and Lidl")
+print(f"- Migros offers {migros_count} products, representing {migros_percentage:.2f}% of the total data.")
+print(f"- Lidl offers {total_products - migros_count} products, highlighting a smaller variety available on their site.")
 
 # Category Analysis
 print("\n2. Category Analysis:")
-print("- All entries are under the 'Rice' category, confirming the dataset only includes rice products.")
+print("- All entries belong to the 'Rice' category, confirming a rice-specific dataset.")
 
 # Description Analysis
 print("\n3. Description Analysis:")
-print("- There are 68 unique descriptions, indicating some duplicates.")
-print("- The most common description is 'Basmati rice,' which appears four times.")
-print("- Consider checking if these duplicates have differences in 'Brand' or 'Price'.")
+print("- Based on the descriptive statistics table, there are 68 unique product descriptions in the dataset.")
+print("- The most common description is 'Basmati rice,' appearing 4 times.")
 
 # Brand Analysis
 print("\n4. Brand Analysis:")
@@ -512,11 +542,12 @@ print("- This indicates 'Mister Rice Bio' is a prominent brand in the dataset.")
 
 # Discount Analysis
 print("\n5. Discount Analysis:")
-discount_counts = df_rice['Discount'].value_counts()
-print(discount_counts)
-print(f"\n- 'No Discount' appears {discount_counts['No Discount']} times in the dataset.")
-print(f"- '20%' appears {discount_counts['20%']} times in the dataset.")
-
+print("- Based on the descriptive statistics table, there are 2 unique discount values in the dataset.")
+print("- The most common discount status is 'No Discount,' appearing 70 times. Therefore 6 products with discount")
+#find out the discount types
+unique_discounts = df_rice['Discount'].unique()
+print("Unique discount types:")
+print(unique_discounts)
 
 # Unit and Grammage Analysis
 print("\n6. Unit and Grammage Analysis:")
@@ -531,61 +562,56 @@ print("- Each product has a unique link, suggesting each row represents a unique
 print("\n8. Scraping Date:")
 print("- Only one unique scraping date ('07/11/2024') is present, indicating all data was collected on the same day.")
 
-# Numerical Column Analysis
-print("\n9. Numerical Columns Analysis:")
-print("- 'Price per Kg' shows a high mean and maximum value. Further outlier analysis may be necessary.")
-print("- Outlier indicate unique premium products (truffle).")
 
-# End of analysis
-print("\n--- End of Descriptive Analysis ---\n")
-print(df_rice.describe(include='all'))  #including categorical variables
+print("\nApart from the info summarize table above, the next info provides a clear view and add \nclarity on product variety, brand presence, and data consistency, supplementing the general statistics.")
 
-#Summary of unique values, most frequent entries, and value counts.
-# Identify categorical columns
-categorical_columns = df_rice.select_dtypes(include=['object']).columns
-
+# Summary of unique values, most frequent entries, and value counts.
+# Identify categorical columns:
+categorical_columns = df_rice.select_dtypes(include=['object']).columns  #object as categorical variable
+categorical_columns = categorical_columns.drop('Product Link')   #drop Product Link categorical variable
 # Display information for each categorical column
+# Loop through each Categorical Column: Loop over each column in categorical_columns and provides a summary for each.
 print("\nCategorical Data Summary:")
 for col in categorical_columns:
     print(f"\nColumn: {col}")
-    print(f"Unique Values: {df_rice[col].nunique()}")
-    print(f"Most Frequent Value: {df_rice[col].mode()[0]} (Count: {df_rice[col].value_counts().iloc[0]})")
+    print(f"Unique Values: {df_rice[col].nunique()}")     #shows number of distint values
+    print(f"Most Frequent Value: {df_rice[col].mode()[0]} (Count: {df_rice[col].value_counts().iloc[0]})") #most common value/mode , select first mode using [0] in case multiple; count sorted by freq, getting the first row
     print("Value Counts:")
-    print(df_rice[col].value_counts().head(10))  # Show top 10 for brevity
+    print(df_rice[col].value_counts().head(10))  # Show top 10
 
-
-# Calculate proportions of each competitor
+# Product Proportions, Price Analysis, and Leading Brands by Competitor
+# Calculate proportions of each competitor: proportion of products offered by each competitor as %.
 competitor_proportions = df_rice['Competitor'].value_counts(normalize=True) * 100
 print("\nCompetitor Proportions (%):")
 print(competitor_proportions)
 
-# Count products by Competitor and Category
+# Products counts by Competitor and Category
 product_counts = df_rice.groupby(['Competitor', 'Category']).size().reset_index(name='Product Count')
 print("\nProduct Counts by Competitor and Category:")
 print(product_counts)
 
-# Calculate min and max price per kg for each competitor
-price_range_per_kg = df_rice.groupby('Competitor')['Price per Kg'].agg(['min', 'max']).round(2)
+# Calculate Minimum and Maximum Price per kg by competitor
+price_range_per_kg = df_rice.groupby('Competitor')['Price per Kg'].agg(['min', 'max']).round(2)  #agg:multiple aggregation functions in a single line
 print("\nPrice Range per Kg by Competitor:")
 print(price_range_per_kg)
 
-# Quartile distribution of Price per Kg for each Competitor
+# Quartile Distribution of Price per kg for each Competitor
 price_quartiles = df_rice.groupby('Competitor')['Price per Kg'].describe()[['25%', '50%', '75%']].round(2)
 print("\nQuartile Distribution of Price per Kg for Each Competitor:")
 print(price_quartiles)
 
 #Top 5 most common products by description
 common_products = df_rice['Description'].value_counts().head(5)
-print("\nTop 5 Most Common Products in the Dataset:")
+print("\nTop 5 Most Common Products by description:")
 print(common_products)
 
-# Average price per kg of top brands by competitor
-top_brands = df_rice['Brand'].value_counts().head(5).index  # Adjust '5' for more brands if needed
+# Average price per kg of top brands grouped by competitor: Average Price per Kg of the top 5 most frequent brands, grouped by competitor.
+top_brands = df_rice['Brand'].value_counts().head(5).index  # Adjust '5'  for more brands if needed
 brand_price_comparison = df_rice[df_rice['Brand'].isin(top_brands)].groupby(['Brand', 'Competitor'])['Price per Kg'].mean().round(2)
 print("\nAverage Price per Kg of Top Brands by Competitor:")
 print(brand_price_comparison)
 
-# Find the top 5 most frequent brands for each competitor
+# Top 5 most frequent brands within each competitor’s product list
 # Count the occurrences of each brand per competitor and select the top 5
 top_brands_by_competitor = (
     df_rice.groupby(['Competitor', 'Brand']).size()
@@ -600,31 +626,44 @@ print(top_brands_by_competitor)
 # Get a list of top brands
 top_brands_list = top_brands_by_competitor['Brand'].unique()
 
-# Calculate the average price per kg for these top brands within each competitor
+# Calculate the average price per kg for  top brands within each competitor
 brand_price_comparison = (
     df_rice[df_rice['Brand'].isin(top_brands_list)]
     .groupby(['Brand', 'Competitor'])['Price per Kg']
-    .mean().round(2)
-)
-print("\nAverage Price per Kg of Top Brands by Competitor:")
+    .mean().round(2))
+
+print("\nAverage Price per Kg of Top Brands within each Competitor:")
 print(brand_price_comparison)
+
+# Column 'Description' Analysis
+# Description containing “Jasmin” (column 'Description')
+# Basmati rice and Jasmine rice as most common products by description:
+
+# Filter rows where 'Description' contains "Basmati" (case-insensitive)
+basmati_rice = df_rice[df_rice['Description'].str.contains("Basmati", case=False, na=False)]
+# Count occurrences of "Basmati" descriptions per competitor
+basmati_count_by_competitor = basmati_rice['Competitor'].value_counts().reset_index()
+basmati_count_by_competitor.columns = ['Competitor', 'Count']
+print("\nCount of Basmati Rice by Competitor:")
+print(basmati_count_by_competitor)
+# Calculate average price per kg for descriptions containing "Basmati" by competitor
+basmati_price_by_competitor = basmati_rice.groupby('Competitor')['Price per Kg'].mean().round(2)
+print("\nAverage Price per Kg of Basmati Rice by Competitor:")
+print(basmati_price_by_competitor)
 
 # Filter rows where 'Description' contains "Jasmin" (case-insensitive)
 jasmin_rice = df_rice[df_rice['Description'].str.contains("Jasmin", case=False, na=False)]
-
 # Count occurrences of "Jasmin" descriptions per competitor
 jasmin_count_by_competitor = jasmin_rice['Competitor'].value_counts().reset_index()
 jasmin_count_by_competitor.columns = ['Competitor', 'Count']
 print("\nCount of Jasmin Rice by Competitor:")
 print(jasmin_count_by_competitor)
-
 # Calculate average price per kg for descriptions containing "Jasmin" by competitor
 jasmin_price_by_competitor = jasmin_rice.groupby('Competitor')['Price per Kg'].mean().round(2)
 print("\nAverage Price per Kg of Jasmin Rice by Competitor:")
 print(jasmin_price_by_competitor)
 
-
-#Analysis of description
+# 'Description' column: analyzing the text data in the Description column
 # Concatenate all descriptions into one large text, then split into individual words
 all_descriptions = " ".join(df_rice['Description']).lower()  # Convert to lowercase to make the search case-insensitive
 words = re.findall(r'\b\w+\b', all_descriptions)  # Extract words
@@ -690,7 +729,7 @@ print("\nProduct Count by Category for Each Competitor:")
 print(category_counts)
 
 
-#Create csv:
+# 11. Save Transformed Data
 print("*****Create .csv  *******")
 #1. ALL columns: Save 'df_rice' with all transformations and added columns to a final CSV file with ALL columns: overview
 #df_rice.to_csv("RiceCleanedAndTransformed.csv", index=False)
@@ -758,7 +797,15 @@ df_group_project = pd.read_csv("RiceData_Cleaned_Transformed_GroupProject.csv")
 df_group_project.info()
 print(df_group_project)
 
+
+print("*"*20)
+print("\n13. END OF SCRIPT\n")
+print("*"*20)
 """
+# End of analysis
+print("\n--- End of Descriptive Analysis ---\n")
+
+
 mmucho lio 
 # Find the top 5 most frequent brands for each competitor
 top_brands_by_competitor = (df_rice.groupby('Competitor')['Brand'].apply(lambda x: x.value_counts().head(5))
@@ -804,18 +851,23 @@ else:
 """
 
 """
-ID
-Competitor
-Category
-Product_Description
-Brand
-Regular_Price (CH)
-Grammage
-Unit
-Link
-Scraping_Date
-Discount
-Actual_Price (CH)
-Regular_Price/Unit
-Actual_Price/Unit
+# Description Analysis
+unique_descriptions = df_rice['Description'].nunique()
+common_description = df_rice['Description'].mode()[0]
+common_description_count = df_rice['Description'].value_counts().iloc[0]
+
+print("\n3. Description Analysis:")
+print(f"- There are {unique_descriptions} unique descriptions.")
+print(f"- The most common description is '{common_description}' appearing {common_description_count} times.")
+print("- Duplicate descriptions suggest checking for differences in 'Brand' or 'Price' columns.")
+
+-----
+
+# Discount Analysis!!!!!
+print("\n5. Discount Analysis:")
+discount_counts = df_rice['Discount'].value_counts()
+print(discount_counts)
+print(f"\n- 'No Discount' appears {discount_counts['No Discount']} times in the dataset.")
+print(f"- '20%' appears {discount_counts['20%']} times in the dataset.")
+
 """
