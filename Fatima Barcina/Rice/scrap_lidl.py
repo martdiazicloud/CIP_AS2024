@@ -2,6 +2,8 @@
 Title: "Rice Lidl Web Scraping "
 by Fátima Barcina Arias (CIP_Group:03)
 Date: 07.11.204
+
+website: https://www.lidl.ch
 """
 
 
