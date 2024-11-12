@@ -1,18 +1,8 @@
 
 """\
-Firts file:scrape rice category product data of migros 
-supermarket from migros.ch.
-https://www.migros.ch/en
-Second file: scrape rice category product data of lidl 
-supermarket from lidl.ch
-https://sortiment.lidl.ch/de/catalogsearch/result/?q=reis
-Add two additional webs for implementing some code 
-programming actions to the project
-https://www.hipercor.es/supermarket/food/general-food/rice/
-map: for using example ourworldindata.buton.click.py
-https://worldpopulationreview.com/country-rankings/riceconsumption-by-country
-author: Fátima Barcina Arias
-date: XX.XX.2024
+Title: "Rice Migros Web Scraping "
+by Fátima Barcina Arias (CIP_Group:03)
+Date: Fall Semester 2024 (November 2024)
 """
 from bs4 import BeautifulSoup
 import csv
