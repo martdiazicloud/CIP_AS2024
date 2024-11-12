@@ -3,6 +3,8 @@
 Title: "Rice Migros Web Scraping "
 by Fátima Barcina Arias (CIP_Group:03)
 Date: 07.11.2024
+
+website: https://www.migros.ch/en
 """
 
 from bs4 import BeautifulSoup
