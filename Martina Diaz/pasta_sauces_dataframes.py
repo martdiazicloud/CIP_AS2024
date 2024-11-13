@@ -4,7 +4,7 @@ Title: "pasta_sauces_dataframes.py"
 Description: Data frame of 'Pasta-sauce' category products from Lidl and Migros websites
 
 This script aims at merge the data frames obtained by scraping Lidl and Migros websites.
-It contains all products found in the two competitors' webpages under the categories 'pasta sauces' and 'pesto'.
+It contains all products found in the two competitors' webpages under corresponding to pasta sauces and pesto.
 The final output is a dataframe exported in "csv" format ready to be merged with other product categories
 scraped by the other group members to answer the research questions:
 Which supermarket has the most competitive prices?
@@ -12,17 +12,22 @@ Which competitor offers more brand across distinct categories?
 How much more expensive are own brands compared to traditional brands for each competitor?
 
 Moreover, an additional individual analysis calculates the distance from the average price for the
-products in the category "PAsta Sauces". The results are plotted in different format to obtain different insights.
+products in the category "Pasta Sauces". The results are plotted in different formats to obtain different insights.
 
-The following script is divided in 4 parts:
+The following script is divided into 4 parts:
 0. IMPORTING PACKAGES
 1. IMPORTING THE DATA FRAMES
 2. CLEANING AND FORMATTING THE DATA FRAMES
-3. CALCULATION OF THE DISTANCE FROM AVERAGE PRICE
+3. CALCULATION OF THE DISTANCE FROM THE AVERAGE PRICE
 4. EXPORTING THE DATA FRAMES
 5. PLOTS
+
+Due to the specificity of the cleaning and formatting activity of the data frame,
+the approach prefers 'ad hoc' operations and methods instead of generalised functions.
 '''
 
+
+############################################
 # 0 - IMPORTING PACKAGES
 import pandas as pd
 import numpy as np
@@ -30,6 +35,7 @@ import os
 import re
 import matplotlib.pyplot as plt
 
+############################################
 # 1 - IMPORTING THE DATAFRAMES
 
 # 1.1 Define file path and extension of file to import
@@ -40,7 +46,7 @@ extension = '.csv'
 '''It will fetch the data frames exported by the webscraping processes'''
 files = [file for file in os.listdir(path) if file.endswith(extension)]
 
-# 1.3 Import CSV files into Pandas
+# 1.3 Import CSV files into a Pandas data frames
 dfs = []
 for file in files:
     df = pd.read_csv(os.path.join(path, file))
@@ -48,14 +54,14 @@ for file in files:
 
 # 1.4 Concatenate the Data Frames into one
 df = pd.concat(dfs, ignore_index=True)
-type(df)
 
+############################################
 # 2 - CLEANING AND FORMATTING THE DATA FRAME
 
-# 2.1 Re-set ID column
+# 2.1 Re-set 'ID' column to have a sequence starting at 0
 df['ID'] = range(len(df))
 
-# 2.2 Cleaning Grammage and Unit column
+# 2.2 Cleaning 'Grammage' and 'Unit' columns
 '''In these columns there are different format of strings.
 The following operations have the goal to extract the quantity of a unit for each product, reporting it under "Grammage",
 and to set the values of "Unit" to "g" and "ml" according to the product unit measurements.
@@ -89,7 +95,7 @@ for i in range(len(df)):
 # convert quantities: g in Kg and ml in L
 df['Grammage'] = pd.to_numeric(df['Grammage'], errors='coerce')/1000
 
-# 2.3 Formatting 'Discount' and calculating 'Actual_Price'
+# 2.3 Formatting 'Discount' and calculating 'Actual_Price (CHF)'
 '''The following steps are needed to make the calculation of the Actual Price
 for each product according to the discount active for the products at the date
 of the scraping.'''
@@ -98,30 +104,30 @@ of the scraping.'''
 df['Discount'] = df['Discount'].replace('no discount', '100%').astype(str).str.replace('%', '', regex=False)
 df['Discount'] = pd.to_numeric(df['Discount'], errors='coerce')/100
 
-# 2.3.2 Cleanin 'Regular Price' values
+# 2.3.2 Cleaning 'Regular_Price (CHF)' values
 df['Regular_Price (CHF)'] = pd.to_numeric(df['Regular_Price (CHF)']
                                            .astype(str)
                                            .str.replace('–', '00', regex=False),
                                            errors='coerce').fillna(0.00)
 
-# 2.3.3 Calculate "Actual_Price (CHF)" based on "Discount" percentage
+# 2.3.3 Calculate 'Actual_Price (CHF)' based on 'Discount' percentage
 df['Actual_Price (CHF)'] = np.where(
     df['Discount'] == 1.0,                 # Condition: no discount
     df['Regular_Price (CHF)'],             # Then: set to regular price
     df['Regular_Price (CHF)'] * (1 - df['Discount']))  # Else: apply discount
 
-df['Actual_Price (CHF)'] = df['Actual_Price (CHF)'].round(2)  # Round the Actual_Price to 2 decimal places
+df['Actual_Price (CHF)'] = df['Actual_Price (CHF)'].round(2)  # Round the 'Actual_Price' to 2 decimal places
 
 df.loc[df['Discount'] == 1.0, 'Discount'] = 'no discount'  # Restore '1.0' with 'no discount'
-df.loc[df['Discount'] != 'no discount', 'Discount'] = (df['Discount'] * 100).astype(str)+'%'  # Restore discount in percentage
+df.loc[df['Discount'] != 'no discount', 'Discount'] = (df['Discount'] * 100).astype(str)+'%'  # Restore discount values in percentage
 
 
-# 2.3.4 Deleting products that not correspond to "pasta sauce" or "pesto"
+# 2.3.4 Deleting products that do not correspond to pasta sauce or pesto according to keywords
 keywords = ['Braten', 'Sriracha', 'Heinz', 'Thomy', 'Bohnen', 'Chili', 'Soja', 'Knorr']  # List of keywords to filter out
 pattern = '|'.join(keywords)  # Matches any of the keywords
 df = df[~df['Product_Description'].str.contains(pattern, case=False, na=False)]  # Filter out rows
 
-# 2.3.5 Manual correction for "Brand" values with case-insensitive replacement
+# 2.3.5 Manual correction for 'Brand' values with case-insensitive replacement
 '''This step is necessary because some Brand labels that are composed of more than one word
 have been split in the webscraping process leading to incomplete Brand names.
 Once selected the cases to correct, a regex for case-insensitive (?i) and fixed start ^ and end $ 
@@ -136,11 +142,12 @@ brand_replacements = {
 
 df['Brand'].replace(to_replace=brand_replacements, regex=True, inplace=True)
 
-# 2.4 Adding Regular_Price/Unit and Actual_Price/Unit
+# 2.4 Adding 'Regular_Price/Unit' and 'Actual_Price/Unit'
 df['Regular_Price/Unit'] = (df['Regular_Price (CHF)']/df['Grammage']).round(3)
 df['Actual_Price/Unit'] = (df['Actual_Price (CHF)']/df['Grammage']).round(3)
 
-# 3 - New column information: distance from average price
+############################################
+# 3 - CALCULATION OF THE DISTANCE FROM THE AVERAGE PRICE
 '''The distance of the Regular_Price/Unit from the average price/unit allows to get at a first glance
 the positive or negative difference of the price in percentage.
 The calculation allows also to visualize the outliers.'''
@@ -148,12 +155,13 @@ The calculation allows also to visualize the outliers.'''
 average_price = df['Regular_Price/Unit'].mean()
 df['Distance_average_price'] = (((df['Regular_Price/Unit']-average_price)/average_price)*100).round(2).astype(str)+'%'
 
+############################################
 # 4 - EXPORTING THE DATAFRAME
-''' It is important to save the data frame in "csv" format in a subfolder to avoid importing
-it when running this script again, since it will import or "csv" files available in the directory selected
-at the beginning of this script.'''
+''' It is important to save the data frame as ".csv" format in a subfolder to avoid importing
+it when running this script again, since it will import all "csv" files available in the directory according
+to the function for importing files at the beginning of this script.'''
 
-## 4.1 Ordering columns according to group project
+## 4.1 Ordering columns according to group project requirements
 df = df[['ID', 'Competitor', 'Category', 'Product_Description', 'Brand', 'Regular_Price (CHF)', 'Grammage', 'Unit', 'Link', 'Scraping_Date', 'Discount', 'Actual_Price (CHF)', 'Regular_Price/Unit', 'Actual_Price/Unit', 'Distance_average_price']]
 
 ## 4.2 Visualize & exporting
@@ -161,8 +169,9 @@ print(df.to_string())  # Visualize the data frame for final check
 df.to_csv('/Users/diazm/Documents/HSLU/05_AS2024/CIP/project/merged_dfs/pasta_sauces_merged.csv', index=False)  # save
 
 
-
+############################################
 # 5. PLOTS
+'''it provides a clear view of how many products are distanced from the average price/unit for specific intervals'''
 
 # Convert Distance_average_price back to numeric for plotting (remove '%')
 df['Distance_average_price_numeric'] = pd.to_numeric(df['Distance_average_price'].str.replace('%', ''), errors='coerce')
@@ -185,7 +194,7 @@ plt.show()
 plt.close()
 
 # 5.2 Box plot
-import matplotlib.pyplot as plt
+'''it provides readable labels for the mean, quartiles, min and max values and outliers values'''
 
 # Calculate summary statistics
 median = df['Distance_average_price_numeric'].median()
@@ -228,6 +237,7 @@ plt.close()
 
 
 # 5.3 Bar plot
+'''it provides at first glance how much the distance from average can vary'''
 
 # Sort by Distance_average_price_numeric for clarity in the plot
 df_sorted = df.sort_values('Distance_average_price_numeric', ascending=False)
