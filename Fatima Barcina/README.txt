@@ -24,9 +24,9 @@ until reaching the Rice sections.
 2. **Data Cleaning  and Transformation Part**:
 - **"cleaning and transforming.py"**: Script that mergers the two previous CSV files, cleans, inspects, and transforms data
 - **"df_rice_cleaned.csv"**: Intermediate CSV file created after merging and filling missing values.
-outcome of organized method has been implemented to fill missing fields column by column, using the "input" function.
-Saving this file avoids repeating the NaN filling step every time the script runs entirely. (*For filling NaN again
-just delete this CSV and filling clicking on link product suggested)
+        *Important:outcome of organized method has been implemented to fill missing fields column by column, using the
+        "input" function. Saving this file avoids repeating the NaN filling step every time the script runs entirely.
+        (For filling NaN again just delete this CSV and filling clicking on link product suggested)
 
    **Output files**:
 - "RiceData_Cleaned_Transformed.csv": Final cleaned and transformed file with column names chosen based on my
