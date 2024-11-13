@@ -1,19 +1,27 @@
 '''
 Author: Martina Diaz
-Title: Web scraping Pasta sauces products from Migros website
+Title: migros.py
+Description: Web scraping Pasta sauces products from Migros website
 
 The script aims at scraping a list of features for all the product in the Migros website that belong
-to the category Pasta sauces and Pesto.
+to the category "Pasta Sauces".
 
 The following script is divided in 4 parts:
-0. importing packages
-1. General functions
-2. Url list of all products
-3. Individual products scraping
-4. Data frame
+0. IMPORTING PACKAGES
+1. GENERAL FUNCTIONS
+2. URL LIST OF ALL PRODUCTS
+3. INDIVIDUAL PRODUCT SCRAPING
+4. DATA FRAME
+
+The main principle of this script's structure is to provide an example of generalised functions
+to scrape the products.
+
+Warning: due to change in the website pages this script might not work.
 '''
 
-##### 0 - IMPORTING PACKAGES
+
+############################################
+# 0 - IMPORTING PACKAGES
 from bs4 import BeautifulSoup
 import requests
 from selenium import webdriver
@@ -27,7 +35,11 @@ from selenium.webdriver.support import expected_conditions as EC
 import pandas as pd
 from datetime import datetime
 
-#### 1 - GENERAL FUNCTIONS
+
+############################################
+# 1 - GENERAL FUNCTIONS
+
+# new_page_driver()
 ''' the new_page_driver Function allows to navigate to the next web page'''
 def new_page_driver():
     actions = ActionChains(driver)
@@ -37,6 +49,7 @@ def new_page_driver():
     driver.get(url)
     time.sleep(5)
 
+# get_url()
 ''' the get_url Function allows to get the html structure of a web page and to store all the products links in a list'''
 def get_url():
     page = driver.page_source  # extract page source and put in the memory --> possible to search the class we need
@@ -52,22 +65,26 @@ def get_url():
             lista_url.append(url)
     return lista_url
 
-#### 2 - URL LIST OF ALL PRODUCTS
-url = 'https://www.migros.ch/de/category/pasta-wurzmittel-konserven/gewurze-saucen/pastasaucen-pestos'
-# inizialize lists
+
+############################################
+# 2 - URL LIST OF ALL PRODUCTS
+
+# 2.1 inizialize a list to collect the urls of each product
 lista_url = []
 
-# request approach & html with webdriver
+# 2.2 Access to the sortiment 'Pasta saucen und pestos' on the website
+url = 'https://www.migros.ch/de/category/pasta-wurzmittel-konserven/gewurze-saucen/pastasaucen-pestos'
+
+# 2.3 request approach & html with webdriver
 driver = webdriver.Chrome()  # browser to render the dynamic content
 driver.get(url)
 time.sleep(5)
-# scrapping url
-get_url()
+get_url() # scrapping url
 
 print(lista_url)
 len(lista_url)
 
-# complete the url for each product
+# 2.4 complete the url for each product
 lista_url_complete=[]
 for j in lista_url:
     url_complete = 'https://www.migros.ch/' + j
@@ -76,7 +93,8 @@ for j in lista_url:
 lista_url_complete
 
 # splitting the  list into chunks
-'''due to the website setting, to avoid be blocked and end up in a maintenance-page announcement,
+'''due to the website settings and issues related to the IP address,
+to avoid be blocked and end up in a maintenance-page announcement,
 the list of all urls is split into chunks of maximum 10 items'''
 lista_url_complete_select1 = lista_url_complete[0:10]
 lista_url_complete_select2 = lista_url_complete[10:20]
@@ -89,9 +107,10 @@ lista_url_complete_select8 = lista_url_complete[70:80]
 lista_url_complete_select9 = lista_url_complete[80::]
 
 
-#### 3 - INDIVIDUAL PRODUCT SCRAPING
+############################################
+# 3 - INDIVIDUAL PRODUCT SCRAPING
 
-##### 3.1 - Initialize lists
+# 3.1 - Initialize lists to collect data
 lista_description = []
 lista_title = []
 lista_price = []
@@ -101,7 +120,7 @@ lista_discount = []
 date_scraping = []
 lista_unit = []
 
-##### 3.2 FUNCTION FOR INDIVIDUAL PRODUCT
+# 3.2 Unique function for data scraping
 '''the function called 'partial_scrape' allows to extract the title, the brand, the price, the grammage,
 the unit, the discount and the date of the scraping activity'''
 def partial_scrape(lista):
@@ -121,11 +140,10 @@ def partial_scrape(lista):
             title_raw = ' '.join(words)
             title = title_raw.replace("· ","")
 
-
         lista_title.append(title)
         lista_brand.append(brand)
 
-        # extract Regular_Price
+        # extract the regular price
         try:
             price_frame = WebDriverWait(driver, 10).until(
             EC.visibility_of_element_located((By.CLASS_NAME, 'actual')))
@@ -167,12 +185,12 @@ def partial_scrape(lista):
 
         driver.quit()
 
-
     return len(lista_title), len(lista_title)
 
-##### 3.2 Scraping
+# 3.2 Products scraping through function "partial_scrape"
 '''due to the website setting, the individual scraping needs to be operated for maxium 10 items at time
 to avoid be blocked and end up in a maintenance-page announcement'''
+
 part1 = partial_scrape(lista_url_complete_select1)
 part2 = partial_scrape(lista_url_complete_select2)
 part3 = partial_scrape(lista_url_complete_select3)
@@ -183,12 +201,17 @@ part7 = partial_scrape(lista_url_complete_select7)
 part8 = partial_scrape(lista_url_complete_select8)
 part9 = partial_scrape(lista_url_complete_select9)
 
-#### 4 DATA FRAME
-'''creation of the data frame and insertion of the scraped lists'''
 
-df_migros = pd.DataFrame({"ID": range(len(lista_title))})
-df_migros["Competitor"] = "Mirgos"
-df_migros["Category"] = "Pasta Sauces"
+############################################
+# 4 DATA FRAME
+'''creation of the data frame, insertion of the scraped data and export into .csv file'''
+
+# 4.1 Uploading data into the data frame
+df_migros = pd.DataFrame({"ID": range(len(lista_title))})  # creating the data frame
+df_migros["Competitor"] = "Mirgos"  # a unique value for the Competitor
+df_migros["Category"] = "Pasta Sauces"  # a unique value for the Category
+
+# extracting the values of the other fields from the lists
 df_migros.insert(3, "Product_Description", lista_title)
 df_migros.insert(4, "Brand", lista_brand)
 df_migros.insert(5, "Regular_Price (CHF)", lista_price)
@@ -198,25 +221,10 @@ df_migros.insert(8, "Link", lista_url_complete)
 df_migros.insert(9, "Scraping_Date", date_scraping)
 df_migros.insert(10, "Discount", lista_discount)
 
-##### 4.1 Exporting the database into csv file
+# 4.2 Exporting the database into csv file
 df_migros.to_csv('/Users/diazm/Documents/HSLU/05_AS2024/CIP/project/migros.csv', index=False)
 
 
-
-########################### TRIALS
-url = 'https://www.migros.ch/en/product/153236800000'
-# inizialize lists
-
-driver = webdriver.Chrome()  # browser to render the dynamic content
-driver.get(url)
-
-for i in lista_url_complete:
-    for j in range(10):
-        partial_scrape(i)
-
-driver.quit()
-
-print(lista_title)
 
 
 
