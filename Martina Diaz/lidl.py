@@ -1,4 +1,27 @@
-# importing
+'''
+Author: Martina Diaz
+Title: lidl.py
+Description: Web scraping Pasta sauces products from Lidl website
+
+The script aims at scraping a list of features for all the product in the Lidl website that belong
+to the category "Pasta Sauces".
+
+The following script is divided into 4 parts:
+0. IMPORTING PACKAGES
+1. GENERAL FUNCTIONS
+2. URL LIST OF ALL PRODUCTS
+3. INDIVIDUAL PRODUCT SCRAPING
+4. DATA FRAME
+
+The characteristic of this script's structure is to provide an example of scraping steps organized within
+a for loop.
+
+Warning: due to change in the website pages this script might not work.
+'''
+
+
+############################################
+# 0. IMPORTING PACKAGES
 from bs4 import BeautifulSoup
 import requests
 from selenium import webdriver
@@ -12,7 +35,11 @@ from selenium.webdriver.support import expected_conditions as EC
 import pandas as pd
 from datetime import datetime
 
-#### 0 - FUNCTIONS
+
+############################################
+# 1. GENERAL FUNCTIONS
+
+# new_page_driver()
 ''' the new_page_driver Function allows to navigate to the next web page'''
 def new_page_driver():
     actions = ActionChains(driver)
@@ -22,6 +49,7 @@ def new_page_driver():
     driver.get(url)
     time.sleep(5)
 
+# get_url()
 ''' the get_url Function allows to get the html structure of a web page and to store all the products links in a list'''
 def get_url():
     page = driver.page_source  # extract page source and put in the memory --> possible to search the class we need
@@ -37,14 +65,17 @@ def get_url():
             lista_url.append(url)
     return lista_url
 
-#### 1- GET URL OF PRODUCTS FOR INDIVIDUAL SCRAPING
-# inizialize list of url
+
+############################################
+# 2. URL LIST OF ALL PRODUCTS
+
+# 2.1 inizialize a list to collect the urls of each product
 lista_url = []
 
-### 1.1 From sortiment 'Konserven'
+# 2.2 Access to the category 'Konserven' on the website
 url = 'https://sortiment.lidl.ch/de/konserven#/'
 
-# request approach & html with webdriver
+# 2.3 request approach & html with webdriver for each pages
 # page 1
 driver = webdriver.Chrome()  # browser to render the dynamic content
 driver.get(url)
@@ -53,8 +84,7 @@ time.sleep(5)
 cookie_button = WebDriverWait(driver, 5).until(EC.element_to_be_clickable((By.XPATH, "//button[contains(text(),'Zustimmen')]")))
 cookie_button.click()
 time.sleep(2)
-# scrapping url
-get_url()
+get_url() # scrapping url
 
 # page 2
 next_page = driver.find_element(By.XPATH, "//*[@id='maincontent']/div[2]/div[1]/button[2]")
@@ -83,10 +113,10 @@ get_url()
 
 driver.quit()
 
-### 1.2 From sortiment 'Saucen'
+# 2.4 Access to the sortiment 'Saucen' on the website
 url = 'https://sortiment.lidl.ch/de/gewurze-ole/saucen'
 
-# request approach & html with webdriver
+# 2.5 request approach & html with webdriver
 # page 1
 driver = webdriver.Chrome()  # browser to render the dynamic content
 driver.get(url)
@@ -95,8 +125,7 @@ time.sleep(5)
 cookie_button = WebDriverWait(driver, 5).until(EC.element_to_be_clickable((By.XPATH, "//button[contains(text(),'Zustimmen')]")))
 cookie_button.click()
 time.sleep(2)
-# scrapping url
-get_url()
+get_url() # scrapping url
 
 # page 2
 next_page = driver.find_element(By.XPATH, "//*[@id='maincontent']/div[2]/div[1]/button[2]")
@@ -110,12 +139,17 @@ get_url()
 
 driver.quit()
 
-#### 2 - SCRAPING
-# consider only url of Tomaten, sauces and Pesto
+
+############################################
+# 3. INDIVIDUAL PRODUCT SCRAPING
+
+# 3.1 filter the urls according to keywords
+'''consider only url containing the keywords "Tomaten", "sauces" and "Pesto" to drop products that do not belong
+to the "Pasta Sauces" category'''
 filtered_lista_url = [item for item in lista_url if 'omaten' in item or 'esto' in item or 'auce' in item]
 filtered_lista_url
 
-##### 2.1 - Initialize lists
+# 3.2 - Initialize lists to collect data
 lista_description = []
 lista_title = []
 lista_price = []
@@ -125,7 +159,7 @@ lista_discount = []
 date_scrapping = []
 lista_unit = []
 
-##### 2.2 - Individual scraping
+# 3.3 - Products scraping through for loop
 for i in filtered_lista_url:
     driver = webdriver.Chrome()  # browser to render the dynamic content
     driver.get(i)
@@ -201,10 +235,16 @@ for j in range(len(lista_discount)):
         lista_discount[j] = 'no discount'
 
 
-##### 3 - LIDL DATA FRAME
-df_lidl = pd.DataFrame({"ID": [None] * len(filtered_lista_url)})
-df_lidl["Competitor"] = "lidl"
-df_lidl["Category"] = "Pasta Sauces"
+############################################
+# 4. DATA FRAME
+'''creation of the data frame, insertion of the scraped data and export into .csv file'''
+
+# 4.1 Uploading data into the data frame
+df_lidl = pd.DataFrame({"ID": [None] * len(filtered_lista_url)})  # creating the data frame
+df_lidl["Competitor"] = "lidl"  # a unique value for the Competitor
+df_lidl["Category"] = "Pasta Sauces"  # a unique value for the Category
+
+# extracting the values of the other fields from the lists
 df_lidl.insert(3, "Product_Description", lista_title)
 df_lidl.insert(4, "Brand", lista_brand)
 df_lidl.insert(5, "Regular_Price (CHF)", lista_price)
@@ -214,7 +254,5 @@ df_lidl.insert(7, "Link", filtered_lista_url)
 df_lidl.insert(8, "Scraping_Date", date_scrapping)
 df_lidl.insert(9, "Discount", lista_discount)
 
-# 4 - EXPORTING
-print(df_lidl)
-
+# 4.2 Exporting the database into csv file
 df_lidl.to_csv('/Users/diazm/Documents/HSLU/05_AS2024/CIP/project/lidl.csv', index=False)
