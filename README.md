@@ -26,4 +26,12 @@ The individual work includes web-scraping a specific product category into Migro
 
 The group work is based on merging data and analyzing it to answer the research questions.
 
+All files related to the group work are in the folder "Data_Analysis_Group_Work". 
+
+The script is saved as "Data_Analysis_G03.jpynb".
+
+The analysis report is named "Group 03_Final_Project.pdf".
+
+
+
  
