@@ -4,6 +4,7 @@ Author: Martina Diaz
 
 This repository contains the files .py developed to scrap the products in the category "Pasta Sauces."
 These files are named **lidl.py** and **migros.py**. Both scripts are divided into the following parts:
+
 0. IMPORTING PACKAGES
 1. GENERAL FUNCTIONS
 2. URL LIST OF ALL PRODUCTS
